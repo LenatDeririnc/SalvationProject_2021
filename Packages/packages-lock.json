@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.hauntedpsx.render-pipelines.psx": {
+      "version": "https://github.com/pastasfuture/com.hauntedpsx.render-pipelines.psx.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "7.3.1"
+      },
+      "hash": "6e8186c9017444a5f1442b95e0eb7b0de50f3636"
+    },
     "com.unity.collab-proxy": {
       "version": "1.5.7",
       "depth": 0,
@@ -46,6 +55,15 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.render-pipelines.core": {
+      "version": "10.5.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {

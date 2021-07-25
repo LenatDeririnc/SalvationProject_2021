@@ -1,20 +1,23 @@
 ﻿using Managers.Data;
+using ScriptableObjects.Scenes;
 using UnityEngine;
 
 namespace Components.GameObjects
 {
     public class MonoBehaviourDataRecorder : MonoBehaviour
     {
-        protected void SetDataValue(string valueName, object value)
+        [SerializeField] private GameObjectDataHolder dataHolder;
+        
+        protected void SetDataValue(object value)
         {
-            var sceneName = SceneDataManager.CurrentSceneInfo().SceneName();
-            SceneDataManager.SetSceneValue(sceneName, valueName, value);
+            Debug.Assert(dataHolder != null, $"dataHolder is not assigned for object {gameObject.name}");
+            dataHolder.SetObjectValue(value);
         }
 
-        protected object GetDataValue(string valueName)
+        protected object GetDataValue()
         {
-            var sceneName = SceneDataManager.CurrentSceneInfo().SceneName();
-            return SceneDataManager.SceneValue(sceneName, valueName);
+            Debug.Assert(dataHolder != null, $"dataHolder is not assigned for object {gameObject.name}");
+            return dataHolder.Value();
         }
     }
 }

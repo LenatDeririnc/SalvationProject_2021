@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ScriptableObjects.Scenes
 {
-    [CreateAssetMenu(fileName = "SceneData", menuName = "ScriptableObjects/Scene/SceneData", order = 1)]
+    [CreateAssetMenu(fileName = "SceneData", menuName = "ScriptableObjects/Scene/SceneData", order = 0)]
     public class SceneInfo : ScriptableObject
     {
         [SerializeField] private string sceneName;

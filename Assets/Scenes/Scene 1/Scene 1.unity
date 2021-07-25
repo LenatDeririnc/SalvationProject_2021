@@ -476,6 +476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698dfc022d8b09b4dabd9d42eac9e80b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataHolder: {fileID: 11400000, guid: 893ee7bf49f4a7740b90cab35dfac05f, type: 2}
   canInteract: 1
   OnInteract:
     m_PersistentCalls:
@@ -533,7 +534,7 @@ GameObject:
   - component: {fileID: 1038661863}
   - component: {fileID: 1038661866}
   m_Layer: 0
-  m_Name: test
+  m_Name: CubeForTurnOffSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -627,6 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698dfc022d8b09b4dabd9d42eac9e80b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataHolder: {fileID: 11400000, guid: 5c7cabccbe1a2c940a58f4f95f90934d, type: 2}
   canInteract: 1
   OnInteract:
     m_PersistentCalls:
@@ -654,6 +656,19 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 48852290200445f4d9bdf41bbee6150a, type: 2}
+        m_TargetAssemblyTypeName: ScriptableObjects.Scenes.GameObjectDataHolder,
+          Assembly-CSharp
+        m_MethodName: SetObjectValueBool
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!4 &1065181831 stripped
 Transform:
@@ -683,6 +698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698dfc022d8b09b4dabd9d42eac9e80b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataHolder: {fileID: 11400000, guid: a707676f869712248a968cfd14ba4c7c, type: 2}
   canInteract: 1
   OnInteract:
     m_PersistentCalls:
@@ -820,6 +836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cdae9bb2f8549d3987c81cbd2afe544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataHolder: {fileID: 11400000, guid: 041c9b6529d58fc43acbabc59e7fe9ba, type: 2}
 --- !u!1 &1612664210
 GameObject:
   m_ObjectHideFlags: 0

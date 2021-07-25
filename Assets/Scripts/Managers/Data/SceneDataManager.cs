@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using JetBrains.Annotations;
+﻿using System.Collections.Generic;
 using ScriptableObjects.Scenes;
-using UnityEditor.UI;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Managers.Data
 {

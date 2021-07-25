@@ -1,5 +1,6 @@
 using System;
 using Managers.Data;
+using ScriptableObjects.Scenes;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,7 +12,6 @@ namespace Components.GameObjects
 
     public class InteractableObject : MonoBehaviourDataRecorder
     {
-        private string m_canInteractName = "canInteract";
         [SerializeField] private bool canInteract = true;
         
         public InteractEvent OnInteract;
@@ -23,10 +23,10 @@ namespace Components.GameObjects
 
         public void Start()
         {
-            var value = GetDataValue($"{gameObject.name}_{m_canInteractName}");
+            var value = GetDataValue();
             if (value == null)
             {
-                SetDataValue($"{gameObject.name}_{m_canInteractName}", canInteract);
+                SetDataValue(canInteract);
             }
             else
             {
@@ -39,7 +39,7 @@ namespace Components.GameObjects
         public void SetCanInteract(bool state)
         {
             canInteract = state;
-            SetDataValue($"{gameObject.name}_{m_canInteractName}", state);
+            SetDataValue(canInteract);
         }
     }   
 }

@@ -10,22 +10,21 @@ namespace Components.GameObjects
 
         public void Start()
         {
-            var o = gameObject;
-            m_gameObject ??= o;
-
-            var value = GetDataValue($"{m_gameObject.name}_m_isActive");
+            var value = GetDataValue();
             if (value == null)
-                SetDataValue($"{m_gameObject.name}_m_isActive", m_isActive);
+                SetDataValue(m_isActive);
             else
                 m_isActive = (bool) value;
-            
+         
+            var o = gameObject;
+            m_gameObject ??= o;
             m_gameObject.SetActive(m_isActive);
         }
 
         public void PickUp()
         {
             m_isActive = false;
-            SetDataValue($"{m_gameObject.name}_m_isActive", m_isActive);
+            SetDataValue(m_isActive);
             
             m_gameObject.SetActive(false);
         }

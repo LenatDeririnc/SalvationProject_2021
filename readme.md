@@ -3,6 +3,7 @@
 - [x] Player Controller
 - [x] Scene Switcher
 - [x] Scene data container
+- [ ] Компонент триггера, вызывающий список эвентов
 - [ ] Interaction sprite
 - [ ] Плавный переход между сценами (через фейдаут)
 - [ ] Катсцены

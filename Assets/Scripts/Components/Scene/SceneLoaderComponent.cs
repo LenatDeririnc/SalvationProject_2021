@@ -7,9 +7,9 @@ namespace Components.Scene
 {
     public class SceneLoaderComponent : MonoBehaviour
     {
-        public void LoadScene(SceneData sceneData)
+        public void LoadScene(SceneInfo sceneInfo)
         {
-            var name = sceneData.SceneName();
+            var name = sceneInfo.SceneName();
             SceneManager.LoadScene(name);
         }
 

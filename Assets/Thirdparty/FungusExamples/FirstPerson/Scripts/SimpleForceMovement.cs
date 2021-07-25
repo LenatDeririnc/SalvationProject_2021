@@ -18,7 +18,7 @@ namespace Fungus.Examples
         public Transform getForwardFrom;
         public float forceScale;
 
-        void FixedUpdate()
+        void Update()
         {
             var forward = getForwardFrom.forward;
             forward.y = 0;
@@ -35,7 +35,7 @@ namespace Fungus.Examples
             if (movVec.magnitude > 1)
                 movVec = movVec.normalized;
 
-            rb.AddForce(movVec * forceScale);
+            rb.AddForce(movVec * (forceScale * Time.deltaTime));
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Components;
+using Components.GameObjects;
 using Components.Scene;
 using ScriptableObjects.Scenes;
 using UnityEngine;

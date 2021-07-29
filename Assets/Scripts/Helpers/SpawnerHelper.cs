@@ -29,7 +29,7 @@ namespace Helpers
 
             foreach (var spawner in spawners)
             {
-                if (spawnId == spawner.SpawnInfo().spawnId)
+                if (spawnId == spawner.SpawnInfo().SpawnId())
                     return spawner.Transform();
             }
             

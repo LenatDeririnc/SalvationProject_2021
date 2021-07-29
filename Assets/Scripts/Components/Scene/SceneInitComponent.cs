@@ -53,7 +53,7 @@ namespace Components.Scene
             var spawners = SpawnerHelper.ComponentsToSpawnObjects(spawnerManagerComponent.spawnerComponents);
             var spawner = SpawnerHelper.CurrentSpawner(spawners);
             
-            var currentSpawnerTransform = SpawnerHelper.SpawnerTransformBySpawnId(spawnerManagerComponent.spawnerComponents, spawner.spawnId);
+            var currentSpawnerTransform = SpawnerHelper.SpawnerTransformBySpawnId(spawnerManagerComponent.spawnerComponents, spawner.SpawnId());
 
             TransformHelper.CopyTransform(ref playerTransform, currentSpawnerTransform);
         }

@@ -1,7 +1,7 @@
 using ScriptableObjects.Scenes;
 using UnityEngine;
 
-namespace Components
+namespace Components.GameObjects
 {
     public class SpawnObjectComponent : MonoBehaviour
     {

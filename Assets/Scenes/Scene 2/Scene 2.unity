@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 099b202119322cd4d82e2c345bf07e0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRelocation: {fileID: 11400000, guid: 2f9b01359568838478c66402c33241b5, type: 2}
+  spawnRelocation: {fileID: 11400000, guid: 60828538f5eced741bee4183592b3c40, type: 2}
 --- !u!33 &8897240366220140944
 MeshFilter:
   m_ObjectHideFlags: 0

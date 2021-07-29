@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3bf50ecd3e7470c8f828b0331f86133, type: 3}
   m_Name: Trigger 1
   m_EditorClassIdentifier: 
-  m_sceneInfo: {fileID: 0}
+  m_sceneInfo: {fileID: 11400000, guid: bf614e0801dda1a439f00c31e20ea926, type: 2}

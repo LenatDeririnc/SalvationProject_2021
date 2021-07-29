@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c648224da04343a7fb4aadaad11d98, type: 3}
   m_Name: Scene2 - Start
   m_EditorClassIdentifier: 
+  scene: {fileID: 11400000, guid: 957ac915399c36b46908e6aaca758433, type: 2}
   spawnId: Start

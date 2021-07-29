@@ -528,6 +528,7 @@ GameObject:
   - component: {fileID: 840337518}
   - component: {fileID: 840337520}
   - component: {fileID: 840337521}
+  - component: {fileID: 840337522}
   m_Layer: 0
   m_Name: door 2
   m_TagString: Untagged
@@ -615,26 +616,13 @@ MonoBehaviour:
   OnInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6535615738538355003}
-        m_TargetAssemblyTypeName: Components.Scene.SceneLoaderComponent, Assembly-CSharp
-        m_MethodName: SetCurrentSpawner
-        m_Mode: 2
+      - m_Target: {fileID: 840337522}
+        m_TargetAssemblyTypeName: Components.GameObjects.DoorObject, Assembly-CSharp
+        m_MethodName: OpenDoor
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 8b1a06459f51c9b48a5569c04289e5b2, type: 2}
-          m_ObjectArgumentAssemblyTypeName: ScriptableObjects.Scenes.SpawnObject,
-            Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6535615738538355003}
-        m_TargetAssemblyTypeName: Components.Scene.SceneLoaderComponent, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 957ac915399c36b46908e6aaca758433, type: 2}
-          m_ObjectArgumentAssemblyTypeName: ScriptableObjects.Scenes.SceneInfo, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -654,6 +642,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 8e6c7dce19e441349b4fb1f5873c9db2, type: 3}
+--- !u!114 &840337522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840337516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099b202119322cd4d82e2c345bf07e0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnRelocation: {fileID: 11400000, guid: 8b1a06459f51c9b48a5569c04289e5b2, type: 2}
 --- !u!114 &959356169 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3373918479904167889, guid: dbe3637e30df9964da62609b43b852be, type: 3}
@@ -848,26 +849,13 @@ MonoBehaviour:
   OnInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6535615738538355003}
-        m_TargetAssemblyTypeName: Components.Scene.SceneLoaderComponent, Assembly-CSharp
-        m_MethodName: SetCurrentSpawner
-        m_Mode: 2
+      - m_Target: {fileID: 8707273952072857916}
+        m_TargetAssemblyTypeName: Components.GameObjects.DoorObject, Assembly-CSharp
+        m_MethodName: OpenDoor
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 2f9b01359568838478c66402c33241b5, type: 2}
-          m_ObjectArgumentAssemblyTypeName: ScriptableObjects.Scenes.SpawnObject,
-            Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6535615738538355003}
-        m_TargetAssemblyTypeName: Components.Scene.SceneLoaderComponent, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 957ac915399c36b46908e6aaca758433, type: 2}
-          m_ObjectArgumentAssemblyTypeName: ScriptableObjects.Scenes.SceneInfo, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1575,17 +1563,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f175e5071feb686479dedd6cb37dd828, type: 3}
---- !u!114 &6535615738538355003 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6535615739200525029, guid: f175e5071feb686479dedd6cb37dd828, type: 3}
-  m_PrefabInstance: {fileID: 6535615738538355002}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bc1978050971a4d9ddfddf5216aa9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &7416691522878419097
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1915,6 +1892,7 @@ GameObject:
   - component: {fileID: 3260616447352275626}
   - component: {fileID: 7762067043369163579}
   - component: {fileID: 1288124717}
+  - component: {fileID: 8707273952072857916}
   - component: {fileID: 8707273952072857915}
   m_Layer: 0
   m_Name: door 1
@@ -1937,6 +1915,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 8e6c7dce19e441349b4fb1f5873c9db2, type: 3}
+--- !u!114 &8707273952072857916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707273952072857914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099b202119322cd4d82e2c345bf07e0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnRelocation: {fileID: 11400000, guid: 2f9b01359568838478c66402c33241b5, type: 2}
 --- !u!1001 &8855950744486748130
 PrefabInstance:
   m_ObjectHideFlags: 0

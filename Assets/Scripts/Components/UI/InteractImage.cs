@@ -1,6 +1,9 @@
 using System;
+using System.ComponentModel;
+using Fungus;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.PlayerLoop;
 
 namespace Components.UI
 {
@@ -8,44 +11,88 @@ namespace Components.UI
     {
         private Transform m_transform;
         private static UnityAction<bool> m_showAction;
-        
-        [SerializeField] private Vector2 hideOffset;
 
-        private Vector2 startPos;
-        private Vector2 currentPos;
+        [SerializeField] private Transform showPosition;
+        [SerializeField] private Transform hidePosition;
+
+        [SerializeField] private float inputXSensitivity;
+        [SerializeField] private float inputYSensitivity;
+
+        // Скорость анимации движения мыши
+        [SerializeField] private float inputXAlpha;
+        [SerializeField] private float inputYAlpha;
+        
+        // Скорость анимации появления интеракта
+        [SerializeField] private float animationXAlpha;
+        [SerializeField] private float animationYAlpha;
+        
+        [SerializeField] float clampValueX; 
+        [SerializeField] float clampValueY;
+        
+        private float startPositionX;
+        private float startPositionY;
+
+        private float inputX;
+        private float inputY;
+        
+        private float currentX;
+        private float currentY;
+
+        private int windowResolutionX;
+        private int windowResolutionY;
 
         public static UnityAction<bool> ShowAction() => m_showAction;
 
         private void onInteract(bool state)
         {
-            if (state)
-            {
-                currentPos = startPos;
-            }
-            else
-            {
-                currentPos = startPos + hideOffset;
-            }
+            currentY = state ? showPosition.position.y : hidePosition.position.y;
         }
 
         private void Awake()
         {
-            m_transform = transform;
-            startPos = transform.position;
-            m_transform.position = startPos + hideOffset;
-            currentPos = m_transform.position;
-        }
-
-        private void Start()
-        {
             m_showAction = null;
             m_showAction += onInteract;
-            onInteract(false);
-        }
+            
+            m_transform = transform;
 
+            var position = m_transform.position;
+            startPositionX = position.x;
+            startPositionY = hidePosition.position.y;
+
+            currentX = startPositionX;
+            currentY = hidePosition.position.y;
+
+            position = new Vector3(startPositionX, startPositionY);
+            m_transform.position = position;
+        }
+        
+        private void UpdateAnimation()
+        {
+            var position = m_transform.position;
+            var x = position.x;
+            var y = position.y;
+
+            // Анимация рук при движении мыши
+            inputX = Mathf.Lerp(inputX, -Input.GetAxisRaw("Mouse X") * inputXSensitivity, inputXAlpha);
+            inputY = Mathf.Lerp(inputY, -Input.GetAxisRaw("Mouse Y") * inputYSensitivity, inputYAlpha);
+
+            // Анимация интеракта
+            x = Mathf.Lerp(x, currentX, animationXAlpha) + inputX;
+            y = Mathf.Lerp(y, currentY, animationYAlpha) + inputY;
+
+            // Ограничение позиции руки, чтобы игроку не было видно нижней границы картинки
+            x = Mathf.Clamp(x, currentX -clampValueX, currentX +clampValueX);
+            y = Mathf.Clamp(y, hidePosition.position.y -clampValueY, showPosition.position.y +clampValueY);
+
+            var result = new Vector2(x, y);
+
+            position = result;
+            m_transform.position = position;
+        }
+        
         private void FixedUpdate()
         {
-            m_transform.position = Vector2.Lerp(m_transform.position, currentPos, 0.1f);
+            UpdateAnimation();
         }
     }
 }

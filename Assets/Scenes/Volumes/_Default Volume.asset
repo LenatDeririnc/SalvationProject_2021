@@ -222,7 +222,7 @@ MonoBehaviour:
     m_Value: 1
   frameLimit:
     m_OverrideState: 1
-    m_Value: 120
+    m_Value: 24
     min: 1
   aspectMode:
     m_OverrideState: 1

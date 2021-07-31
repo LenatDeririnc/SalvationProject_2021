@@ -12,8 +12,8 @@ namespace Components.UI
         private Transform m_transform;
         private static UnityAction<bool> m_showAction;
 
-        [SerializeField] private Transform showPosition;
-        [SerializeField] private Transform hidePosition;
+        [SerializeField] private Transform showTransform;
+        [SerializeField] private Transform hideTransform;
 
         [SerializeField] private float inputXSensitivity;
         [SerializeField] private float inputYSensitivity;
@@ -38,14 +38,11 @@ namespace Components.UI
         private float currentX;
         private float currentY;
 
-        private int windowResolutionX;
-        private int windowResolutionY;
-
         public static UnityAction<bool> ShowAction() => m_showAction;
 
         private void onInteract(bool state)
         {
-            currentY = state ? showPosition.position.y : hidePosition.position.y;
+            currentY = state ? showTransform.position.y : hideTransform.position.y;
         }
 
         private void Awake()
@@ -55,17 +52,20 @@ namespace Components.UI
             
             m_transform = transform;
 
-            var position = m_transform.position;
+            var transformPosition = m_transform.position;
+            var hideTransformPosition = hideTransform.position;
+
+            var position = transformPosition;
             startPositionX = position.x;
-            startPositionY = hidePosition.position.y;
+            startPositionY = hideTransformPosition.y;
 
             currentX = startPositionX;
-            currentY = hidePosition.position.y;
+            currentY = hideTransformPosition.y;
 
             position = new Vector3(startPositionX, startPositionY);
             m_transform.position = position;
         }
-        
+
         private void UpdateAnimation()
         {
             var position = m_transform.position;
@@ -82,7 +82,7 @@ namespace Components.UI
 
             // Ограничение позиции руки, чтобы игроку не было видно нижней границы картинки
             x = Mathf.Clamp(x, currentX -clampValueX, currentX +clampValueX);
-            y = Mathf.Clamp(y, hidePosition.position.y -clampValueY, showPosition.position.y +clampValueY);
+            y = Mathf.Clamp(y, hideTransform.position.y -clampValueY, showTransform.position.y +clampValueY);
 
             var result = new Vector2(x, y);
 

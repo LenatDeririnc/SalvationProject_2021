@@ -346,8 +346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798cc9c4b064fca40bdf9199cf6283a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showPosition: {fileID: 7702393306768915777}
-  hidePosition: {fileID: 9129177088667966924}
+  showTransform: {fileID: 7702393306768915777}
+  hideTransform: {fileID: 9129177088667966924}
   inputXSensitivity: 2.5
   inputYSensitivity: 5
   inputXAlpha: 0.5

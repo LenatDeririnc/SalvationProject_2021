@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: InitSceneData
   m_EditorClassIdentifier: 
   player: {fileID: 2732319109942748984, guid: afb4183b795c40d48aa54d4ebbee3384, type: 3}
-  sceneVolume: {fileID: 1555323127640274448, guid: f1ca4b1f3b637f049a28ac77a9d6df8f, type: 3}
+  FadeOutObject: {fileID: 2230015991213871, guid: ce64fda64a5e56d44be1bb28a34ef1be, type: 3}

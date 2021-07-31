@@ -6,5 +6,6 @@ namespace ScriptableObjects.Scenes
     public class InitSceneData : ScriptableObject
     {
         public Object player;
+        public Object FadeOutObject;
     }
 }

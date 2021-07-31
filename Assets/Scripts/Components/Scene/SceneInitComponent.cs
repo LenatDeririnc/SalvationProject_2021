@@ -1,6 +1,8 @@
 using System;
+using Components.UI;
 using Helpers;
 using Managers.Data;
+using Managers.Player;
 using ScriptableObjects.Scenes;
 using UnityEngine;
 
@@ -41,13 +43,13 @@ namespace Components.Scene
         
         private void LoadPlayer()
         {
-            var player = Instantiate(initSceneData.player) as GameObject;
-            if (player == null)
-            {
-                Debug.LogError("not assigned player information in current InitSceneData object");
-                throw new Exception();
-            }
+            // TODO: Поменять на компонент игрока!
+            if (FindObjectOfType<InteractManager>() != null)
+                return;
             
+            var player = Instantiate(initSceneData.player) as GameObject;
+            Debug.Assert(player != null, "not assigned player information in current InitSceneData object");
+
             var playerTransform = player.transform;
             
             var spawners = SpawnerHelper.ComponentsToSpawnObjects(spawnerManagerComponent.spawnerComponents);
@@ -58,14 +60,20 @@ namespace Components.Scene
             TransformHelper.CopyTransform(ref playerTransform, currentSpawnerTransform);
         }
 
+        private void LoadFadeOutComponent()
+        {
+            if (FindObjectOfType<FadeOutComponent>() != null)
+                return;
+
+            var fadeOutComponent = Instantiate(initSceneData.FadeOutObject) as GameObject;
+            Debug.Assert(fadeOutComponent != null, "not assigned FadeOutObject information in current InitSceneData object");
+        }
+
         private void Awake()
         {
             Init();
-        }
-
-        private void Start()
-        {
             LoadPlayer();
+            LoadFadeOutComponent();
         }
     }
 }

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Garage
   m_EditorClassIdentifier: 
   sceneName: Room 2
-  spawns: []
+  spawns:
+  - {fileID: 11400000, guid: 57682dbc7fabb264aad5dc6200e44db8, type: 2}

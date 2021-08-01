@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7c648224da04343a7fb4aadaad11d98, type: 3}
-  m_Name: stairs
+  m_Script: {fileID: 11500000, guid: 0dce2377efec8314b85375a9a092f9bb, type: 3}
+  m_Name: Main Room
   m_EditorClassIdentifier: 
-  scene: {fileID: 11400000, guid: 7f9f1a26bb99d304e81817bb90455ed3, type: 2}
-  spawnId: stairs
+  sceneName: Main Room
+  spawns:
+  - {fileID: 11400000, guid: 84193c1000ab218458ea3a44c623abec, type: 2}
+  - {fileID: 11400000, guid: e70b3b9dca055d646a56fa9d452fb509, type: 2}

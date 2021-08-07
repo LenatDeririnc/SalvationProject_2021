@@ -15,6 +15,6 @@ MonoBehaviour:
   sceneName: Second Floor
   spawns:
   - {fileID: 11400000, guid: 79f851fd6257a9a4bbfd82d054ccd25f, type: 2}
-  - {fileID: 11400000, guid: d148fbcfe8724024a86b393846700dd7, type: 2}
   - {fileID: 11400000, guid: b3b87aa9548aa714faf63be58bece6d2, type: 2}
   - {fileID: 11400000, guid: 516bceefa1fb181478eb1bbea6b5ccc2, type: 2}
+  - {fileID: 11400000, guid: d148fbcfe8724024a86b393846700dd7, type: 2}

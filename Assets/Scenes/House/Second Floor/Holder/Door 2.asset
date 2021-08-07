@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7c648224da04343a7fb4aadaad11d98, type: 3}
-  m_Name: a
+  m_Script: {fileID: 11500000, guid: c3bf50ecd3e7470c8f828b0331f86133, type: 3}
+  m_Name: Door 2
   m_EditorClassIdentifier: 
-  scene: {fileID: 11400000, guid: 7f9f1a26bb99d304e81817bb90455ed3, type: 2}
-  spawnId: a
+  m_sceneInfo: {fileID: 11400000, guid: 0be02f14963924c4db89da1c6a1fcba7, type: 2}

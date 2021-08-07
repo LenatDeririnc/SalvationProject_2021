@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Room 2
   spawns:
-  - {fileID: 11400000, guid: c316ea32a0bd5ae4b91a562f43fa69f8, type: 2}
+  - {fileID: 11400000, guid: 09824d29fe9da444b829030f831674a1, type: 2}

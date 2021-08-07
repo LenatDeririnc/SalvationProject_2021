@@ -1318,7 +1318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24d1a481a1446544c9404560525f4ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnInfo: {fileID: 11400000, guid: c316ea32a0bd5ae4b91a562f43fa69f8, type: 2}
+  spawnInfo: {fileID: 11400000, guid: deeb3c6ed56f35c4ea4e0206d429e788, type: 2}
 --- !u!43 &700980111
 Mesh:
   m_ObjectHideFlags: 0
@@ -3330,7 +3330,7 @@ PrefabInstance:
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: sceneInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 7ee7facacaacac84cb57a68a558f2452, type: 2}
+      objectReference: {fileID: 11400000, guid: fa2ad6941f93c134ab7fdc05485f55d7, type: 2}
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: initSceneData
       value: 

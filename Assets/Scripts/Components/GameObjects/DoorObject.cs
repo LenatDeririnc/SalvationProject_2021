@@ -19,18 +19,20 @@ namespace Components.GameObjects
             Debug.Assert(m_fadeOutComponent != null, "can't find FadeOutComponent in scene");
 
             FadeOutComponent.fadeOutSignal = null;
-            FadeOutComponent.fadeOutSignal += ChangeScene;
         }
 
         private void ChangeScene()
         {
+            var sceneName = spawnRelocation.Scene().name;
+        
             SpawnerHelper.SetCurrentSpawner(spawnRelocation);
-            SceneManager.LoadScene(spawnRelocation.Scene().name);
+            SceneManager.LoadScene(spawnRelocation.Scene().SceneName());
         }
 
         public void OpenDoor()
         {
             Debug.Assert(spawnRelocation != null, $"spawnRelocation not assigned for object \"{gameObject.name}\"");
+            FadeOutComponent.fadeOutSignal += ChangeScene;
             StartCoroutine(m_fadeOutComponent.FadeIn(0.1f));
             //TODO: Отнять управление движением у игрока
         }

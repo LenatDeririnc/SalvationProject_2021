@@ -1,5 +1,7 @@
 using System;
 using Managers.Player;
+using Managers.Player.CameraRotateBehaviours;
+using TMPro.EditorUtilities;
 using UnityEngine;
 
 namespace Components.GameObjects
@@ -8,8 +10,9 @@ namespace Components.GameObjects
     public class LookAtEnabler : MonoBehaviour
     {
         private TriggerObject m_trigger;
-        private IPlayer m_player;
+        private ILook m_playerLook;
         public Transform target;
+        public float speed;
 
         private void Start()
         {
@@ -29,17 +32,16 @@ namespace Components.GameObjects
             Debug.Assert(m_trigger.SendComponent != null, "can't set player object");
         }
 
-        private void SetPlayerCollider(Collider player) => m_player = player.GetComponent<IPlayer>();
+        private void SetPlayerCollider(Collider player) => m_playerLook = player.GetComponent<ILook>();
 
         public void Enable()
         {
-            m_player.SetLookTarget(target);
+            m_playerLook.SetLookBehaviour(new TargetRotate(m_playerLook.Camera(), target, speed));
         }
 
         public void Disable()
         {
-            m_player.SetLookAtEnabled(false);
-            m_player.SetLookEnabled(true);
+            m_playerLook.SetLookBehaviour(new InputRotate(m_playerLook.Camera()));
         }
     }
 }

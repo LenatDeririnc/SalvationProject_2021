@@ -2,21 +2,19 @@ using Components.GameObjects;
 using Components.UI;
 using UnityEngine;
 
-namespace Managers.Player
+namespace Components.Player
 {
-    public class InteractManager : MonoBehaviour
+    public class InteractComponent : MonoBehaviour
     {
-        private bool m_isActive = false;
+        private bool m_isUiActive = false;
 
         private void SetActiveUI(bool state)
         {
-            if (state == m_isActive)
+            if (state == m_isUiActive)
                 return;
-            m_isActive = state;
             
-            
-            
-            InteractImage.ShowAction().Invoke(m_isActive);
+            m_isUiActive = state;
+            InteractImage.ShowAction().Invoke(m_isUiActive);
         }
         
         public string actionButton = "Fire1";

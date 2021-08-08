@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ca683a2836347ecb34a2e631fd1ce54, type: 3}
   m_Name: InitSceneData
   m_EditorClassIdentifier: 
-  player: {fileID: 2732319109942748984, guid: afb4183b795c40d48aa54d4ebbee3384, type: 3}
+  player: {fileID: 2732319109942748984, guid: 7d02e29a98e17284fa03f2acdca7d9b5, type: 3}
   FadeOutObject: {fileID: 2230015991213871, guid: ce64fda64a5e56d44be1bb28a34ef1be, type: 3}

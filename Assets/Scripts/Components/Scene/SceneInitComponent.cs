@@ -1,4 +1,5 @@
 using System;
+using Components.Player;
 using Components.UI;
 using Helpers;
 using Managers.Data;
@@ -44,7 +45,7 @@ namespace Components.Scene
         private void LoadPlayer()
         {
             // TODO: Поменять на компонент игрока!
-            if (FindObjectOfType<InteractManager>() != null)
+            if (FindObjectOfType<InteractComponent>() != null)
                 return;
             
             var player = Instantiate(initSceneData.player) as GameObject;

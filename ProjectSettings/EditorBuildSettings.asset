@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/House/Second Floor/Second Floor.unity
     guid: 7d5f59482d292314cb56efb2f1092ed1
+  - enabled: 1
+    path: Assets/Scenes/Scene 1/Scene 1.unity
+    guid: b0d738541b55317469a33131c000a411
+  - enabled: 1
+    path: Assets/Scenes/Scene 2/Scene 2.unity
+    guid: 176d9bea2415fb2468143a6ed7dc3589
   m_configObjects: {}

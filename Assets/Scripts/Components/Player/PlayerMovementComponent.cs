@@ -8,7 +8,7 @@ namespace Components.Player
     {
         [SerializeField] private bool m_enabled = true;
         public bool Enabled() => m_enabled;
-        public void SetEnabled(bool enabled) => m_enabled = enabled;
+        public void SetEnabled(bool state) => m_enabled = state;
         
         public Rigidbody rb;
         public Transform getForwardFrom;

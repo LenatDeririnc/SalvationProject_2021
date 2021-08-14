@@ -3,13 +3,9 @@ using Managers.Player.CameraRotateBehaviours;
 
 namespace Interfaces.Player
 {
-    public interface ILook
+    public interface ILook : IEnablable
     {
-        public bool Enabled();
-        public void SetEnabled(bool enabled);
-
         public PlayerCamera Camera();
-
         public CameraRotateBehaviour LookBehaviour();
         public void SetLookBehaviour(CameraRotateBehaviour value);
     }

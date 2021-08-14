@@ -4,5 +4,6 @@ namespace Interfaces.Player
     {
         ILook LookComponent();
         IMovement MovementComponent();
+        IInteract InteractComponent();
     }
 }

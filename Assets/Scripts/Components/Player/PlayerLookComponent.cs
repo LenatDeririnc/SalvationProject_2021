@@ -13,7 +13,7 @@ namespace Components.Player
         private CameraRotateBehaviour m_cameraRotateBehaviour;
 
         public bool Enabled() => m_enabled;
-        public void SetEnabled(bool enabled) => m_enabled = enabled;
+        public void SetEnabled(bool state) => m_enabled = state;
         public CameraRotateBehaviour LookBehaviour() => m_cameraRotateBehaviour;
 
         public void SetLookBehaviour(CameraRotateBehaviour value)

@@ -9,22 +9,30 @@ namespace Components.GameObjects
 {
     public class LookAtEnabler : MonoBehaviour
     {
-        private ILook m_playerLook;
         public Transform target;
         public float speed = 1;
 
-        private void SetPlayerCollider(Collider player) => m_playerLook = player.GetComponent<ILook>();
+        [SerializeField] private bool m_disableInteractOnEnable = true;
+        [SerializeField] private bool m_disableMovementOnEnable = true;
 
         public void Enable()
         {
-            m_playerLook ??= PlayerManager.player.LookComponent();
-            m_playerLook.SetLookBehaviour(new TargetRotate(m_playerLook.Camera(), target, speed));
+            var player = PlayerManager.player;
+            if (m_disableInteractOnEnable)
+                player.InteractComponent().SetEnabled(false);
+            if (m_disableMovementOnEnable)
+                player.MovementComponent().SetEnabled(false);
+            player.LookComponent().SetLookBehaviour(new TargetRotate(player.LookComponent().Camera(), target, speed));
         }
 
         public void Disable()
         {
-            m_playerLook ??= PlayerManager.player.LookComponent();
-            m_playerLook.SetLookBehaviour(new InputRotate(m_playerLook.Camera()));
+            var player = PlayerManager.player;
+            if (m_disableInteractOnEnable)
+                player.InteractComponent().SetEnabled(true);
+            if (m_disableMovementOnEnable)
+                player.MovementComponent().SetEnabled(true);
+            player.LookComponent().SetLookBehaviour(new InputRotate(player.LookComponent().Camera()));
         }
     }
 }

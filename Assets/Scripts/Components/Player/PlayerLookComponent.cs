@@ -1,10 +1,10 @@
-using System;
-using Managers.Player;
+using Interfaces.Player;
 using Managers.Player.CameraRotateBehaviours;
 using UnityEngine;
 
 namespace Components.Player
 {
+    [RequireComponent(typeof(IPlayer))]
     public class PlayerLookComponent : MonoBehaviour, ILook
     {
         [SerializeField] private bool m_enabled = true;

@@ -1,9 +1,7 @@
 using Components.Player;
-using Fungus;
 using Managers.Player.CameraRotateBehaviours;
-using UnityEngine;
 
-namespace Managers.Player
+namespace Interfaces.Player
 {
     public interface ILook
     {

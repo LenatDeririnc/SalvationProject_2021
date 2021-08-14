@@ -1,8 +1,9 @@
-using Managers.Player;
+using Interfaces.Player;
 using UnityEngine;
 
 namespace Components.Player
 {
+    [RequireComponent(typeof(IPlayer))]
     public class PlayerMovementComponent : MonoBehaviour, IMovement
     {
         [SerializeField] private bool m_enabled = true;

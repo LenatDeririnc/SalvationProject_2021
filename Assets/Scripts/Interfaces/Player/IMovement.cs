@@ -1,4 +1,4 @@
-namespace Managers.Player
+namespace Interfaces.Player
 {
     public interface IMovement
     {

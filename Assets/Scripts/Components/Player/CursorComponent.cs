@@ -1,8 +1,9 @@
-using System;
+using Interfaces.Player;
 using UnityEngine;
 
 namespace Components.Player
 {
+    [RequireComponent(typeof(IPlayer))]
     public class CursorComponent : MonoBehaviour
     {
         [SerializeField] private bool m_cursorLocked = true;

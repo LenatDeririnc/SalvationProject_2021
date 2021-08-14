@@ -1,9 +1,11 @@
 using Components.GameObjects;
 using Components.UI;
+using Interfaces.Player;
 using UnityEngine;
 
 namespace Components.Player
 {
+    [RequireComponent(typeof(IPlayer))]
     public class InteractComponent : MonoBehaviour
     {
         private bool m_isUiActive = false;

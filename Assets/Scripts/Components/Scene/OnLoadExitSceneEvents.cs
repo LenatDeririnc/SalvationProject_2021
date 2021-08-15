@@ -32,21 +32,40 @@ namespace Components.Scene
         [SerializeField] private bool m_onExitEnabled = true;
         public SceneEvent OnSceneExit;
         
-        
-        public bool EnterEnabled() => m_onEnterEnabled;
-        public bool ExitEnabled() => m_onExitEnabled;
-        public void SetEnterEnabled(bool state) => m_onEnterEnabled = state;
-        public void SetExitEnabled(bool state) => m_onExitEnabled = state;
+        public bool EnterEnabled()
+        {
+            var data = LoadData();
+            m_onEnterEnabled = data[parameters.EnterEnabled];
+            return m_onEnterEnabled;
+        }
+
+        public bool ExitEnabled()
+        {
+            var data = LoadData();
+            m_onExitEnabled = data[parameters.ExitEnabled];
+            return m_onExitEnabled;
+        }
+
+        public void SetEnterEnabled(bool state)
+        {
+            m_onEnterEnabled = state;
+            SetData(parameters.EnterEnabled, m_onEnterEnabled);
+        }
+        public void SetExitEnabled(bool state)
+        {
+            m_onExitEnabled = state;
+            SetData(parameters.ExitEnabled, m_onEnterEnabled);
+        }
 
         public void SceneLoad()
         {
-            if (m_onEnterEnabled)
+            if (EnterEnabled())
                 OnSceneLoad.Invoke();
         }
         
         public void SceneExit()
         {
-            if (m_onExitEnabled)
+            if (ExitEnabled())
                 OnSceneExit.Invoke();
         }
 

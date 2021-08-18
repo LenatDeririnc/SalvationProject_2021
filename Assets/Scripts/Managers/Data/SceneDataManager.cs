@@ -20,7 +20,7 @@ namespace Managers.Data
                 if (m_sceneData[sceneName].ContainsKey(valueName))
                     return m_sceneData[sceneName][valueName];
 
-            Debug.LogWarning("unacceptable sceneName or valueName information: " +
+            Debug.Log("unacceptable sceneName or valueName information: " +
                              $"SceneDataProvider doesn't has scene: {sceneName} and value: {valueName}");
             return null;
         }

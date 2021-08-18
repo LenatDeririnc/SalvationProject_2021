@@ -2,6 +2,7 @@ using System;
 using Components.Player;
 using Components.UI;
 using Helpers;
+using Interfaces.Player;
 using Managers.Data;
 using Managers.Player;
 using ScriptableObjects.Scenes;
@@ -44,12 +45,13 @@ namespace Components.Scene
         
         private void LoadPlayer()
         {
-            // TODO: Поменять на компонент игрока!
-            if (FindObjectOfType<InteractComponent>() != null)
+            if (FindObjectOfType<PlayerComponent>() != null)
                 return;
-            
+
             var player = Instantiate(initSceneData.player) as GameObject;
             Debug.Assert(player != null, "not assigned player information in current InitSceneData object");
+
+            PlayerManager.player = player.GetComponent<IPlayer>();
 
             var playerTransform = player.transform;
             

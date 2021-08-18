@@ -1,6 +1,6 @@
 namespace Interfaces.Player
 {
-    public interface IMovement : IEnablable
+    public interface IInteract : IEnablable
     {
         
     }

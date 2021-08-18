@@ -1,11 +1,15 @@
 using Components.GameObjects;
 using Components.UI;
+using Interfaces.Player;
 using UnityEngine;
 
 namespace Components.Player
 {
-    public class InteractComponent : MonoBehaviour
+    [RequireComponent(typeof(IPlayer))]
+    public class InteractComponent : MonoBehaviour, IInteract
     {
+        [SerializeField] private bool m_enabled = true;
+        
         private bool m_isUiActive = false;
 
         private void SetActiveUI(bool state)
@@ -50,13 +54,20 @@ namespace Components.Player
         
         private void Update()
         {
-            if (!IsInteractableItem())
+            if (!IsInteractableItem() | !Enabled())
             {
                 SetActiveUI(false);
                 return;
             }
             SetActiveUI(true);
             Interact();
+        }
+
+        public bool Enabled() => m_enabled;
+
+        public void SetEnabled(bool state)
+        {
+            m_enabled = state;
         }
     }
 }

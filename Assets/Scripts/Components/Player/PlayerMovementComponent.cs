@@ -1,13 +1,14 @@
-using Managers.Player;
+using Interfaces.Player;
 using UnityEngine;
 
 namespace Components.Player
 {
+    [RequireComponent(typeof(IPlayer))]
     public class PlayerMovementComponent : MonoBehaviour, IMovement
     {
         [SerializeField] private bool m_enabled = true;
         public bool Enabled() => m_enabled;
-        public void SetEnabled(bool enabled) => m_enabled = enabled;
+        public void SetEnabled(bool state) => m_enabled = state;
         
         public Rigidbody rb;
         public Transform getForwardFrom;

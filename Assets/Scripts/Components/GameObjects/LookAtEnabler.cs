@@ -1,47 +1,38 @@
 using System;
+using Components.Player;
+using Interfaces.Player;
 using Managers.Player;
 using Managers.Player.CameraRotateBehaviours;
-using TMPro.EditorUtilities;
 using UnityEngine;
 
 namespace Components.GameObjects
 {
-    [RequireComponent(typeof(TriggerObject))]
     public class LookAtEnabler : MonoBehaviour
     {
-        private TriggerObject m_trigger;
-        private ILook m_playerLook;
         public Transform target;
-        public float speed;
+        public float speed = 1;
 
-        private void Start()
-        {
-            SetTrigger();
-            SetPlayerListener();
-        }
-
-        private void SetTrigger()
-        {
-            m_trigger = GetComponent<TriggerObject>();
-            Debug.Assert(m_trigger != null, "trigger object not found");
-        }
-
-        private void SetPlayerListener()
-        {
-            m_trigger.SendComponent += SetPlayerCollider;
-            Debug.Assert(m_trigger.SendComponent != null, "can't set player object");
-        }
-
-        private void SetPlayerCollider(Collider player) => m_playerLook = player.GetComponent<ILook>();
+        [SerializeField] private bool m_disableInteractOnEnable = true;
+        [SerializeField] private bool m_disableMovementOnEnable = true;
 
         public void Enable()
         {
-            m_playerLook.SetLookBehaviour(new TargetRotate(m_playerLook.Camera(), target, speed));
+            var player = PlayerManager.player;
+            if (m_disableInteractOnEnable)
+                player.InteractComponent().SetEnabled(false);
+            if (m_disableMovementOnEnable)
+                player.MovementComponent().SetEnabled(false);
+            player.LookComponent().SetLookBehaviour(new TargetRotate(player.LookComponent().Camera(), target, speed));
         }
 
         public void Disable()
         {
-            m_playerLook.SetLookBehaviour(new InputRotate(m_playerLook.Camera()));
+            var player = PlayerManager.player;
+            if (m_disableInteractOnEnable)
+                player.InteractComponent().SetEnabled(true);
+            if (m_disableMovementOnEnable)
+                player.MovementComponent().SetEnabled(true);
+            player.LookComponent().SetLookBehaviour(new InputRotate(player.LookComponent().Camera()));
         }
     }
 }

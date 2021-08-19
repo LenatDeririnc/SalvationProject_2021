@@ -2,18 +2,15 @@ using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
-using UnityEngine.UI;
 
-namespace Settings
+namespace Thirdparty.Fungus.Scripts.Settings
 {
-    [AddComponentMenu("Event/PSXInput")]
-    
-    public class PSXInput : StandaloneInputModule
+    [AddComponentMenu("Event/Standalone Input Module (Copy)")]
+    /// <summary>
+    /// Скопированный экземпляр класса StandaloneInputModule для расширенных возможностей наследования от него
+    /// </summary>
+    public class StandaloneInputModule : PointerInputModule
     {
-        /// <summary>
-        /// Класс для решения проблемы деселекта кнопок, если игрок нажимал ЛКМ по пустому месту
-        /// </summary>
-        
         private float m_PrevActionTime;
         private Vector2 m_LastMoveVector;
         private int m_ConsecutiveMoveCount = 0;
@@ -21,12 +18,25 @@ namespace Settings
         private Vector2 m_LastMousePosition;
         private Vector2 m_MousePosition;
 
-        private GameObject m_CurrentFocusedGameObject;
+        protected GameObject m_CurrentFocusedGameObject;
 
         private PointerEventData m_InputPointerEvent;
 
-        protected PSXInput()
+        protected StandaloneInputModule()
         {
+        }
+
+        [Obsolete("Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.", false)]
+        public enum InputMode
+        {
+            Mouse,
+            Buttons
+        }
+
+        [Obsolete("Mode is no longer needed on input module as it handles both mouse and keyboard simultaneously.", false)]
+        public InputMode inputMode
+        {
+            get { return InputMode.Mouse; }
         }
 
         [SerializeField]
@@ -314,7 +324,7 @@ namespace Settings
         /// <remarks>
         /// This method can be overridden in derived classes to change how touch press events are handled.
         /// </remarks>
-        protected void ProcessTouchPress(PointerEventData pointerEvent, bool pressed, bool released)
+        protected virtual void ProcessTouchPress(PointerEventData pointerEvent, bool pressed, bool released)
         {
             var currentOverGo = pointerEvent.pointerCurrentRaycast.gameObject;
 
@@ -327,6 +337,8 @@ namespace Settings
                 pointerEvent.useDragThreshold = true;
                 pointerEvent.pressPosition = pointerEvent.position;
                 pointerEvent.pointerPressRaycast = pointerEvent.pointerCurrentRaycast;
+
+                DeselectIfSelectionChanged(currentOverGo, pointerEvent);
 
                 if (pointerEvent.pointerEnter != currentOverGo)
                 {
@@ -423,7 +435,7 @@ namespace Settings
         /// Calculate and send a submit event to the current selected object.
         /// </summary>
         /// <returns>If the submit event was used by the selected object.</returns>
-        protected bool SendSubmitEventToSelectedObject()
+        protected virtual bool SendSubmitEventToSelectedObject()
         {
             if (eventSystem.currentSelectedGameObject == null)
                 return false;
@@ -464,7 +476,7 @@ namespace Settings
         /// Calculate and send a move event to the current selected object.
         /// </summary>
         /// <returns>If the move event was used by the selected object.</returns>
-        protected bool SendMoveEventToSelectedObject()
+        protected virtual bool SendMoveEventToSelectedObject()
         {
             float time = Time.unscaledTime;
 
@@ -509,7 +521,7 @@ namespace Settings
             return axisEventData.used;
         }
 
-        protected void ProcessMouseEvent()
+        protected virtual void ProcessMouseEvent()
         {
             ProcessMouseEvent(0);
         }
@@ -523,17 +535,12 @@ namespace Settings
         /// <summary>
         /// Process all mouse events.
         /// </summary>
-        protected void ProcessMouseEvent(int id)
+        protected virtual void ProcessMouseEvent(int id)
         {
             var mouseData = GetMousePointerEventData(id);
             var leftButtonData = mouseData.GetButtonState(PointerEventData.InputButton.Left).eventData;
 
-            var focusData = leftButtonData.buttonData.pointerCurrentRaycast.gameObject;
-            
-            if (focusData == null)
-                return;
-            
-            m_CurrentFocusedGameObject = focusData;
+            m_CurrentFocusedGameObject = leftButtonData.buttonData.pointerCurrentRaycast.gameObject;
 
             // Process the first mouse button fully
             ProcessMousePress(leftButtonData);
@@ -553,7 +560,7 @@ namespace Settings
             }
         }
 
-        protected bool SendUpdateEventToSelectedObject()
+        protected virtual bool SendUpdateEventToSelectedObject()
         {
             if (eventSystem.currentSelectedGameObject == null)
                 return false;
@@ -562,21 +569,11 @@ namespace Settings
             ExecuteEvents.Execute(eventSystem.currentSelectedGameObject, data, ExecuteEvents.updateSelectedHandler);
             return data.used;
         }
-        
-        protected virtual void ProcessMove(PointerEventData pointerEvent)
-        {
-            var targetGO = (Cursor.lockState == CursorLockMode.Locked ? null : pointerEvent.pointerCurrentRaycast.gameObject);
-            HandlePointerExitAndEnter(pointerEvent, targetGO);
-            if (pointerEvent.hovered.Count > 0)
-            {
-                eventSystem.SetSelectedGameObject(targetGO, pointerEvent);
-            }
-        }
 
         /// <summary>
         /// Calculate and process any mouse button state changes.
         /// </summary>
-        protected void ProcessMousePress(MouseButtonEventData data)
+        protected virtual void ProcessMousePress(MouseButtonEventData data)
         {
             var pointerEvent = data.buttonData;
             var currentOverGo = pointerEvent.pointerCurrentRaycast.gameObject;
@@ -590,6 +587,8 @@ namespace Settings
                 pointerEvent.useDragThreshold = true;
                 pointerEvent.pressPosition = pointerEvent.position;
                 pointerEvent.pointerPressRaycast = pointerEvent.pointerCurrentRaycast;
+
+                DeselectIfSelectionChanged(currentOverGo, pointerEvent);
 
                 // search for the control that will receive the press
                 // if we can't find a press handler set the press
@@ -641,8 +640,13 @@ namespace Settings
                 ReleaseMouse(pointerEvent, currentOverGo);
             }
         }
+        
+        protected virtual void DeselectIfSelectionChanged(GameObject currentOverGo, BaseEventData pointerEvent)
+        {
+            base.DeselectIfSelectionChanged(currentOverGo, pointerEvent);
+        }
 
-        protected GameObject GetCurrentFocusedGameObject()
+        protected virtual GameObject GetCurrentFocusedGameObject()
         {
             return m_CurrentFocusedGameObject;
         }

@@ -3,6 +3,7 @@
 
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using StandaloneInputModule = Thirdparty.Fungus.Scripts.Settings.StandaloneInputModule;
 
 namespace Fungus
 {

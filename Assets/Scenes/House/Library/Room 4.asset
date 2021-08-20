@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dce2377efec8314b85375a9a092f9bb, type: 3}
   m_Name: Room 4
   m_EditorClassIdentifier: 
-  sceneName: Room 4
+  sceneName: Library
   spawns:
   - {fileID: 11400000, guid: deeb3c6ed56f35c4ea4e0206d429e788, type: 2}

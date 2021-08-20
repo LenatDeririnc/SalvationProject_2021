@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/House/Mom Room/Mom Room.unity
     guid: 4f22a2a920ae1c343967a01221b3dfbf
   - enabled: 1
-    path: Assets/Scenes/House/Room 4/Room 4.unity
+    path: Assets/Scenes/House/Library/Library.unity
     guid: fcf2b2d34f8232c43a472f5c593c82ef
   - enabled: 1
     path: Assets/Scenes/House/Room 5/Room 5.unity

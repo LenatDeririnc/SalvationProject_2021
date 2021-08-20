@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 2leather_sofa_texture_DefaultMaterial_albedo
+  m_Name: morestuff
   m_Shader: {fileID: 4800000, guid: 055eab4e84dc70a47ae75b3125a22de6, type: 3}
   m_ShaderKeywords: _BRDF_MODE_LAMBERT _FOG_ON _LIGHTING_BAKED_ON _LIGHTING_DYNAMIC_ON
     _SHADING_EVALUATION_MODE_PER_VERTEX _TEXTURE_FILTER_MODE_TEXTURE_IMPORT_SETTINGS
@@ -26,7 +26,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dd459e9ba5fa1314e88fde1b932e0c0f, type: 3}
+        m_Texture: {fileID: 2800000, guid: b1a459ba25e25a242a3bc1bf37a8687f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionCubemap:

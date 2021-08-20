@@ -1,8 +1,5 @@
-using System;
 using Interfaces.Player;
-using Managers.Player;
 using Managers.Player.CameraRotateBehaviours;
-using TMPro.EditorUtilities;
 using UnityEngine;
 
 namespace Components.GameObjects

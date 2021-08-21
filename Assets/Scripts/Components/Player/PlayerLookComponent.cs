@@ -35,7 +35,7 @@ namespace Components.Player
 
         void Update()
         {
-            if (m_cameraRotateBehaviour.UseFixedUpdate())
+            if (!m_enabled || m_cameraRotateBehaviour.UseFixedUpdate())
                 return;
             
             m_cameraRotateBehaviour.Rotate();
@@ -43,7 +43,7 @@ namespace Components.Player
 
         void FixedUpdate()
         {
-            if (!m_cameraRotateBehaviour.UseFixedUpdate())
+            if (!m_enabled || !m_cameraRotateBehaviour.UseFixedUpdate())
                 return;
             
             m_cameraRotateBehaviour.Rotate();

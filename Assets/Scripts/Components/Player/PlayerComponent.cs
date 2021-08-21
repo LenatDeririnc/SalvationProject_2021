@@ -1,4 +1,5 @@
 using System;
+using Components.Functions;
 using Interfaces.Player;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
@@ -21,6 +22,9 @@ namespace Components.Player
         private void Awake()
         {
             Init();
+            PlayerControlEnabler.onEnableMovement += m_movement.SetEnabled;
+            PlayerControlEnabler.onEnableLook += m_look.SetEnabled;
+            PlayerControlEnabler.onEnableInteract += m_interact.SetEnabled;
         }
 
         public ILook LookComponent()

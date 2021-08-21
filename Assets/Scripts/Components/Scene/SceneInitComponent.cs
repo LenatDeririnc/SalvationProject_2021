@@ -61,6 +61,8 @@ namespace Components.Scene
             var currentSpawnerTransform = SpawnerHelper.SpawnerTransformBySpawnId(spawnerManagerComponent.spawnerComponents, spawner.SpawnId());
 
             TransformHelper.CopyTransform(ref playerTransform, currentSpawnerTransform);
+            
+            PlayerComponent.onPlayerSpawn.Invoke();
         }
 
         private void LoadFadeOutComponent()

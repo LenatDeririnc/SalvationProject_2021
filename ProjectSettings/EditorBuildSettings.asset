@@ -41,4 +41,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 2/Scene 2.unity
     guid: 176d9bea2415fb2468143a6ed7dc3589
+  - enabled: 1
+    path: Assets/Scenes/Cycle 2/Childroom Cycle 2/Childroom Cycle 2.unity
+    guid: 80b0876df1fc17041a118ef7880ade2c
+  - enabled: 1
+    path: Assets/Scenes/Cycle 2/First Floor Cycle 2/First Floor Cycle 2.unity
+    guid: b26f56945831773468876464a841afa4
+  - enabled: 1
+    path: Assets/Scenes/Cycle 2/Garage Cycle 2/Garage Cycle 2.unity
+    guid: 332ce1ef1772cd840a2fcf93ddfb189b
+  - enabled: 1
+    path: Assets/Scenes/Cycle 2/Main Room Cycle 2/Main Room Cycle 2.unity
+    guid: 1c3560a1de1ba6d4a82c37479ff017f6
+  - enabled: 1
+    path: Assets/Scenes/Cycle 2/Mom Room Cycle 2/Mom Room Cycle 2.unity
+    guid: b84c031fe833caf4eb555ea690f55de2
+  - enabled: 1
+    path: Assets/Scenes/Cycle 2/Second Floor Cycle 2/Second Floor Cycle 2.unity
+    guid: 82160ae1f2120784fbe78d6daad48931
   m_configObjects: {}

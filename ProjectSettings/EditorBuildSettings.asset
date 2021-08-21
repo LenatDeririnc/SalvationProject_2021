@@ -33,6 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/House/Room 5/Room 5.unity
     guid: e002b59e461015c4eb232c2602b67251
   - enabled: 1
+    path: Assets/Scenes/Cycle 4/Main Room Cycle 4/Main Room Cycle 4.unity
+    guid: 68cb3b552822df342b888a372fbff47a
+  - enabled: 1
     path: Assets/Scenes/House/Second Floor/Second Floor.unity
     guid: 7d5f59482d292314cb56efb2f1092ed1
   - enabled: 1
@@ -41,4 +44,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 2/Scene 2.unity
     guid: 176d9bea2415fb2468143a6ed7dc3589
+  - enabled: 1
+    path: Assets/Scenes/Cycle 1/Main Room Cycle 1/Main Room Cycle 1.unity
+    guid: 5d6aba66aae6e3b4e99c576ff8f24efc
+  - enabled: 1
+    path: Assets/Scenes/Cycle 1/Second Floor Cycle 1/Second Floor Cycle 1.unity
+    guid: 606baefd8a43c8f4da419c9e2aa518eb
+  - enabled: 1
+    path: Assets/Scenes/Cycle 1/Garage Cycle 1/Garage Cycle 1.unity
+    guid: cb768090e7bb00744b551e11bdb3d076
+  - enabled: 1
+    path: Assets/Scenes/Cycle 4/Storage Cycle 4/Storage Cycle 4.unity
+    guid: b6feb7577626b3e44a811158597c0b37
+  - enabled: 1
+    path: Assets/Scenes/Cycle 4/First Floor Cycle 4/First Floor Cycle 4.unity
+    guid: a3550e70fb749264e869acb621b0a8e1
+  - enabled: 1
+    path: Assets/Scenes/Cycle 1/First Floor Cycle 1/First Floor Cycle 1.unity
+    guid: 73359d1f5348c084daf6feb9f7073c85
+  - enabled: 1
+    path: Assets/Scenes/Cycle 1/Childroom Cycle 1/Childroom Cycle 1.unity
+    guid: 06d51a919d116bb41ab9371d74caae5d
   m_configObjects: {}

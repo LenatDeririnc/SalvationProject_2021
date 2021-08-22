@@ -19,6 +19,10 @@ namespace Components.GameObjects
         private void Awake()
         {
             SendComponent = null;
+            
+            var data = GetDataValue();
+            if (data != null)
+                canInteract = (bool) data;
         }
 
         public bool CanInteract() => canInteract;

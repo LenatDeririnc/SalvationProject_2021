@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3bf50ecd3e7470c8f828b0331f86133, type: 3}
   m_Name: Garage door
   m_EditorClassIdentifier: 
-  m_sceneInfo: {fileID: 11400000, guid: 7594986e6bca3b04c8c5f35457cc168e, type: 2}
+  m_sceneInfo: {fileID: 11400000, guid: 0df0280e90839d1469ad257ca4d12a80, type: 2}

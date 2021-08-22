@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3bf50ecd3e7470c8f828b0331f86133, type: 3}
   m_Name: Dialogue_TV
   m_EditorClassIdentifier: 
-  m_sceneInfo: {fileID: 11400000, guid: ee352d3fbda556245b8eeb5deb962c68, type: 2}
+  m_sceneInfo: {fileID: 11400000, guid: bc7f1e44688764e4fbe7d875ab1403f1, type: 2}

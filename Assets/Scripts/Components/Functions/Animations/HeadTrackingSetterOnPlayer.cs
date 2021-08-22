@@ -22,6 +22,7 @@ namespace Components.Functions.Animations
 
         private void Awake()
         {
+            PlayerComponent.onPlayerSpawn -= SetTarget;
             PlayerComponent.onPlayerSpawn += SetTarget;
         }
     }

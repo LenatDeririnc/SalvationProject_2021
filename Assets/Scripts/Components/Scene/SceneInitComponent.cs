@@ -1,4 +1,5 @@
 using System;
+using Components.Functions;
 using Components.Player;
 using Components.UI;
 using Helpers;
@@ -61,8 +62,6 @@ namespace Components.Scene
             var currentSpawnerTransform = SpawnerHelper.SpawnerTransformBySpawnId(spawnerManagerComponent.spawnerComponents, spawner.SpawnId());
 
             TransformHelper.CopyTransform(ref playerTransform, currentSpawnerTransform);
-            
-            PlayerComponent.onPlayerSpawn.Invoke();
         }
 
         private void LoadFadeOutComponent()

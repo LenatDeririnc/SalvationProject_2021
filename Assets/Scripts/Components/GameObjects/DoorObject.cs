@@ -1,4 +1,5 @@
 using System;
+using Components.Player;
 using Components.Scene;
 using Components.UI;
 using Helpers;
@@ -34,7 +35,10 @@ namespace Components.GameObjects
             Debug.Assert(spawnRelocation != null, $"spawnRelocation not assigned for object \"{gameObject.name}\"");
             FadeOutComponent.fadeOutSignal += ChangeScene;
             StartCoroutine(m_fadeOutComponent.FadeIn(0.1f));
-            //TODO: Отнять управление движением у игрока
+            
+            PlayerComponent.setEnableLook.Invoke(false);
+            PlayerComponent.setEnableMovement.Invoke(false);
+            PlayerComponent.setEnableInteract.Invoke(false);
         }
     }
 }

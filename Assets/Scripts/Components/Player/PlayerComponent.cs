@@ -14,6 +14,9 @@ namespace Components.Player
         private IInteract m_interact;
 
         public static Action onPlayerSpawn;
+        public static Action<bool> setEnableMovement;
+        public static Action<bool> setEnableLook;
+        public static Action<bool> setEnableInteract;
 
         private void Init()
         {
@@ -21,14 +24,21 @@ namespace Components.Player
             m_movement ??= GetComponent<IMovement>();
             m_interact ??= GetComponent<IInteract>();
             m_transform ??= transform;
+            
+            setEnableMovement = m_movement.SetEnabled;
+            setEnableLook = m_look.SetEnabled;
+            setEnableInteract = m_interact.SetEnabled;
+        }
+
+        private void Start()
+        {
+            if (onPlayerSpawn != null)
+                onPlayerSpawn.Invoke();
         }
 
         private void Awake()
         {
             Init();
-            PlayerControlEnabler.onEnableMovement += m_movement.SetEnabled;
-            PlayerControlEnabler.onEnableLook += m_look.SetEnabled;
-            PlayerControlEnabler.onEnableInteract += m_interact.SetEnabled;
         }
 
         public Transform Transform()

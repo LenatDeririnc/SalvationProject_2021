@@ -6751,7 +6751,7 @@ MonoBehaviour:
   m_canInteract: 1
   m_objectMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   OnEnter:
     m_PersistentCalls:
       m_Calls:
@@ -6806,7 +6806,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255533954}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -6818,7 +6818,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ac9aba1beafeb24997cc30de6fbd9bd, type: 2}
+  - {fileID: 2100000, guid: 9596ad3a896078b4198ed8c5fc3a571c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6856,11 +6856,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255533954}
   m_LocalRotation: {x: -0, y: -0.044225726, z: -0, w: 0.9990216}
-  m_LocalPosition: {x: 25.014, y: 1.1118532, z: -1.899}
-  m_LocalScale: {x: 1.5357878, y: 1.8716565, z: 1.7610185}
+  m_LocalPosition: {x: -1.4499798, y: -0.38863003, z: 2.9873013}
+  m_LocalScale: {x: 1.5357877, y: 1.8716565, z: 1.7610184}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 520177146}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -5.07, z: 0}
 --- !u!114 &255533960
 MonoBehaviour:
@@ -10067,6 +10067,7 @@ Transform:
   - {fileID: 2136185361}
   - {fileID: 1809259364}
   - {fileID: 6460799537008736800}
+  - {fileID: 255533959}
   m_Father: {fileID: 1892124520}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

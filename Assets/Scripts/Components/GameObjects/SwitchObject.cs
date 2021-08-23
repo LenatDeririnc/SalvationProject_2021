@@ -1,4 +1,5 @@
 using System;
+using ScriptableObjects.Scenes;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,57 +12,90 @@ namespace Components.GameObjects
     [Serializable]
     public class OnSwitchEvent : UnityEvent
     { }
+
+    public struct SwitchData
+    {
+        public bool isUserTurnedOn;
+        public bool isGeneratorTurnedOn;
+    }
+    
     public class SwitchObject : MonoBehaviourDataRecorder
     {
         [SerializeField] private bool m_isTurnedOn;
+        private SwitchData m_currentSwitchData;
 
+        [SerializeField] private GameObjectDataHolder subparent;
+
+        // Эвенты, которые выполняются одновременно при свиче объектов
         [SerializeField] private SwitchEvent<bool> triggerOn;
         [SerializeField] private SwitchEvent<bool> triggerOff;
 
+        // Эвенты, которые выполняются при включении, и другие эвенты, выполняющиеся при выключении объекта
         private bool m_ignoreOnTriggers;
         [SerializeField] private OnSwitchEvent onTriggerOn;
         [SerializeField] private OnSwitchEvent onTriggerOff;
+
+        private static Action updateChild;
 
         public void SetIgnoreOnTriggers(bool value)
         {
             m_ignoreOnTriggers = value;
         }
 
+        private bool CheckParentState()
+        {
+            if (subparent == null) 
+                return true;
+            
+            var parent = subparent.Value();
+            if (parent == null) 
+                return true;
+            
+            var parentData = (bool) parent;
+            
+            return parentData;
+        }
+
         private void SetTurnedOn(bool value)
         {
-            m_isTurnedOn = value;
+            triggerOn.Invoke(value);
+            triggerOff.Invoke(!value);
 
-            triggerOn.Invoke(m_isTurnedOn);
-            triggerOff.Invoke(!m_isTurnedOn);
+            if (m_ignoreOnTriggers) 
+                return;
+            
+            if (value)
+                onTriggerOn.Invoke();
+            else
+                onTriggerOff.Invoke();
+        }
 
-            if (!m_ignoreOnTriggers)
+        public void UpdateData(bool needLoadData)
+        {
+            if (needLoadData)
             {
-                if (m_isTurnedOn)
+                var value = GetDataValue();
+
+                if (value != null)
                 {
-                    onTriggerOn.Invoke();
-                }
-                else
-                {
-                    onTriggerOff.Invoke();
+                    m_isTurnedOn = (bool) value;
                 }
             }
 
+            SetTurnedOn(CheckParentState() && m_isTurnedOn);
+
             SetDataValue(m_isTurnedOn);
         }
-        
+
         private void Awake()
         {
-            var value = GetDataValue();
-            
-            if (value != null)
-                m_isTurnedOn = (bool) value;
-            
-            SetTurnedOn(m_isTurnedOn);
+            UpdateData(true);
         }
 
         public void Switch()
         {
-            SetTurnedOn(!m_isTurnedOn);
+            m_isTurnedOn = !m_isTurnedOn;
+            UpdateData(false);
         }
     }
 }

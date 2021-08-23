@@ -31,18 +31,14 @@ GameObject:
   - component: {fileID: 4618413770384032188}
   - component: {fileID: 4618413770384032187}
   - component: {fileID: 4618413770384032186}
-  - component: {fileID: 4618413770384032185}
   - component: {fileID: 4618413770384032184}
   - component: {fileID: 4618413770384032135}
   - component: {fileID: 4618413770384032134}
   - component: {fileID: 4618413770384032133}
   - component: {fileID: 4618413770384032132}
-  - component: {fileID: 4618413770384032131}
   - component: {fileID: 4618413770384032130}
-  - component: {fileID: 4618413770384032129}
   - component: {fileID: 4618413770384032128}
   - component: {fileID: 4618413770384032143}
-  - component: {fileID: 4618413770384032142}
   - component: {fileID: 4618413770384032141}
   - component: {fileID: 4618413770384032140}
   - component: {fileID: 4618413770384032139}
@@ -1300,22 +1296,6 @@ MonoBehaviour:
   indentLevel: 0
   holder: {fileID: 11400000, guid: 22b461f759e7d3a47a5ad840796bd888, type: 2}
   variable: {fileID: 4618413770384032143}
---- !u!114 &4618413770384032185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4618413769188081857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6e360c78de55040b903c296409b034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 37
-  indentLevel: 0
-  holder: {fileID: 11400000, guid: 1d2a695cb31c56b4abda76a0f2bda319, type: 2}
-  variable: {fileID: 4618413770384032143}
 --- !u!114 &4618413770384032184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,22 +1376,6 @@ MonoBehaviour:
   indentLevel: 0
   holder: {fileID: 11400000, guid: 98d553d470cb0be4ebb5c54170f380c3, type: 2}
   variable: {fileID: 4618413770384032143}
---- !u!114 &4618413770384032131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4618413769188081857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6e360c78de55040b903c296409b034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 31
-  indentLevel: 0
-  holder: {fileID: 11400000, guid: 2bb428a19f36c1d4dbdcc52ff404494a, type: 2}
-  variable: {fileID: 4618413770384032143}
 --- !u!114 &4618413770384032130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1427,22 +1391,6 @@ MonoBehaviour:
   itemId: 30
   indentLevel: 0
   holder: {fileID: 11400000, guid: 8f3c552d1f3080440a95f8c8270b42d0, type: 2}
-  variable: {fileID: 4618413770384032143}
---- !u!114 &4618413770384032129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4618413769188081857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6e360c78de55040b903c296409b034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 29
-  indentLevel: 0
-  holder: {fileID: 11400000, guid: 8165a9e08ac92d649820f4662a64fd6f, type: 2}
   variable: {fileID: 4618413770384032143}
 --- !u!114 &4618413770384032128
 MonoBehaviour:
@@ -1475,22 +1423,6 @@ MonoBehaviour:
   scope: 0
   key: setValue
   value: 0
---- !u!114 &4618413770384032142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4618413769188081857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6e360c78de55040b903c296409b034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 27
-  indentLevel: 0
-  holder: {fileID: 11400000, guid: b544e10116a2b9a42820e5c1b25fb812, type: 2}
-  variable: {fileID: 4618413770384032143}
 --- !u!114 &4618413770384032141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1537,13 +1469,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 4618413770384032142}
+  - {fileID: 0}
   - {fileID: 4618413770384032186}
-  - {fileID: 4618413770384032185}
+  - {fileID: 0}
   - {fileID: 4618413770384032128}
-  - {fileID: 4618413770384032129}
+  - {fileID: 0}
   - {fileID: 4618413770384032130}
-  - {fileID: 4618413770384032131}
+  - {fileID: 0}
   - {fileID: 4618413770384032132}
   - {fileID: 4618413770384032134}
   - {fileID: 4618413770384032133}

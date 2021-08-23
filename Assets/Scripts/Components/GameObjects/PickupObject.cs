@@ -10,15 +10,12 @@ namespace Components.GameObjects
 
         public void Start()
         {
-            var value = GetDataValue();
-            if (value == null)
-                SetDataValue(m_isActive);
-            else
-                m_isActive = (bool) value;
-         
-            var o = gameObject;
-            m_gameObject ??= o;
+            m_isActive = GetDataValue(m_isActive);
+            
+            m_gameObject ??= gameObject;
             m_gameObject.SetActive(m_isActive);
+            
+            SetDataValue(m_isActive);
         }
 
         public void PickUp()

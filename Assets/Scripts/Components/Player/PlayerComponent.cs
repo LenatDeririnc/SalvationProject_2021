@@ -17,6 +17,10 @@ namespace Components.Player
         public static Action<bool> setEnableMovement;
         public static Action<bool> setEnableLook;
         public static Action<bool> setEnableInteract;
+        public static Action<float> setWalkSpeed;
+        public delegate float FloatAction();
+        
+        public static FloatAction walkSpeed;
 
         private void Init()
         {
@@ -28,6 +32,8 @@ namespace Components.Player
             setEnableMovement = m_movement.SetEnabled;
             setEnableLook = m_look.SetEnabled;
             setEnableInteract = m_interact.SetEnabled;
+            setWalkSpeed = m_movement.SetWalkSpeed;
+            walkSpeed = m_movement.WalkSpeed;
         }
 
         private void Start()

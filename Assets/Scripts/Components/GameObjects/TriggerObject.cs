@@ -10,22 +10,26 @@ namespace Components.GameObjects
     
     public class TriggerObject : MonoBehaviourDataRecorder
     {
-        [SerializeField] private bool canInteract = true;
+        [SerializeField] private bool m_canInteract = true;
 
-        [SerializeField] private LayerMask objectMask;
+        [SerializeField] private LayerMask m_objectMask;
 
         public Action<Collider> SendComponent;
 
         private void Awake()
         {
+            HideRenderMesh();
             SendComponent = null;
-            
-            var data = GetDataValue();
-            if (data != null)
-                canInteract = (bool) data;
+            m_canInteract = GetDataValue(m_canInteract);
         }
 
-        public bool CanInteract() => canInteract;
+        public bool CanInteract() => m_canInteract;
+
+        public void SetCanInteract(bool canInteract)
+        {
+            m_canInteract = canInteract;
+            SetDataValue(m_canInteract);
+        }
         
         public TriggerEvent OnEnter;
         public TriggerEvent OnStay;
@@ -41,7 +45,7 @@ namespace Components.GameObjects
 
             SendComponent?.Invoke(other);
 
-            if (((1 << other.gameObject.layer) & objectMask) != 0)
+            if (((1 << other.gameObject.layer) & m_objectMask) != 0)
                 @event.Invoke();
         }
         
@@ -58,6 +62,12 @@ namespace Components.GameObjects
         private void OnTriggerStay(Collider other)
         {
             TriggerAction(other, OnStay);
+        }
+
+        private void HideRenderMesh()
+        {
+            var mesh = GetComponent<MeshRenderer>();
+            mesh.enabled = false;
         }
 
     }

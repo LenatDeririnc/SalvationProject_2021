@@ -15,6 +15,21 @@ namespace Components.GameObjects
         [SerializeField] private bool m_disableInteractOnEnable = true;
         [SerializeField] private bool m_disableMovementOnEnable = true;
 
+        public void SetTarget(Transform newTarget)
+        {
+            target = newTarget;
+        }
+
+        public void SetDisableInteractOnEnable(bool value)
+        {
+            m_disableInteractOnEnable = value;
+        }
+
+        public void SetDisableMovementOnEnable(bool value)
+        {
+            m_disableMovementOnEnable = value;
+        }
+
         public void Enable()
         {
             var player = PlayerManager.player;

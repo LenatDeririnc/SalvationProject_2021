@@ -40,5 +40,15 @@ namespace Components.Player
 
             rb.AddForce(movVec * (forceScale * Time.deltaTime));
         }
+
+        public float WalkSpeed()
+        {
+            return forceScale;
+        }
+
+        public void SetWalkSpeed(float speed)
+        {
+            forceScale = speed;
+        }
     }
 }

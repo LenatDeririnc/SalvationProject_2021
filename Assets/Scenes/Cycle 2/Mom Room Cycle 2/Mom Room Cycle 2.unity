@@ -64200,12 +64200,20 @@ PrefabInstance:
       value: Blackout 2 3
       objectReference: {fileID: 0}
     - target: {fileID: 4618413769188081868, guid: ef448fd7ceb36ae46bb15b8522ba1f91, type: 3}
+      propertyPath: variables.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618413769188081868, guid: ef448fd7ceb36ae46bb15b8522ba1f91, type: 3}
+      propertyPath: variables.Array.data[4]
+      value: 
+      objectReference: {fileID: 2058271548}
+    - target: {fileID: 4618413769188081868, guid: ef448fd7ceb36ae46bb15b8522ba1f91, type: 3}
       propertyPath: selectedBlocks.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4618413769188081868, guid: ef448fd7ceb36ae46bb15b8522ba1f91, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4618413770384032137, guid: ef448fd7ceb36ae46bb15b8522ba1f91, type: 3}
       propertyPath: nodeRect.y
@@ -64464,12 +64472,14 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 25
+  itemId: 57
   blockName: SwitchOFFer (Copy)
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2058271539}
+  - {fileID: 2058271549}
+  - {fileID: 2058271550}
   - {fileID: 2058271538}
   suppressAllAutoSelections: 0
 --- !u!114 &2058271541 stripped
@@ -64549,6 +64559,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6e360c78de55040b903c296409b034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2058271548
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058271530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: setValue2
+  value: 1
+--- !u!114 &2058271549
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058271530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad6e360c78de55040b903c296409b034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  holder: {fileID: 11400000, guid: 692147664e72bd44288a35c6dd0c22e4, type: 2}
+  variable: {fileID: 2058271548}
+--- !u!114 &2058271550
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058271530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad6e360c78de55040b903c296409b034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  holder: {fileID: 11400000, guid: 3071cb172e603104ab8d5951eb510efa, type: 2}
+  variable: {fileID: 2058271548}
 --- !u!1001 &2076925685
 PrefabInstance:
   m_ObjectHideFlags: 0

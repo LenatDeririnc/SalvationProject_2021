@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3bf50ecd3e7470c8f828b0331f86133, type: 3}
-  m_Name: Dialogue_TV
+  m_Name: Window1done
   m_EditorClassIdentifier: 
-  m_sceneInfo: {fileID: 11400000, guid: ee352d3fbda556245b8eeb5deb962c68, type: 2}
+  m_sceneInfo: {fileID: 11400000, guid: a8009fa474359864193813a16975f982, type: 2}

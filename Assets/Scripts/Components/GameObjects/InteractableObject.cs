@@ -16,6 +16,8 @@ namespace Components.GameObjects
         
         public InteractEvent OnInteract;
 
+        [SerializeField] private bool hideMeshRenderer = false;
+
         public void Interact()
         {
             OnInteract.Invoke();
@@ -23,6 +25,9 @@ namespace Components.GameObjects
 
         public void Start()
         {
+            if (hideMeshRenderer)
+                transform.GetComponent<MeshRenderer>().enabled = false;
+            
             var value = GetDataValue();
             if (value == null)
             {

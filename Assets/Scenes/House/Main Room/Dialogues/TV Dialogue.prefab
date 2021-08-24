@@ -12,10 +12,8 @@ GameObject:
   - component: {fileID: 7011741649640266996}
   - component: {fileID: 5867019374026649709}
   - component: {fileID: 5867019374026649708}
-  - component: {fileID: 5867019374026649711}
   - component: {fileID: 5867019374026649710}
   - component: {fileID: 5867019374026649705}
-  - component: {fileID: 5867019374026649704}
   - component: {fileID: 5867019374026649706}
   - component: {fileID: 5867019374026649701}
   - component: {fileID: 5867019374026649700}
@@ -122,7 +120,8 @@ MonoBehaviour:
   - {fileID: 5867019374026649610}
   - {fileID: 5867019374026649604}
   - {fileID: 5867019374026649628}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 0}
   variables:
   - {fileID: 5867019374026649615}
   - {fileID: 5867019374026649612}
@@ -164,25 +163,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &5867019374026649711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6749416829562767851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 42
-  indentLevel: 0
-  messageTarget: 0
-  _message:
-    stringRef: {fileID: 0}
-    stringVal: DisableInput
-  messageOLD: 
 --- !u!114 &5867019374026649710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +188,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 5867019374026649711}
+  - {fileID: 0}
   - {fileID: 5867019374026649708}
   - {fileID: 5867019374026649700}
   suppressAllAutoSelections: 0
@@ -237,7 +217,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 5867019374026649704}
+  - {fileID: 0}
   - {fileID: 5867019374026649701}
   - {fileID: 5867019374026649601}
   - {fileID: 5867019374026649606}
@@ -246,25 +226,6 @@ MonoBehaviour:
   - {fileID: 5867019374026649609}
   - {fileID: 5867019374026649614}
   suppressAllAutoSelections: 0
---- !u!114 &5867019374026649704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6749416829562767851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 41
-  indentLevel: 0
-  messageTarget: 0
-  _message:
-    stringRef: {fileID: 0}
-    stringVal: DisableInput
-  messageOLD: 
 --- !u!114 &5867019374026649706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1621,8 +1582,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  anyVar: {fileID: 5867019374026649613}
   holder: {fileID: 11400000, guid: ca572809eeca27347a4d3f87cfc39029, type: 2}
+  variable: {fileID: 0}
 --- !u!114 &5867019374026649603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1637,8 +1598,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  anyVar: {fileID: 5867019374026649612}
   holder: {fileID: 11400000, guid: 35ab182666d04a545a88c4ab8c741161, type: 2}
+  variable: {fileID: 0}
 --- !u!114 &5867019374026649602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1653,8 +1614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  anyVar: {fileID: 5867019374026649615}
   holder: {fileID: 11400000, guid: 6de08a3aaf713294ab96015abc090fbf, type: 2}
+  variable: {fileID: 0}
 --- !u!114 &5867019374026649629
 MonoBehaviour:
   m_ObjectHideFlags: 0

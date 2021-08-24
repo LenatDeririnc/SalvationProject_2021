@@ -1991,10 +1991,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataHolder: {fileID: 11400000, guid: d3e3b2c48d9b95f4dbad0dd22232e854, type: 2}
-  canInteract: 1
-  objectMask:
+  m_canInteract: 1
+  m_objectMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   OnEnter:
     m_PersistentCalls:
       m_Calls:

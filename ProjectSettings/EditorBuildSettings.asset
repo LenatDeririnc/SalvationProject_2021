@@ -9,99 +9,99 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu/Main Menu.unity
     guid: c2cbcbe9414b5784c93f02654e2982e1
   - enabled: 1
-    path: Assets/Scenes/House/Main Room/Main Room.unity
+    path: Assets/Scenes/SampleScenes/House/Main Room/Main Room.unity
     guid: 108003571638f5c4288280bbd58636e6
   - enabled: 1
-    path: Assets/Scenes/House/First Floor/First Floor.unity
+    path: Assets/Scenes/SampleScenes/House/First Floor/First Floor.unity
     guid: 09cc0ec38bb398c4eab388da9f5bf995
   - enabled: 1
-    path: Assets/Scenes/House/Garage/Garage.unity
+    path: Assets/Scenes/SampleScenes/House/Garage/Garage.unity
     guid: 74f16b0417039b4439833f5e9a2b8d31
   - enabled: 1
-    path: Assets/Scenes/House/Childroom/Childroom.unity
+    path: Assets/Scenes/SampleScenes/House/Childroom/Childroom.unity
     guid: a8c3226f87a7a69409485d761e13742b
   - enabled: 1
-    path: Assets/Scenes/House/Room 2/Room 2.unity
+    path: Assets/Scenes/SampleScenes/House/Room 2/Room 2.unity
     guid: 32a7c49fc12bbc94180bdcf3630a0f14
   - enabled: 1
-    path: Assets/Scenes/House/Mom Room/Mom Room.unity
+    path: Assets/Scenes/SampleScenes/House/Mom Room/Mom Room.unity
     guid: 4f22a2a920ae1c343967a01221b3dfbf
   - enabled: 1
-    path: Assets/Scenes/House/Library/Library.unity
+    path: Assets/Scenes/SampleScenes/House/Library/Library.unity
     guid: fcf2b2d34f8232c43a472f5c593c82ef
   - enabled: 1
-    path: Assets/Scenes/House/Room 5/Room 5.unity
+    path: Assets/Scenes/SampleScenes/House/Room 5/Room 5.unity
     guid: e002b59e461015c4eb232c2602b67251
   - enabled: 1
-    path: Assets/Scenes/Cycle 4/Main Room Cycle 4/Main Room Cycle 4.unity
+    path: Assets/Scenes/Cycles/Cycle 4/Main Room Cycle 4.unity
     guid: 68cb3b552822df342b888a372fbff47a
   - enabled: 1
-    path: Assets/Scenes/House/Second Floor/Second Floor.unity
+    path: Assets/Scenes/SampleScenes/House/Second Floor/Second Floor.unity
     guid: 7d5f59482d292314cb56efb2f1092ed1
   - enabled: 1
-    path: Assets/Scenes/Scene 1/Scene 1.unity
+    path: Assets/Scenes/SampleScenes/Scene 1/Scene 1.unity
     guid: b0d738541b55317469a33131c000a411
   - enabled: 1
-    path: Assets/Scenes/Scene 2/Scene 2.unity
+    path: Assets/Scenes/SampleScenes/Scene 2/Scene 2.unity
     guid: 176d9bea2415fb2468143a6ed7dc3589
   - enabled: 1
-    path: Assets/Scenes/Cycle 1/Main Room Cycle 1/Main Room Cycle 1.unity
+    path: Assets/Scenes/Cycles/Cycle 1/Main Room Cycle 1.unity
     guid: 5d6aba66aae6e3b4e99c576ff8f24efc
   - enabled: 1
-    path: Assets/Scenes/Cycle 1/Second Floor Cycle 1/Second Floor Cycle 1.unity
+    path: Assets/Scenes/Cycles/Cycle 1/Second Floor Cycle 1.unity
     guid: 606baefd8a43c8f4da419c9e2aa518eb
   - enabled: 1
-    path: Assets/Scenes/Cycle 1/Garage Cycle 1/Garage Cycle 1.unity
+    path: Assets/Scenes/Cycles/Cycle 1/Garage Cycle 1.unity
     guid: cb768090e7bb00744b551e11bdb3d076
   - enabled: 1
-    path: Assets/Scenes/Cycle 4/Storage Cycle 4/Storage Cycle 4.unity
+    path: Assets/Scenes/Cycles/Cycle 4/Storage Cycle 4.unity
     guid: b6feb7577626b3e44a811158597c0b37
   - enabled: 1
-    path: Assets/Scenes/Cycle 4/First Floor Cycle 4/First Floor Cycle 4.unity
+    path: Assets/Scenes/Cycles/Cycle 4/First Floor Cycle 4.unity
     guid: a3550e70fb749264e869acb621b0a8e1
   - enabled: 1
-    path: Assets/Scenes/Cycle 1/First Floor Cycle 1/First Floor Cycle 1.unity
+    path: Assets/Scenes/Cycles/Cycle 1/First Floor Cycle 1.unity
     guid: 73359d1f5348c084daf6feb9f7073c85
   - enabled: 1
-    path: Assets/Scenes/Cycle 2/Garage Cycle 2/Garage Cycle 2.unity
+    path: Assets/Scenes/Cycles/Cycle 2/Garage Cycle 2.unity
     guid: 332ce1ef1772cd840a2fcf93ddfb189b
   - enabled: 1
-    path: Assets/Scenes/Cycle 2/Mom Room Cycle 2/Mom Room Cycle 2.unity
+    path: Assets/Scenes/Cycles/Cycle 2/Mom Room Cycle 2.unity
     guid: b84c031fe833caf4eb555ea690f55de2
   - enabled: 1
-    path: Assets/Scenes/Cycle 2/Childroom Cycle 2/Childroom Cycle 2.unity
+    path: Assets/Scenes/Cycles/Cycle 2/Childroom Cycle 2.unity
     guid: 80b0876df1fc17041a118ef7880ade2c
   - enabled: 1
-    path: Assets/Scenes/Cycle 3/First Floor Cycle 3/First Floor Cycle 3.unity
+    path: Assets/Scenes/Cycles/Cycle 3/First Floor Cycle 3.unity
     guid: f2b125ba65e40584f92654cc8be61787
   - enabled: 1
-    path: Assets/Scenes/Cycle 2/Second Floor Cycle 2/Second Floor Cycle 2.unity
+    path: Assets/Scenes/Cycles/Cycle 2/Second Floor Cycle 2.unity
     guid: 82160ae1f2120784fbe78d6daad48931
   - enabled: 1
-    path: Assets/Scenes/Cycle 3/Childroom Cycle 3/Childroom Cycle 3.unity
+    path: Assets/Scenes/Cycles/Cycle 3/Childroom Cycle 3.unity
     guid: 57ef62603a45ec0498c95a582d228e9a
   - enabled: 1
-    path: Assets/Scenes/Cycle 2/First Floor Cycle 2/First Floor Cycle 2.unity
+    path: Assets/Scenes/Cycles/Cycle 2/First Floor Cycle 2.unity
     guid: b26f56945831773468876464a841afa4
   - enabled: 1
-    path: Assets/Scenes/Cycle 3/Library Cycle 3/Library Cycle 3.unity
+    path: Assets/Scenes/Cycles/Cycle 3/Library Cycle 3.unity
     guid: 17d8b3392444559478d0e2daf5cc6602
   - enabled: 1
-    path: Assets/Scenes/Cycle 3/Main Room Cycle 3/Main Room Cycle 3.unity
+    path: Assets/Scenes/Cycles/Cycle 3/Main Room Cycle 3.unity
     guid: 05eef6a41cdbf3e478e05809c0e66cfb
   - enabled: 1
-    path: Assets/Scenes/Cycle 1/Childroom Cycle 1/Childroom Cycle 1.unity
+    path: Assets/Scenes/Cycles/Cycle 1/Childroom Cycle 1.unity
     guid: 06d51a919d116bb41ab9371d74caae5d
   - enabled: 1
-    path: Assets/Scenes/Cycle 3/Mom Room Cycle 3/Mom Room Cycle 3.unity
+    path: Assets/Scenes/Cycles/Cycle 3/Mom Room Cycle 3.unity
     guid: 3318f378ef39fb841aac1a343344120c
   - enabled: 1
-    path: Assets/Scenes/Cycle 3/Garage Cycle 3/Garage Cycle 3.unity
+    path: Assets/Scenes/Cycles/Cycle 3/Garage Cycle 3.unity
     guid: 04de37c115cdae0419f9ba607f593705
   - enabled: 1
-    path: Assets/Scenes/Cycle 3/Second Floor Cycle 3/Second Floor Cycle 3.unity
+    path: Assets/Scenes/Cycles/Cycle 3/Second Floor Cycle 3.unity
     guid: 78f840f6bef22904cb47251266ab766d
   - enabled: 1
-    path: Assets/Scenes/Cycle 2/Main Room Cycle 2/Main Room Cycle 2.unity
+    path: Assets/Scenes/Cycles/Cycle 2/Main Room Cycle 2.unity
     guid: 1c3560a1de1ba6d4a82c37479ff017f6
   m_configObjects: {}

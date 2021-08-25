@@ -12,7 +12,7 @@ namespace Components.GameObjects
     {
         [SerializeField] private bool m_canInteract = true;
 
-        [SerializeField] private LayerMask m_objectMask;
+        [SerializeField] private LayerMask m_objectMask = 0;
 
         public Action<Collider> SendComponent;
 

@@ -27,5 +27,11 @@ namespace Components.GameObjects
             isEnabled = isActive;
             UpdateActive();
         }
+        
+        public void SetDataActive(bool isActive)
+        {
+            isEnabled = isActive;
+            SetDataValue(isEnabled);
+        }
     }
 }

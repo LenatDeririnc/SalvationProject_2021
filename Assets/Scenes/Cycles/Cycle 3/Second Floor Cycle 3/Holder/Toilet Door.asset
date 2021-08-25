@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3bf50ecd3e7470c8f828b0331f86133, type: 3}
-  m_Name: Door
+  m_Name: Toilet Door
   m_EditorClassIdentifier: 
-  m_sceneInfo: {fileID: 11400000, guid: 23b4a6778d9fa01459b2cadfa92a0a7a, type: 2}
+  m_sceneInfo: {fileID: 11400000, guid: fe13db551d034b94686f39d0d3449b0a, type: 2}

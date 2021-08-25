@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000004, guid: 5dd0a8dbfd708ce4485b5a33c08095c8, type: 2}
   m_LightingSettings: {fileID: 1180687248}
 --- !u!196 &4
 NavMeshSettings:
@@ -1155,7 +1155,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  hideMeshRenderer: 1
 --- !u!64 &1088624664
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1675,7 +1674,6 @@ MonoBehaviour:
           m_StringArgument: PickedUpTools
           m_BoolArgument: 0
         m_CallState: 2
-  hideMeshRenderer: 1
 --- !u!65 &1182398320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4332,7 +4330,6 @@ MonoBehaviour:
           m_StringArgument: PickedUpTools
           m_BoolArgument: 0
         m_CallState: 2
-  hideMeshRenderer: 1
 --- !u!1 &1760700114
 GameObject:
   m_ObjectHideFlags: 0
@@ -4497,7 +4494,6 @@ MonoBehaviour:
           m_StringArgument: PickedUpPlanks
           m_BoolArgument: 0
         m_CallState: 2
-  hideMeshRenderer: 1
 --- !u!1001 &2028869033
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3bf50ecd3e7470c8f828b0331f86133, type: 3}
   m_Name: Door
   m_EditorClassIdentifier: 
-  m_sceneInfo: {fileID: 11400000, guid: c0d89c548466bad4eb817b2b3887b727, type: 2}
+  m_sceneInfo: {fileID: 11400000, guid: cda26135882bac14f8c73cc550a49cfb, type: 2}

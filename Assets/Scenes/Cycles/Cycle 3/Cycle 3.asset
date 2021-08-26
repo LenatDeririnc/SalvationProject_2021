@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3bf50ecd3e7470c8f828b0331f86133, type: 3}
-  m_Name: WindowDoneCount
+  m_Script: {fileID: 11500000, guid: 0dce2377efec8314b85375a9a092f9bb, type: 3}
+  m_Name: Cycle 3
   m_EditorClassIdentifier: 
-  m_sceneInfo: {fileID: 11400000, guid: b0f975659c8cfb4408c1e4f19a07df8e, type: 2}
+  sceneName: Main Room Cycle 3
+  spawns:
+  - {fileID: 11400000, guid: 84193c1000ab218458ea3a44c623abec, type: 2}
+  - {fileID: 11400000, guid: e70b3b9dca055d646a56fa9d452fb509, type: 2}

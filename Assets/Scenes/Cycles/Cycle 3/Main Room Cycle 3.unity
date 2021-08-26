@@ -3376,6 +3376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataHolder: {fileID: 11400000, guid: eb6fe84657e3a5740bdafd4ab0678ad7, type: 2}
+  m_transform: {fileID: 0}
   isEnabled: 0
 --- !u!1 &1371980501
 GameObject:
@@ -3727,6 +3728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataHolder: {fileID: 11400000, guid: b2d3b6097dab55e40a0705a94fc02ce3, type: 2}
+  m_transform: {fileID: 0}
   isEnabled: 0
 --- !u!1 &1417535718
 GameObject:
@@ -3886,6 +3888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataHolder: {fileID: 11400000, guid: 3bbe8ddaf86b1ee4d9f8fc46a7cd224d, type: 2}
+  m_transform: {fileID: 0}
   isEnabled: 0
 --- !u!1001 &1532817518
 PrefabInstance:
@@ -12364,10 +12367,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1973994015}
-  selectedCommands:
-  - {fileID: 1973994070}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1973994049}
   - {fileID: 1973994048}

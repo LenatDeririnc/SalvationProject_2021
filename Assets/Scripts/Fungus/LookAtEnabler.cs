@@ -18,6 +18,8 @@ namespace Fungus
         private void Enable()
         {
             var player = PlayerManager.player;
+            if (!player.LookComponent().Enabled())
+                player.LookComponent().SetEnabled(true);
             if (m_disableInteractOnEnable)
                 player.InteractComponent().SetEnabled(false);
             if (m_disableMovementOnEnable)
@@ -28,6 +30,8 @@ namespace Fungus
         private void Disable()
         {
             var player = PlayerManager.player;
+            if (!player.LookComponent().Enabled())
+                player.LookComponent().SetEnabled(true);
             if (m_disableInteractOnEnable)
                 player.InteractComponent().SetEnabled(true);
             if (m_disableMovementOnEnable)

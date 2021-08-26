@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5176451912644020584}
   - component: {fileID: 8425735077383106883}
   - component: {fileID: 1608631388593040629}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerSample 1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -82,6 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756660b00c0b0bb4d9d4189953127d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_enabled: 1
   actionButton: Fire1
   playerCamera: {fileID: 2732319109984179738}
 --- !u!114 &7434096702557182626
@@ -150,7 +151,7 @@ GameObject:
   - component: {fileID: 2732319109984179738}
   - component: {fileID: 2732319109984179739}
   - component: {fileID: 6501751345622458960}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +246,7 @@ GameObject:
   - component: {fileID: 6233262404260079066}
   - component: {fileID: 9034989813826410439}
   - component: {fileID: 1390980469260005403}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,6 +323,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2732319109942748989}
     m_Modifications:
+    - target: {fileID: 386516501623220902, guid: ba143265daa804a48b92731cd3e8112a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1883957741899660609, guid: ba143265daa804a48b92731cd3e8112a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2505465878638533070, guid: ba143265daa804a48b92731cd3e8112a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5152721572957953381, guid: ba143265daa804a48b92731cd3e8112a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -406,9 +419,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5607514566218797009, guid: ba143265daa804a48b92731cd3e8112a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7557074985107167292, guid: ba143265daa804a48b92731cd3e8112a, type: 3}
       propertyPath: m_Name
       value: GameLayout
+      objectReference: {fileID: 0}
+    - target: {fileID: 7557074985107167292, guid: ba143265daa804a48b92731cd3e8112a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba143265daa804a48b92731cd3e8112a, type: 3}

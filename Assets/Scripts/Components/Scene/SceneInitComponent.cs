@@ -6,6 +6,7 @@ using Helpers;
 using Interfaces.Player;
 using Managers.Data;
 using Managers.Player;
+using Managers.UI;
 using ScriptableObjects.Scenes;
 using UnityEngine;
 
@@ -66,6 +67,8 @@ namespace Components.Scene
 
         private void LoadFadeOutComponent()
         {
+            FadeInOutManager.Clear();
+            
             if (FindObjectOfType<FadeOutComponent>() != null)
                 return;
 

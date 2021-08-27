@@ -8,6 +8,7 @@ namespace Managers.UI
     public class FadeInOutManager
     {
         private static CanvasGroup group;
+        private static MonoBehaviour lastReference;
         private static Coroutine currentCoroutine;
 
         public static void Clear()
@@ -26,39 +27,51 @@ namespace Managers.UI
         public static void FadeIn(MonoBehaviour reference, float speed)
         {
             if (currentCoroutine != null)
-                reference.StopCoroutine(currentCoroutine);
+            {
+                lastReference.StopCoroutine(currentCoroutine);
+            }
             
-            currentCoroutine = reference.StartCoroutine(FadeInCoroutine(speed));
+            lastReference = reference;
+
+            currentCoroutine = lastReference.StartCoroutine(FadeInCoroutine(speed));
         }
         
         public static UnityAction fadeOutSignal;
         public static void FadeOut(MonoBehaviour reference, float speed)
         {
             if (currentCoroutine != null)
-                reference.StopCoroutine(currentCoroutine);
-            
-            currentCoroutine = reference.StartCoroutine(FadeOutCoroutine(speed));
+            {
+                lastReference.StopCoroutine(currentCoroutine);
+            }
+
+            lastReference = reference;
+
+            currentCoroutine = lastReference.StartCoroutine(FadeOutCoroutine(speed));
         }
         
         public static IEnumerator FadeOutCoroutine(float speed)
         {
-            for (float ft = 1f; ft > 0; Mathf.Clamp(ft -= speed, 0, 1))
+            float ft;
+            for (ft = 1f; ft > 0; Mathf.Clamp(ft -= speed, 0, 1))
             {
                 @group.alpha = ft;
                 yield return new WaitForSeconds(0.1f);
             }
             
+            @group.alpha = ft;
             FadeInOutManager.fadeOutSignal?.Invoke();
         }
         
         public static IEnumerator FadeInCoroutine(float speed)
         {
-            for (float ft = 0f; ft < 1; Mathf.Clamp(ft += speed, 0, 1))
+            float ft;
+            for (ft = 0f; ft < 1; Mathf.Clamp(ft += speed, 0, 1))
             {
                 @group.alpha = ft;
                 yield return new WaitForSeconds(0.1f);
             }
 
+            @group.alpha = ft;
             FadeInOutManager.fadeInSignal?.Invoke();
         }                            
     }

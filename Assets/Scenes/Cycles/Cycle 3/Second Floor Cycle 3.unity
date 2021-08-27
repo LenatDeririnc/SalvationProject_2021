@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh142112
+  m_Name: pb_Mesh182802
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1713,7 +1713,7 @@ MonoBehaviour:
   m_canInteract: 1
   m_objectMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 257
   OnEnter:
     m_PersistentCalls:
       m_Calls:
@@ -2542,7 +2542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataHolder: {fileID: 11400000, guid: e21c2bca4cddb434998cef2a519fcea2, type: 2}
   m_transform: {fileID: 0}
-  isEnabled: 1
+  isEnabled: 0
 --- !u!1 &969510510
 GameObject:
   m_ObjectHideFlags: 0
@@ -4005,6 +4005,88 @@ Transform:
   m_Father: {fileID: 1907131451}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1686560400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686560401}
+  - component: {fileID: 1686560402}
+  m_Layer: 0
+  m_Name: LightingIsOn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1686560401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686560400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1907131451}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1686560402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686560400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2885263fafa4f1747a9cd3e2d7f1255a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataHolder: {fileID: 11400000, guid: 6f73d54ad40431e4d8051833f8acf632, type: 2}
+  m_isTurnedOn: 1
+  subparent: {fileID: 0}
+  triggerOn:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1760848074}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  triggerOff:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1760848073}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTriggerOn:
+    m_PersistentCalls:
+      m_Calls: []
+  onTriggerOff:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1745584859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4373,8 +4455,8 @@ MonoBehaviour:
   OnEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 962007810}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+      - m_Target: {fileID: 962007812}
+        m_TargetAssemblyTypeName: Components.GameObjects.ObjectEnabler, Assembly-CSharp
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -4447,7 +4529,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 621243342}
         m_TargetAssemblyTypeName: Components.Functions.PlayerSpeedChanger, Assembly-CSharp
-        m_MethodName: SetDefaultSpeed
+        m_MethodName: SetDefaultSpeedOnTiming
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4471,13 +4553,25 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1617574336}
         m_TargetAssemblyTypeName: Components.Functions.FadeInOutEnabler, Assembly-CSharp
-        m_MethodName: FadeInOnTiming
+        m_MethodName: FadeOutOnTiming
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0.1
+          m_FloatArgument: 0.02
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1686560402}
+        m_TargetAssemblyTypeName: Components.GameObjects.SwitchObject, Assembly-CSharp
+        m_MethodName: SwitchOn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -4678,6 +4772,16 @@ PrefabInstance:
       objectReference: {fileID: 1010704214}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2d16046cfaf4374683664bcabd8d7f9, type: 3}
+--- !u!1 &1760848073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7976570096952614487, guid: e2d16046cfaf4374683664bcabd8d7f9, type: 3}
+  m_PrefabInstance: {fileID: 1760848072}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1760848074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7976570095684199687, guid: e2d16046cfaf4374683664bcabd8d7f9, type: 3}
+  m_PrefabInstance: {fileID: 1760848072}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1827258281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5038,6 +5142,7 @@ Transform:
   - {fileID: 621243343}
   - {fileID: 491356929}
   - {fileID: 1617574337}
+  - {fileID: 1686560401}
   m_Father: {fileID: 1400894284}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -97,6 +97,18 @@ namespace Components.GameObjects
             m_isTurnedOn = !m_isTurnedOn;
             UpdateData(false);
         }
+
+        public void SwitchOn()
+        {
+            m_isTurnedOn = true;
+            UpdateData(false);
+        }
+
+        public void SwitchOff()
+        {
+            m_isTurnedOn = false;
+            UpdateData(false);
+        }
     }
 }
 

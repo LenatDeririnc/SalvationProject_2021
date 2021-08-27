@@ -949,7 +949,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  hideMeshRenderer: 0
 --- !u!114 &207377324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1236,7 +1235,7 @@ MonoBehaviour:
   m_canInteract: 1
   m_objectMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 257
   OnEnter:
     m_PersistentCalls:
       m_Calls:
@@ -1812,7 +1811,6 @@ MonoBehaviour:
           m_StringArgument: Exit
           m_BoolArgument: 0
         m_CallState: 2
-  hideMeshRenderer: 1
 --- !u!65 &514120094
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2808,7 +2806,6 @@ MonoBehaviour:
           m_StringArgument: NoNeed
           m_BoolArgument: 0
         m_CallState: 2
-  hideMeshRenderer: 0
 --- !u!64 &733548507
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5236,7 +5233,6 @@ MonoBehaviour:
           m_StringArgument: Toilet
           m_BoolArgument: 0
         m_CallState: 2
-  hideMeshRenderer: 0
 --- !u!43 &1503024496
 Mesh:
   m_ObjectHideFlags: 0
@@ -6404,7 +6400,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-9710
+  m_Name: pb_Mesh185744
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7208,7 +7204,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  hideMeshRenderer: 0
 --- !u!65 &2034978754
 BoxCollider:
   m_ObjectHideFlags: 0

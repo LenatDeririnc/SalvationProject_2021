@@ -1,3 +1,4 @@
+using System;
 using Interfaces.Player;
 using UnityEngine;
 
@@ -13,6 +14,13 @@ namespace Components.Player
         public Rigidbody rb;
         public Transform getForwardFrom;
         public float forceScale;
+
+        private float defaultForceScale;
+
+        private void Awake()
+        {
+            defaultForceScale = forceScale;
+        }
 
         void Update()
         {
@@ -44,6 +52,11 @@ namespace Components.Player
         public float WalkSpeed()
         {
             return forceScale;
+        }
+
+        public float DefaultWalkSpeed()
+        {
+            return defaultForceScale;
         }
 
         public void SetWalkSpeed(float speed)

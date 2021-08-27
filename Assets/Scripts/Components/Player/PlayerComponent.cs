@@ -21,6 +21,7 @@ namespace Components.Player
         public delegate float FloatAction();
         
         public static FloatAction walkSpeed;
+        public static FloatAction defaultWalkSpeed;
 
         private void Init()
         {
@@ -34,6 +35,7 @@ namespace Components.Player
             setEnableInteract = m_interact.SetEnabled;
             setWalkSpeed = m_movement.SetWalkSpeed;
             walkSpeed = m_movement.WalkSpeed;
+            defaultWalkSpeed = m_movement.DefaultWalkSpeed;
         }
 
         private void Start()

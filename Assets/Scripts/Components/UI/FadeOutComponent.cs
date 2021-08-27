@@ -10,11 +10,10 @@ namespace Components.UI
     public class FadeOutComponent : MonoBehaviour
     {
         [SerializeField] private CanvasGroup group;
-        
+
         private void Start()
         {
             FadeInOutManager.SetcanvasGroup(@group);
-            FadeInOutManager.FadeOut(this, 0.1f);
         }
     }
 }

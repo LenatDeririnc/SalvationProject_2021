@@ -1,12 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
+using ScriptableObjects.Scenes;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace Managers.UI
 {
-    public class FadeInOutManager
+    public static class FadeInOutManager
     {
+        public static float DefaultDoorFadeInSpeed() => 0.1f;
+        
         private static CanvasGroup group;
         private static MonoBehaviour lastReference;
         private static Coroutine currentCoroutine;
@@ -73,6 +75,16 @@ namespace Managers.UI
 
             @group.alpha = ft;
             FadeInOutManager.fadeInSignal?.Invoke();
-        }                            
+        }  
+        
+        public static GameObject LoadFadeOutComponent(InitSceneData initSceneData)
+        {
+            FadeInOutManager.Clear();
+
+            var fadeInOutGO = initSceneData.FadeOutObject as GameObject;
+            Debug.Assert(fadeInOutGO != null, "not assigned FadeOutObject information in current InitSceneData object");
+
+            return fadeInOutGO;
+        }
     }
 }

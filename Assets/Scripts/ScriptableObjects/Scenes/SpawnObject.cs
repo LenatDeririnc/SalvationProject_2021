@@ -10,5 +10,10 @@ namespace ScriptableObjects.Scenes
 
         public string SpawnId() => spawnId;
         public SceneInfo Scene() => scene;
+
+        public override string ToString()
+        {
+            return SpawnId();
+        }
     }
 }

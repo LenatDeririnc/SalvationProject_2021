@@ -46,28 +46,19 @@ namespace Components.Scene
                 Debug.LogWarning("can't find SpawnerManagerComponent");
             }
         }
-
-        private void LoadFadeOutComponent()
-        {
-            FadeInOutManager.Clear();
-            
-            if (FindObjectOfType<FadeOutComponent>() != null)
-                return;
-
-            var fadeOutComponent = Instantiate(initSceneData.FadeOutObject) as GameObject;
-            Debug.Assert(fadeOutComponent != null, "not assigned FadeOutObject information in current InitSceneData object");
-        }
-
+        
         private void Awake()
         {
             Init();
 
-            var players = FindObjectOfType<PlayerComponent>();
-            
-            if (players == null && !doNotLoadPlayer)
-                Instantiate(PlayerManager.LoadPlayer(initSceneData, spawnerManagerComponent));
-            
-            LoadFadeOutComponent();
+            if (FindObjectOfType<PlayerComponent>() == null && !doNotLoadPlayer)
+            {
+                var player = Instantiate(PlayerManager.LoadPlayer(initSceneData, spawnerManagerComponent));
+                PlayerManager.SetPlayer(player);
+            }
+
+            if (FindObjectOfType<FadeOutComponent>() == null)
+                Instantiate(FadeInOutManager.LoadFadeOutComponent(initSceneData));
         }
     }
 }

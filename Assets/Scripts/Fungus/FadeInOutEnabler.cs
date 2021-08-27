@@ -11,7 +11,7 @@ namespace Fungus
         Out
     }
     
-    [CommandInfo("Cutscene", "Fade In/Out Enabler", "Enable/Disable Fade In/Out")]
+    [CommandInfo("Cutscene", "Fade Enabler", "Enable Fade")]
     public class FadeInOutEnabler : Command
     {
         public FadeType fadeType;
@@ -42,6 +42,16 @@ namespace Fungus
             }
             
             Continue();
+        }
+        
+        public override string GetSummary()
+        {
+            return $"'Fade{fadeType}' => speed: {speed}";
+        }
+        
+        public override Color GetButtonColor()
+        {
+            return new Color32(255, 181, 33, 255);
         }
     }
 }

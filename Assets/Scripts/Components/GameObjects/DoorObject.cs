@@ -5,6 +5,7 @@ using Components.Scene;
 using Components.UI;
 using Helpers;
 using Managers.Player;
+using Managers.Scene;
 using Managers.UI;
 using ScriptableObjects.Scenes;
 using UnityEngine;
@@ -25,17 +26,14 @@ namespace Components.GameObjects
 
         private void ChangeScene()
         {
-            var sceneName = spawnRelocation.Scene().name;
-        
-            SpawnerHelper.SetCurrentSpawner(spawnRelocation);
-            SceneManager.LoadScene(spawnRelocation.Scene().SceneName());
+            SceneLoaderManager.LoadSceneAndSpawnPlayer(spawnRelocation);
         }
 
         public void OpenDoor()
         {
             Debug.Assert(spawnRelocation != null, $"spawnRelocation not assigned for object \"{gameObject.name}\"");
             FadeInOutManager.fadeInSignal += ChangeScene;
-            FadeInOutManager.FadeIn(this, 0.1f);
+            FadeInOutManager.FadeIn(this, FadeInOutManager.DefaultDoorFadeInSpeed());
 
             PlayerManager.SetEnableLook(false);
             PlayerManager.SetEnableMovement(false);

@@ -55,13 +55,16 @@ namespace Managers.Player
         {
             PlayerManager.player = player;
         }
+        
+        public static void SetPlayer(GameObject player)
+        {
+            PlayerManager.player = player.GetComponent<IPlayer>();
+        }
 
         public static GameObject LoadPlayer(InitSceneData initSceneData, SpawnerManagerComponent spawnerManagerComponent)
         {
             var player = initSceneData.player as GameObject;
             Debug.Assert(player != null, "not assigned player information in current InitSceneData object");
-
-            PlayerManager.SetPlayer(player.GetComponent<IPlayer>());
 
             var playerTransform = player.transform;
             
@@ -94,32 +97,68 @@ namespace Managers.Player
 
         public static void SetEnableMovement(bool state)
         {
+            if (setEnableMovement == null)
+            {
+                Debug.LogWarning("can't set movement enable, player has not created!");
+                return;
+            }
+
             setEnableMovement.Invoke(state);
         }
 
         public static void SetEnableLook(bool state)
         {
+            if (setEnableLook == null)
+            {
+                Debug.LogWarning("can't set look enable, player has not created!");
+                return;
+            }
+            
             setEnableLook.Invoke(state);
         }
 
         public static void SetEnableInteract(bool state)
         {
+            if (setEnableInteract == null)
+            {
+                Debug.LogWarning("can't set interact enable, player has not created!");
+                return;
+            }
+            
             setEnableInteract.Invoke(state);
         }
 
 
         public static void SetWalkSpeed(float value)
         {
+            if (setWalkSpeed == null)
+            {
+                Debug.LogWarning("can't set walk speed, player has not created!");
+                return;
+            }
+            
             setWalkSpeed.Invoke(value);
         }
 
         public static float WalkSpeed()
         {
+            if (walkSpeed == null)
+            {
+                Debug.LogWarning("can't get walk speed, player has not created!");
+                return 0;
+            }
+            
             return walkSpeed.Invoke();
         }
 
         public static float DefaultWalkSpeed()
         {
+            if (defaultWalkSpeed == null)
+            {
+                Debug.LogWarning("can't get default walk speed, player has not created!");
+                return 0;
+            }
+            
             return defaultWalkSpeed.Invoke();
         }
     }

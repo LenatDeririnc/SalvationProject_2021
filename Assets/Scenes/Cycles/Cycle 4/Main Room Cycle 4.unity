@@ -1815,7 +1815,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-189554
+  m_Name: pb_Mesh-394390
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3239,7 +3239,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-189578
+  m_Name: pb_Mesh-394414
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3403,7 +3403,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-189542
+  m_Name: pb_Mesh-394378
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4873,7 +4873,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-189518
+  m_Name: pb_Mesh-394354
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6020,7 +6020,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-189566
+  m_Name: pb_Mesh-394402
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6258,6 +6258,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ee352d3fbda556245b8eeb5deb962c68, type: 2}
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
+      propertyPath: loadPlayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: initSceneData
       value: 
       objectReference: {fileID: 11400000, guid: 58404879d54ed084e983d8b766ba7e6a, type: 2}
@@ -6388,7 +6392,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-189530
+  m_Name: pb_Mesh-394366
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

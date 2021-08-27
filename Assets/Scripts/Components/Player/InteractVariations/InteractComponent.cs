@@ -3,7 +3,7 @@ using Components.UI;
 using Interfaces.Player;
 using UnityEngine;
 
-namespace Components.Player
+namespace Components.Player.InteractVariations
 {
     [RequireComponent(typeof(IPlayer))]
     public class InteractComponent : MonoBehaviour, IInteract

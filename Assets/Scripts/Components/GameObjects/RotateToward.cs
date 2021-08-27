@@ -24,7 +24,8 @@ namespace Components.GameObjects
 
         public void SetTargetToPlayer()
         {
-            m_target = PlayerManager.player.Transform();
+            Debug.Assert(PlayerManager.Player() != null, "can't find player in player manager");
+            m_target = PlayerManager.Player().Transform();
         }
 
         private void FixedUpdate()

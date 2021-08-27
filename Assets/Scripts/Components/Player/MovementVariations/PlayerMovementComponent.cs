@@ -1,8 +1,7 @@
-using System;
 using Interfaces.Player;
 using UnityEngine;
 
-namespace Components.Player
+namespace Components.Player.MovementVariations
 {
     [RequireComponent(typeof(IPlayer))]
     public class PlayerMovementComponent : MonoBehaviour, IMovement

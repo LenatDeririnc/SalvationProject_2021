@@ -2,7 +2,7 @@ using Interfaces.Player;
 using Managers.Player.CameraRotateBehaviours;
 using UnityEngine;
 
-namespace Components.Player
+namespace Components.Player.LookVariations
 {
     [RequireComponent(typeof(IPlayer))]
     public class PlayerLookComponent : MonoBehaviour, ILook

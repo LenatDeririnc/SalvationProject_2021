@@ -1,9 +1,6 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Components.Player;
-using UnityEditor;
-using UnityEngine;
+using Components.Player.PlayerVariations;
+using Managers.Player;
 
 namespace Fungus
 {
@@ -21,13 +18,13 @@ namespace Fungus
         
         private void SetSpeed(float speed)
         {
-            PlayerComponent.setWalkSpeed.Invoke(speed);
+            PlayerManager.SetWalkSpeed(speed);
         }
 
         private void SetDefaultSpeed()
         {
-            var defaultWalkSpeed = PlayerComponent.defaultWalkSpeed.Invoke();
-            PlayerComponent.setWalkSpeed.Invoke(defaultWalkSpeed);
+            var defaultWalkSpeed = PlayerManager.DefaultWalkSpeed();
+            PlayerManager.SetWalkSpeed(defaultWalkSpeed);
         }
 
         public override void OnEnter()

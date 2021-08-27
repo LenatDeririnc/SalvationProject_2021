@@ -8544,6 +8544,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 58404879d54ed084e983d8b766ba7e6a, type: 2}
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
+      propertyPath: doNotLoadPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: spawnerManagerComponent
       value: 
       objectReference: {fileID: 0}

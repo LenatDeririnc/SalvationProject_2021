@@ -1,6 +1,8 @@
 using System;
+using System.ComponentModel;
 using Components.Functions;
 using Components.Player;
+using Components.Player.PlayerVariations;
 using Components.UI;
 using Helpers;
 using Interfaces.Player;
@@ -17,6 +19,7 @@ namespace Components.Scene
         public SceneInfo sceneInfo;
         public InitSceneData initSceneData;
         public SpawnerManagerComponent spawnerManagerComponent;
+        public bool doNotLoadPlayer = false;
 
         private void Init()
         {
@@ -40,29 +43,8 @@ namespace Components.Scene
                 if (spawnerManagerComponent != null) 
                     return;
                 
-                Debug.LogError("can't find SpawnerManagerComponent");
-                throw new Exception();
+                Debug.LogWarning("can't find SpawnerManagerComponent");
             }
-        }
-        
-        private void LoadPlayer()
-        {
-            if (FindObjectOfType<PlayerComponent>() != null)
-                return;
-
-            var player = Instantiate(initSceneData.player) as GameObject;
-            Debug.Assert(player != null, "not assigned player information in current InitSceneData object");
-
-            PlayerManager.player = player.GetComponent<IPlayer>();
-
-            var playerTransform = player.transform;
-            
-            var spawners = SpawnerHelper.ComponentsToSpawnObjects(spawnerManagerComponent.spawnerComponents);
-            var spawner = SpawnerHelper.CurrentSpawner(spawners);
-            
-            var currentSpawnerTransform = SpawnerHelper.SpawnerTransformBySpawnId(spawnerManagerComponent.spawnerComponents, spawner.SpawnId());
-
-            TransformHelper.CopyTransform(ref playerTransform, currentSpawnerTransform);
         }
 
         private void LoadFadeOutComponent()
@@ -79,7 +61,12 @@ namespace Components.Scene
         private void Awake()
         {
             Init();
-            LoadPlayer();
+
+            var players = FindObjectOfType<PlayerComponent>();
+            
+            if (players == null && !doNotLoadPlayer)
+                Instantiate(PlayerManager.LoadPlayer(initSceneData, spawnerManagerComponent));
+            
             LoadFadeOutComponent();
         }
     }

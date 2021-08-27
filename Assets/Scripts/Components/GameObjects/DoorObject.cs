@@ -1,8 +1,10 @@
 using System;
 using Components.Player;
+using Components.Player.PlayerVariations;
 using Components.Scene;
 using Components.UI;
 using Helpers;
+using Managers.Player;
 using Managers.UI;
 using ScriptableObjects.Scenes;
 using UnityEngine;
@@ -35,9 +37,9 @@ namespace Components.GameObjects
             FadeInOutManager.fadeInSignal += ChangeScene;
             FadeInOutManager.FadeIn(this, 0.1f);
 
-            PlayerComponent.setEnableLook.Invoke(false);
-            PlayerComponent.setEnableMovement.Invoke(false);
-            PlayerComponent.setEnableInteract.Invoke(false);
+            PlayerManager.SetEnableLook(false);
+            PlayerManager.SetEnableMovement(false);
+            PlayerManager.SetEnableInteract(false);
         }
     }
 }

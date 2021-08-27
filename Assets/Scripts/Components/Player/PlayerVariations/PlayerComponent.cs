@@ -1,10 +1,9 @@
 using System;
-using Components.Functions;
 using Interfaces.Player;
+using Managers.Player;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
-namespace Components.Player
+namespace Components.Player.PlayerVariations
 {
     public class PlayerComponent : MonoBehaviour, IPlayer
     {
@@ -13,16 +12,6 @@ namespace Components.Player
         private IMovement m_movement;
         private IInteract m_interact;
 
-        public static Action onPlayerSpawn;
-        public static Action<bool> setEnableMovement;
-        public static Action<bool> setEnableLook;
-        public static Action<bool> setEnableInteract;
-        public static Action<float> setWalkSpeed;
-        public delegate float FloatAction();
-        
-        public static FloatAction walkSpeed;
-        public static FloatAction defaultWalkSpeed;
-
         private void Init()
         {
             m_look ??= GetComponent<ILook>();
@@ -30,18 +19,17 @@ namespace Components.Player
             m_interact ??= GetComponent<IInteract>();
             m_transform ??= transform;
             
-            setEnableMovement = m_movement.SetEnabled;
-            setEnableLook = m_look.SetEnabled;
-            setEnableInteract = m_interact.SetEnabled;
-            setWalkSpeed = m_movement.SetWalkSpeed;
-            walkSpeed = m_movement.WalkSpeed;
-            defaultWalkSpeed = m_movement.DefaultWalkSpeed;
+            PlayerManager.setEnableMovement = m_movement.SetEnabled;
+            PlayerManager.setEnableLook = m_look.SetEnabled;
+            PlayerManager.setEnableInteract = m_interact.SetEnabled;
+            PlayerManager.setWalkSpeed = m_movement.SetWalkSpeed;
+            PlayerManager.walkSpeed = m_movement.WalkSpeed;
+            PlayerManager.defaultWalkSpeed = m_movement.DefaultWalkSpeed;
         }
 
         private void Start()
         {
-            if (onPlayerSpawn != null)
-                onPlayerSpawn.Invoke();
+            PlayerManager.OnPlayerSpawn();
         }
 
         private void Awake()

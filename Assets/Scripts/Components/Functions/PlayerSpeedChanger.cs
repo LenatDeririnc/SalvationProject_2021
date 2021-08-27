@@ -1,6 +1,5 @@
-using System;
 using System.Collections;
-using Components.Player;
+using Components.Player.PlayerVariations;
 using Managers.Player;
 using UnityEngine;
 
@@ -13,7 +12,7 @@ namespace Components.Functions
 
         public void SetSpeed(float speed)
         {
-            PlayerComponent.setWalkSpeed.Invoke(speed);
+            PlayerManager.SetWalkSpeed(speed);
         }
 
         public void SetCurrentTime(float time)
@@ -33,12 +32,12 @@ namespace Components.Functions
 
         public void SetDefaultSpeed()
         {
-            PlayerComponent.setWalkSpeed.Invoke(defaultSpeed);
+            PlayerManager.SetWalkSpeed(defaultSpeed);
         }
 
         private void Start()
         {
-            defaultSpeed = PlayerComponent.walkSpeed.Invoke();
+            defaultSpeed = PlayerManager.WalkSpeed();
         }
 
         private IEnumerator SpeedChangerOnTiming(float time, float speed)

@@ -50,6 +50,11 @@ namespace Managers.UI
 
             currentCoroutine = lastReference.StartCoroutine(FadeOutCoroutine(speed));
         }
+
+        public static void SetFade(float value)
+        {
+            @group.alpha = value;
+        }
         
         public static IEnumerator FadeOutCoroutine(float speed)
         {

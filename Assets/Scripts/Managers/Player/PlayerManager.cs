@@ -17,8 +17,7 @@ namespace Managers.Player
     public static class PlayerManager
     {
         private static IPlayer player;
-        private static IPlayer gameCamera;
-        
+
         public static Action onPlayerSpawn;
         public static Action<bool> setEnableMovement;
         public static Action<bool> setEnableLook;
@@ -29,6 +28,11 @@ namespace Managers.Player
         
         public static FloatAction walkSpeed;
         public static FloatAction defaultWalkSpeed;
+        
+        private static IPlayer gameCamera;
+        public static Action onCameraSpawn;
+        public static Action<Vector3> setCameraPosition;
+        public static Action<Quaternion> setCameraRotation;
 
         public static void SwitchView(Views view)
         {
@@ -93,6 +97,12 @@ namespace Managers.Player
         {
             if (PlayerManager.onPlayerSpawn != null)
                 PlayerManager.onPlayerSpawn.Invoke();
+        }
+
+        public static void OnGameCameraSpawn()
+        {
+            if (PlayerManager.onCameraSpawn != null)
+                PlayerManager.onCameraSpawn.Invoke();
         }
 
         public static void SetEnableMovement(bool state)
@@ -160,6 +170,28 @@ namespace Managers.Player
             }
             
             return defaultWalkSpeed.Invoke();
+        }
+
+        public static void SetCameraPosition(Vector3 position)
+        {
+            if (setCameraPosition == null)
+            {
+                Debug.LogWarning("can't set camera position, camera has not created!");
+                return;
+            }
+            
+            setCameraPosition.Invoke(position);
+        }
+
+        public static void SetCameraRotation(Quaternion rotation)
+        {
+            if (setCameraRotation == null)
+            {
+                Debug.LogWarning("can't set camera rotation, camera has not created!");
+                return;
+            }
+            
+            setCameraRotation.Invoke(rotation);
         }
     }
 }

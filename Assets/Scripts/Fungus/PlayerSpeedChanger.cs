@@ -1,6 +1,6 @@
 using System;
-using Components.Player.PlayerVariations;
 using Managers.Player;
+using UnityEngine;
 
 namespace Fungus
 {
@@ -42,6 +42,24 @@ namespace Fungus
             }
             
             Continue();
+        }
+        
+        public override string GetSummary()
+        {
+            switch (actionType)
+            {
+                case PlayerSpeedActionType.SetSpeed:
+                    return $"'New speed = {speed}'";
+                case PlayerSpeedActionType.SetDefaultSpeed:
+                    return $"'New speed = default'";
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
+        
+        public override Color GetButtonColor()
+        {
+            return new Color32(255, 181, 33, 255);
         }
     }
     

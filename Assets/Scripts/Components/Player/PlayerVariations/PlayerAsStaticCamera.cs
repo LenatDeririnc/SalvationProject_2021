@@ -17,15 +17,33 @@ namespace Components.Player.PlayerVariations
             m_transform ??= transform;
             m_look ??= GetComponent<ILook>();
             m_movement ??= GetComponent<IMovement>();
+
+            PlayerManager.setCameraPosition = SetPosition;
+            PlayerManager.setCameraRotation = SetRotation;
             
             PlayerManager.SwitchView(Views.GameCameraView);
             PlayerManager.SetGameCamera(this);
             // m_interact ??= GetComponent<IInteract>();
         }
 
+        private void SetPosition(Vector3 position)
+        {
+            m_transform.position = position;
+        }
+
+        private void SetRotation(Quaternion rotation)
+        {
+            m_transform.rotation = rotation;
+        }
+
         private void Awake()
         {
             Init();
+        }
+
+        private void Start()
+        {
+            PlayerManager.OnGameCameraSpawn();
         }
 
         public Transform Transform()

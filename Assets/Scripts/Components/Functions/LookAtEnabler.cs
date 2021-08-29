@@ -32,7 +32,9 @@ namespace Components.GameObjects
 
         public void Enable()
         {
-            var player = PlayerManager.player;
+            var player = PlayerManager.Player();
+            if (!player.LookComponent().Enabled())
+                player.LookComponent().SetEnabled(true);
             if (m_disableInteractOnEnable)
                 player.InteractComponent().SetEnabled(false);
             if (m_disableMovementOnEnable)
@@ -42,7 +44,9 @@ namespace Components.GameObjects
 
         public void Disable()
         {
-            var player = PlayerManager.player;
+            var player = PlayerManager.Player();
+            if (!player.LookComponent().Enabled())
+                player.LookComponent().SetEnabled(true);
             if (m_disableInteractOnEnable)
                 player.InteractComponent().SetEnabled(true);
             if (m_disableMovementOnEnable)

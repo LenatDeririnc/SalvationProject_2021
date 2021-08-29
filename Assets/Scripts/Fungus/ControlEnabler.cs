@@ -1,6 +1,6 @@
 using System;
-using Components.Player;
-using MoonSharp.Interpreter.Loaders;
+using Components.Player.PlayerVariations;
+using Managers.Player;
 using UnityEngine;
 
 namespace Fungus
@@ -21,24 +21,24 @@ namespace Fungus
         
         public void SetEnableMovement(bool enable)
         {
-            PlayerComponent.setEnableMovement.Invoke(enable);
+            PlayerManager.SetEnableMovement(enable);
         }
 
         public void SetEnableLook(bool enable)
         {
-            PlayerComponent.setEnableLook.Invoke(enable);
+            PlayerManager.SetEnableLook(enable);
         }
 
         public void SetEnableInteract(bool enable)
         {
-            PlayerComponent.setEnableInteract.Invoke(enable);
+            PlayerManager.SetEnableInteract(enable);
         }
 
         public void SetEnabled(bool enable)
         {
-            PlayerComponent.setEnableLook.Invoke(enable);
-            PlayerComponent.setEnableMovement.Invoke(enable);
-            PlayerComponent.setEnableInteract.Invoke(enable);
+            PlayerManager.SetEnableLook(enable);
+            PlayerManager.SetEnableMovement(enable);
+            PlayerManager.SetEnableInteract(enable);
         }
 
         public override void OnEnter()

@@ -5,14 +5,17 @@ namespace Components.GameObjects
 {
     public class ObjectEnabler : MonoBehaviourDataRecorder
     {
-        [SerializeField] private bool isEnabled;
+        [SerializeField] private Transform m_transform;
         private GameObject m_gameObject;
+        [SerializeField] private bool isEnabled;
 
         private void Awake()
         {
             m_gameObject = gameObject;
-            isEnabled = GetDataValue(isEnabled);
+            if (m_transform != null)
+                m_gameObject = m_transform.gameObject;
             
+            isEnabled = GetDataValue(isEnabled);
             UpdateActive();
         }
 

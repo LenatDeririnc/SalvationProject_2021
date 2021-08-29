@@ -8,7 +8,7 @@ namespace Components.Player
     {
         private IPlayer m_player;
 
-        private IPlayer Player => m_player ??= PlayerManager.player;
+        private IPlayer Player => m_player ??= PlayerManager.Player();
         
         void SetMoveEnabled(bool state)
         {

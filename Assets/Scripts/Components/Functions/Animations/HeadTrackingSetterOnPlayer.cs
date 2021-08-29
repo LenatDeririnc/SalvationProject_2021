@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Components.Animation;
 using Components.Player;
+using Components.Player.PlayerVariations;
 using Managers.Player;
 using UnityEngine;
 
@@ -13,7 +14,7 @@ namespace Components.Functions.Animations
 
         private void SetTarget()
         {
-            var target = PlayerManager.player.Transform();
+            var target = PlayerManager.Player().Transform();
             foreach (var track in headTracks)
             {
                 track.SetTracking(target);
@@ -22,8 +23,8 @@ namespace Components.Functions.Animations
 
         private void Awake()
         {
-            PlayerComponent.onPlayerSpawn -= SetTarget;
-            PlayerComponent.onPlayerSpawn += SetTarget;
+            PlayerManager.onPlayerSpawn -= SetTarget;
+            PlayerManager.onPlayerSpawn += SetTarget;
         }
     }
 }

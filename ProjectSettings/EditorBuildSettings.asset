@@ -9,6 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu/Main Menu.unity
     guid: c2cbcbe9414b5784c93f02654e2982e1
   - enabled: 1
+    path: Assets/Scenes/Cycles/End/Titles.unity
+    guid: ee97c3c08209a144fa1c58de8519c49c
+  - enabled: 1
+    path: Assets/Scenes/Cycles/Cycle 1/TV world Cycle 1.unity
+    guid: 51e330d405aa73f4d8d4392c71a242b1
+  - enabled: 1
+    path: Assets/Scenes/Cycles/Cycle 2/TV world Cycle 2.unity
+    guid: 8ddea615ca8f9ae40bf7c7cbabe33617
+  - enabled: 1
+    path: Assets/Scenes/Cycles/Cycle 3/TV world Cycle 3.unity
+    guid: 6159923fd42b1ff4cbcaaa0fe62e43df
+  - enabled: 1
+    path: Assets/Scenes/Cycles/Cycle 4/TV world Cycle 4.unity
+    guid: 9981f4728d339ce45bb82e4837654fbb
+  - enabled: 1
+    path: Assets/Scenes/Cycles/Cycle 4/Main Room Cycle 4 Cutscene.unity
+    guid: 0fab2ca1740200c4dbec4509810c49d6
+  - enabled: 1
+    path: Assets/Scenes/Cycles/End/Main Room Cycle 5.unity
+    guid: 25d601936e076e547ada541895d1e232
+  - enabled: 1
     path: Assets/Scenes/SampleScenes/House/Main Room/Main Room.unity
     guid: 108003571638f5c4288280bbd58636e6
   - enabled: 1

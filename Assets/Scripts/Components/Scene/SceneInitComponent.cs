@@ -1,11 +1,14 @@
 using System;
+using System.ComponentModel;
 using Components.Functions;
 using Components.Player;
+using Components.Player.PlayerVariations;
 using Components.UI;
 using Helpers;
 using Interfaces.Player;
 using Managers.Data;
 using Managers.Player;
+using Managers.UI;
 using ScriptableObjects.Scenes;
 using UnityEngine;
 
@@ -16,6 +19,7 @@ namespace Components.Scene
         public SceneInfo sceneInfo;
         public InitSceneData initSceneData;
         public SpawnerManagerComponent spawnerManagerComponent;
+        public bool doNotLoadPlayer = false;
 
         private void Init()
         {
@@ -39,45 +43,22 @@ namespace Components.Scene
                 if (spawnerManagerComponent != null) 
                     return;
                 
-                Debug.LogError("can't find SpawnerManagerComponent");
-                throw new Exception();
+                Debug.LogWarning("can't find SpawnerManagerComponent");
             }
         }
         
-        private void LoadPlayer()
-        {
-            if (FindObjectOfType<PlayerComponent>() != null)
-                return;
-
-            var player = Instantiate(initSceneData.player) as GameObject;
-            Debug.Assert(player != null, "not assigned player information in current InitSceneData object");
-
-            PlayerManager.player = player.GetComponent<IPlayer>();
-
-            var playerTransform = player.transform;
-            
-            var spawners = SpawnerHelper.ComponentsToSpawnObjects(spawnerManagerComponent.spawnerComponents);
-            var spawner = SpawnerHelper.CurrentSpawner(spawners);
-            
-            var currentSpawnerTransform = SpawnerHelper.SpawnerTransformBySpawnId(spawnerManagerComponent.spawnerComponents, spawner.SpawnId());
-
-            TransformHelper.CopyTransform(ref playerTransform, currentSpawnerTransform);
-        }
-
-        private void LoadFadeOutComponent()
-        {
-            if (FindObjectOfType<FadeOutComponent>() != null)
-                return;
-
-            var fadeOutComponent = Instantiate(initSceneData.FadeOutObject) as GameObject;
-            Debug.Assert(fadeOutComponent != null, "not assigned FadeOutObject information in current InitSceneData object");
-        }
-
         private void Awake()
         {
             Init();
-            LoadPlayer();
-            LoadFadeOutComponent();
+
+            if (FindObjectOfType<PlayerComponent>() == null && !doNotLoadPlayer)
+            {
+                var player = Instantiate(PlayerManager.LoadPlayer(initSceneData, spawnerManagerComponent));
+                PlayerManager.SetPlayer(player);
+            }
+
+            if (FindObjectOfType<FadeOutComponent>() == null)
+                Instantiate(FadeInOutManager.LoadFadeOutComponent(initSceneData));
         }
     }
 }

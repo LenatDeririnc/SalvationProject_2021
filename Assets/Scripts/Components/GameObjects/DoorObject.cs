@@ -1,8 +1,12 @@
 using System;
 using Components.Player;
+using Components.Player.PlayerVariations;
 using Components.Scene;
 using Components.UI;
 using Helpers;
+using Managers.Player;
+using Managers.Scene;
+using Managers.UI;
 using ScriptableObjects.Scenes;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,27 +22,22 @@ namespace Components.GameObjects
         {
             m_fadeOutComponent ??= FindObjectOfType<FadeOutComponent>();
             Debug.Assert(m_fadeOutComponent != null, "can't find FadeOutComponent in scene");
-
-            FadeOutComponent.fadeOutSignal = null;
         }
 
         private void ChangeScene()
         {
-            var sceneName = spawnRelocation.Scene().name;
-        
-            SpawnerHelper.SetCurrentSpawner(spawnRelocation);
-            SceneManager.LoadScene(spawnRelocation.Scene().SceneName());
+            SceneLoaderManager.LoadSceneAndSpawnPlayer(spawnRelocation);
         }
 
         public void OpenDoor()
         {
             Debug.Assert(spawnRelocation != null, $"spawnRelocation not assigned for object \"{gameObject.name}\"");
-            FadeOutComponent.fadeOutSignal += ChangeScene;
-            StartCoroutine(m_fadeOutComponent.FadeIn(0.1f));
-            
-            PlayerComponent.setEnableLook.Invoke(false);
-            PlayerComponent.setEnableMovement.Invoke(false);
-            PlayerComponent.setEnableInteract.Invoke(false);
+            FadeInOutManager.fadeInSignal += ChangeScene;
+            FadeInOutManager.FadeIn(this, FadeInOutManager.DefaultDoorFadeInSpeed());
+
+            PlayerManager.SetEnableLook(false);
+            PlayerManager.SetEnableMovement(false);
+            PlayerManager.SetEnableInteract(false);
         }
     }
 }

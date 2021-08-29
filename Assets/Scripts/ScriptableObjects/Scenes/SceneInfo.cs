@@ -11,5 +11,10 @@ namespace ScriptableObjects.Scenes
         [SerializeField] private SpawnObject[] spawns;
 
         public string SceneName() => sceneName;
+
+        public override string ToString()
+        {
+            return sceneName;
+        }
     }   
 }

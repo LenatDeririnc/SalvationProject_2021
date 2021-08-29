@@ -559,6 +559,10 @@ GameObject:
   - component: {fileID: 753746687}
   - component: {fileID: 753746686}
   - component: {fileID: 753746685}
+  - component: {fileID: 753746698}
+  - component: {fileID: 753746697}
+  - component: {fileID: 753746696}
+  - component: {fileID: 753746699}
   m_Layer: 0
   m_Name: TV Dialogue (1)
   m_TagString: Untagged
@@ -878,7 +882,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 438.33978
     y: 426.89972
-    width: 66.043945
+    width: 106.043945
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -903,6 +907,7 @@ MonoBehaviour:
   - {fileID: 753746690}
   - {fileID: 753746676}
   - {fileID: 753746675}
+  - {fileID: 753746699}
   - {fileID: 753746674}
   - {fileID: 753746673}
   suppressAllAutoSelections: 0
@@ -986,7 +991,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 441.20068
     y: 324.3508
-    width: 61.648346
+    width: 101.648346
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -996,6 +1001,9 @@ MonoBehaviour:
   eventHandler: {fileID: 753746694}
   commandList:
   - {fileID: 753746672}
+  - {fileID: 753746697}
+  - {fileID: 753746698}
+  - {fileID: 753746696}
   - {fileID: 753746691}
   - {fileID: 753746692}
   suppressAllAutoSelections: 0
@@ -1101,6 +1109,75 @@ MonoBehaviour:
   indentLevel: 0
   newPosition: {fileID: 1906565319}
   changeRotation: 1
+--- !u!114 &753746696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 122
+  indentLevel: 0
+  volume: 1
+  fadeDuration: 4
+  waitUntilFinished: 0
+--- !u!114 &753746697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 121
+  indentLevel: 0
+  volume: 0
+  fadeDuration: 1
+  waitUntilFinished: 1
+--- !u!114 &753746698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 614cb636ff8e6404fb945b8190c6cd4d, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 0
+--- !u!114 &753746699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  volume: 0
+  fadeDuration: 5
+  waitUntilFinished: 0
 --- !u!114 &753746711
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1171,9 +1248,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 753746684}
-  selectedCommands:
-  - {fileID: 753746678}
+  - {fileID: 753746689}
+  selectedCommands: []
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}

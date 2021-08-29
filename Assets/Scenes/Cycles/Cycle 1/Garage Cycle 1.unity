@@ -1528,6 +1528,10 @@ PrefabInstance:
       propertyPath: selectedBlocks.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7697974886696477462, guid: f663794b4d84b784aa8fa0fb1bb9e189, type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7697974886696477467, guid: f663794b4d84b784aa8fa0fb1bb9e189, type: 3}
       propertyPath: m_Name
       value: FadeOnLevelLoad 1

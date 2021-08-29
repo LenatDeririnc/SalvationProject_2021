@@ -8610,6 +8610,7 @@ GameObject:
   - component: {fileID: 1966107547}
   - component: {fileID: 1966107546}
   - component: {fileID: 1966107545}
+  - component: {fileID: 1966107551}
   m_Layer: 0
   m_Name: FadeOnLevelLoad (4)
   m_TagString: Untagged
@@ -8676,7 +8677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 269.20068
+    x: 270.20068
     y: 320.3508
     width: 103
     height: 40
@@ -8687,6 +8688,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1966107548}
   commandList:
+  - {fileID: 1966107551}
   - {fileID: 1966107546}
   suppressAllAutoSelections: 0
 --- !u!114 &1966107548
@@ -8728,8 +8730,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1966107547}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1966107545}
@@ -8751,6 +8752,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966107543}
   m_Mesh: {fileID: -5495902117074765545, guid: 1be2500effd005149bb0b42be0f82670, type: 3}
+--- !u!114 &1966107551
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966107543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  indentLevel: 0
+  frameCount:
+    integerRef: {fileID: 0}
+    integerVal: 2
 --- !u!1 &1978731596
 GameObject:
   m_ObjectHideFlags: 0

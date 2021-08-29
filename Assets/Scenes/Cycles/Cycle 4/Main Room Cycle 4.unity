@@ -2000,10 +2000,9 @@ GameObject:
   - component: {fileID: 825457784}
   - component: {fileID: 825457783}
   - component: {fileID: 825457792}
-  - component: {fileID: 825457794}
-  - component: {fileID: 825457793}
-  - component: {fileID: 825457796}
   - component: {fileID: 825457795}
+  - component: {fileID: 825457793}
+  - component: {fileID: 825457794}
   m_Layer: 0
   m_Name: Pentagram
   m_TagString: Untagged
@@ -2187,7 +2186,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 825457790}
   selectedCommands:
-  - {fileID: 825457795}
+  - {fileID: 825457793}
   variables:
   - {fileID: 825457778}
   - {fileID: 825457777}
@@ -2365,7 +2364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 244
+    x: 242
     y: 257
     width: 88
     height: 40
@@ -2377,10 +2376,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 825457792}
-  - {fileID: 825457793}
-  - {fileID: 825457794}
-  - {fileID: 825457796}
   - {fileID: 825457795}
+  - {fileID: 825457794}
+  - {fileID: 825457793}
   suppressAllAutoSelections: 0
 --- !u!114 &825457791
 MonoBehaviour:
@@ -2735,7 +2733,22 @@ MonoBehaviour:
   m_disableMovementOnEnable: 1
 --- !u!114 &825457793
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825457773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f6018a69e34fa58e4ca2fcbc4b886c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  scene: {fileID: 11400000, guid: 349183dad722eee418acbd8f5e86aa99, type: 2}
+--- !u!114 &825457794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2745,60 +2758,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
+  itemId: 20
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 4
   durationOLD: 0
---- !u!114 &825457794
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825457773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  description: 
-  targetObject: {fileID: 407708486}
-  targetComponentAssemblyName: Components.GameObjects.ObjectEnabler, Assembly-CSharp,
-    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: ObjectEnabler
-  targetMethod: SetActive
-  targetMethodText: 'SetActive (Boolean): Void'
-  methodParameters:
-  - objValue:
-      typeAssemblyname: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      typeFullname: System.Boolean
-      intValue: 0
-      boolValue: 1
-      floatValue: 0
-      stringValue: 
-      colorValue: {r: 0, g: 0, b: 0, a: 0}
-      gameObjectValue: {fileID: 0}
-      materialValue: {fileID: 0}
-      objectValue: {fileID: 0}
-      spriteValue: {fileID: 0}
-      textureValue: {fileID: 0}
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
 --- !u!114 &825457795
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2812,24 +2780,6 @@ MonoBehaviour:
   indentLevel: 0
   fadeType: 0
   time: 3
---- !u!114 &825457796
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825457773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 17
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
 --- !u!1 &827026199
 GameObject:
   m_ObjectHideFlags: 0
@@ -3871,6 +3821,7 @@ GameObject:
   - component: {fileID: 1109246056}
   - component: {fileID: 1109246055}
   - component: {fileID: 1109246054}
+  - component: {fileID: 1109246060}
   m_Layer: 0
   m_Name: FadeOnLevelLoad (6)
   m_TagString: Untagged
@@ -3948,6 +3899,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1109246057}
   commandList:
+  - {fileID: 1109246060}
   - {fileID: 1109246055}
   suppressAllAutoSelections: 0
 --- !u!114 &1109246057
@@ -3991,7 +3943,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1109246056}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1109246060}
   variables:
   - {fileID: 1109246054}
   description: 
@@ -4012,6 +3965,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109246052}
   m_Mesh: {fileID: -5495902117074765545, guid: 1be2500effd005149bb0b42be0f82670, type: 3}
+--- !u!114 &1109246060
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109246052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 92
+  indentLevel: 0
+  frameCount:
+    integerRef: {fileID: 0}
+    integerVal: 2
 --- !u!1001 &1117768599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4223,10 +4193,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1135621511}
-  selectedCommands:
-  - {fileID: 1135621512}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -4332,7 +4300,7 @@ MonoBehaviour:
   indentLevel: 0
   frameCount:
     integerRef: {fileID: 0}
-    integerVal: 2
+    integerVal: 4
 --- !u!114 &1135621522
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6152,7 +6120,7 @@ PrefabInstance:
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: sceneInfo
       value: 
-      objectReference: {fileID: 11400000, guid: ee352d3fbda556245b8eeb5deb962c68, type: 2}
+      objectReference: {fileID: 11400000, guid: b9cafa176febf5c4bb561ce2ec59c96c, type: 2}
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: loadPlayer
       value: 1

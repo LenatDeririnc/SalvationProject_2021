@@ -907,6 +907,19 @@ MonoBehaviour:
   - m_Rig: {fileID: 1232214631}
     m_Active: 1
   m_Effectors: []
+--- !u!114 &324649476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324649473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba754d217698e84bb840d761106d8f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateOnStart: SEATING_IN_STUDIO
 --- !u!1 &364219202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,7 +1243,7 @@ PrefabInstance:
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: sceneInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 5ff4b5bad767af34381ab2e9d1bc0580, type: 2}
+      objectReference: {fileID: 11400000, guid: 25609b81e0219b04da48f8fd6d905f60, type: 2}
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: doNotFadeIn
       value: 1
@@ -1384,7 +1397,6 @@ GameObject:
   - component: {fileID: 753746693}
   - component: {fileID: 753746674}
   - component: {fileID: 753746673}
-  - component: {fileID: 753746717}
   m_Layer: 0
   m_Name: TV Dialogue (1)
   m_TagString: Untagged
@@ -2614,7 +2626,6 @@ MonoBehaviour:
   - {fileID: 753746674}
   - {fileID: 753746682}
   - {fileID: 753746693}
-  - {fileID: 753746717}
   - {fileID: 753746681}
   - {fileID: 753746680}
   - {fileID: 753746679}
@@ -2824,26 +2835,6 @@ MonoBehaviour:
   indentLevel: 0
   newPosition: {fileID: 1906565319}
   changeRotation: 1
---- !u!114 &753746717
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 753746670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 99
-  indentLevel: 0
-  spriteRenderer: {fileID: 0}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  affectChildren: 1
-  visibleOLD: 0
 --- !u!114 &753746718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2871,7 +2862,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 753746707}
   selectedCommands:
-  - {fileID: 753746717}
+  - {fileID: 753746681}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}

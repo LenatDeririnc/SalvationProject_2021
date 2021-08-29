@@ -4513,6 +4513,7 @@ GameObject:
   - component: {fileID: 1966107547}
   - component: {fileID: 1966107546}
   - component: {fileID: 1966107545}
+  - component: {fileID: 1966107551}
   m_Layer: 0
   m_Name: FadeOnLevelLoad (5)
   m_TagString: Untagged
@@ -4590,6 +4591,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1966107548}
   commandList:
+  - {fileID: 1966107551}
   - {fileID: 1966107546}
   suppressAllAutoSelections: 0
 --- !u!114 &1966107548
@@ -4631,8 +4633,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1966107547}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1966107545}
@@ -4654,6 +4655,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966107543}
   m_Mesh: {fileID: -5495902117074765545, guid: 1be2500effd005149bb0b42be0f82670, type: 3}
+--- !u!114 &1966107551
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966107543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  indentLevel: 0
+  frameCount:
+    integerRef: {fileID: 0}
+    integerVal: 2
 --- !u!1001 &2028869033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4752,7 +4770,7 @@ PrefabInstance:
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: sceneInfo
       value: 
-      objectReference: {fileID: 11400000, guid: 7594986e6bca3b04c8c5f35457cc168e, type: 2}
+      objectReference: {fileID: 11400000, guid: 206c098f596e4804998e4ea68ae923aa, type: 2}
     - target: {fileID: 8855950744481216336, guid: c8633d35884923e41be70d76f9697fd2, type: 3}
       propertyPath: initSceneData
       value: 

@@ -1677,7 +1677,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: de73fed4d9550414d9fe460d6fa6059a, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1728,12 +1728,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  storyText: 'Muppet: Silly, i AM helping everyone! I have already helped countless
+  storyText: 'Seth: Silly, i AM helping everyone! I have already helped countless
     people, and you are just another lucky child of god, who gets the special treatment!'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a55fde937c0a77c4a9ad73411ab4c5c5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1756,12 +1756,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: But hush now, it was hard for your nerves today already! Go to sleep
-    now, i will guard it with my life! After you wake up, there is much to be done!
+  storyText: 'But hush now, it was hard for your nerves today already! '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 07316f41e5279e141b2b68d62abf494f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1789,7 +1788,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 95e008c66fe3abd4e9bd5afe32abafd8, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1837,7 +1836,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: cfd27d672cfbb7e49b1b325fbca00f48, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1862,7 +1861,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1088.8992
     y: 641.80225
-    width: 81.86813
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1914,7 +1913,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5de0e7f7c24a10d449ba9de8adf9418b, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1939,7 +1938,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 939.8992
     y: 640.80225
-    width: 84.06593
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1965,9 +1964,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 915.8992
+    x: 916.99805
     y: 790.42993
-    width: 143.40659
+    width: 103.40659
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1981,6 +1980,7 @@ MonoBehaviour:
   - {fileID: 633276668}
   - {fileID: 633276676}
   - {fileID: 633276677}
+  - {fileID: 6749416828950200637}
   - {fileID: 6749416828950200635}
   - {fileID: 6749416828950200628}
   - {fileID: 6749416828950200634}
@@ -2025,7 +2025,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0214893c300eec046b596046d26421da, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2050,7 +2050,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 791.8992
     y: 641.80225
-    width: 90.65934
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2101,7 +2101,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e05be23a456b92941a83d08fc9d891d0, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2178,11 +2178,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: 'Muppet: Why? Missus, this is an emergency! And a big one i might say!'
+  storyText: 'Seth: Why? Missus, this is an emergency! And a big one i might say!'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e66048ccc2872e8429a8eef550655b03, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: d7cfe6ee5ae931049877518dd90e6d4e, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2237,7 +2237,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8bb32df530ff61b42a2814628987c2c7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2262,7 +2262,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 888.8992
     y: 499.80225
-    width: 167.58241
+    width: 127.58241
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2385,7 +2385,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.77084
     y: 485.98425
-    width: 106.04395
+    width: 66.04395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4571,7 +4571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 72.59439, y: -388.34625}
+  scrollPos: {x: -120.81211, y: -29.005419}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 431
@@ -4582,8 +4582,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 633276685}
+  selectedCommands:
+  - {fileID: 6749416828950200637}
   variables:
   - {fileID: 5867019373411989754}
   - {fileID: 5867019373411989753}
@@ -4641,9 +4643,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 419.18726
+    x: 416.98944
     y: 845.70685
-    width: 92.85715
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4788,6 +4790,7 @@ GameObject:
   - component: {fileID: 6749416828950200634}
   - component: {fileID: 6749416828950200628}
   - component: {fileID: 6749416828950200636}
+  - component: {fileID: 6749416828950200637}
   m_Layer: 0
   m_Name: TV Dialogue
   m_TagString: Untagged
@@ -4842,7 +4845,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 665.27075
     y: 266.86237
-    width: 113.73627
+    width: 73.73627
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5319,7 +5322,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 870.22595
     y: 367.19016
-    width: 197.25275
+    width: 157.25275
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6143,6 +6146,34 @@ MonoBehaviour:
   frameCount:
     integerRef: {fileID: 0}
     integerVal: 4
+--- !u!114 &6749416828950200637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749416828950200606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 151
+  indentLevel: 0
+  storyText: Go to sleep now, i will guard it with my life! After you wake up, there
+    is much to be done!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: cce8c30b398609e4ba8695dc25bed614, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!33 &7011741649145533441
 MeshFilter:
   m_ObjectHideFlags: 0

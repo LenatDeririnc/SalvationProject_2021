@@ -2351,8 +2351,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 5867019373411989660}
-  selectedCommands: []
+  - {fileID: 6749416828950200614}
+  selectedCommands:
+  - {fileID: 6749416828950200621}
   variables:
   - {fileID: 6749416828950200615}
   description: 
@@ -2408,7 +2409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 600.18726
     y: 564.70685
-    width: 93
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2437,7 +2438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 456.45593
     y: 525.0064
-    width: 75
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2469,7 +2470,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 441.81958
     y: 617.1428
-    width: 101
+    width: 61
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2669,6 +2670,7 @@ GameObject:
   - component: {fileID: 6749416828950200615}
   - component: {fileID: 6749416828950200619}
   - component: {fileID: 6749416828950200620}
+  - component: {fileID: 6749416828950200621}
   m_Layer: 0
   m_Name: TV Dialogue
   m_TagString: Untagged
@@ -2818,7 +2820,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 604.2007
     y: 656.3508
-    width: 110
+    width: 70
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2828,6 +2830,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 6749416828950200613}
+  - {fileID: 6749416828950200621}
   - {fileID: 6749416828950200612}
   - {fileID: 6749416828950200610}
   - {fileID: 6749416828950200619}
@@ -2933,6 +2936,34 @@ MonoBehaviour:
   frameCount:
     integerRef: {fileID: 0}
     integerVal: 4
+--- !u!114 &6749416828950200621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749416828950200606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  storyText: 'TV:In today''s news: there was an event of greatest importance today!
+    Jonathan Wozzus gave us his inaugural speech, in which he....'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!33 &7011741649145533441
 MeshFilter:
   m_ObjectHideFlags: 0

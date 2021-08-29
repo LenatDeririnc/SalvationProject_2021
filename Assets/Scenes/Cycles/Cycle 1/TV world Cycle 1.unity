@@ -457,7 +457,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1278
+  m_Name: pb_Mesh-47568
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1013,7 +1013,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1314
+  m_Name: pb_Mesh-47604
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1397,6 +1397,10 @@ GameObject:
   - component: {fileID: 753746693}
   - component: {fileID: 753746674}
   - component: {fileID: 753746673}
+  - component: {fileID: 753746720}
+  - component: {fileID: 753746717}
+  - component: {fileID: 753746722}
+  - component: {fileID: 753746721}
   m_Layer: 0
   m_Name: TV Dialogue (1)
   m_TagString: Untagged
@@ -1484,7 +1488,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5fdf80d6e15f13b479b402f179cc0a16, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1512,7 +1516,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f9f99ab08000a8a4584d68c44e0fb03a, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1536,11 +1540,11 @@ MonoBehaviour:
   itemId: 82
   indentLevel: 0
   storyText: 'The typical satanic object includes: satanic audiotapes, satanic posters,
-    or satanic books. Beware, these can be hidden in plain sight!'
+    or satanic books. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: b52fc55db024e054fa89958575d66f82, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1568,7 +1572,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 628c1edd08dd1924ea899af21a3c4f75, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1595,7 +1599,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 72f13f8fcc902584fada704a02132699, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1622,7 +1626,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 77f1a4e9b28f94443bff0b9b578740b7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1650,7 +1654,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9f0824f2d170c3c41bb3c4a0fe4a1307, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1677,7 +1681,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 01da054e2f4515942bb5bd52d8bfdd30, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1704,7 +1708,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 04dd7785fa95628418fc192f2359c6ab, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1811,7 +1815,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 441.20068
     y: 324.3508
-    width: 103
+    width: 63
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2140,7 +2144,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 583.7007
     y: 533.3508
-    width: 92
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2320,7 +2324,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 444.70068
     y: 532.3508
-    width: 94
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2500,7 +2504,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 295.20068
     y: 537.3508
-    width: 83
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2531,7 +2535,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 52ea64cf7680b3d4f9395eba71bda76c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2558,7 +2562,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 750ec0e764dbf034dafd333460d3e57f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2585,14 +2589,14 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 042b81cbed85da94c943442ff602203f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &753746707
 MonoBehaviour:
@@ -2610,7 +2614,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 445.81958
     y: 617.1428
-    width: 101
+    width: 61
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2631,9 +2635,13 @@ MonoBehaviour:
   - {fileID: 753746679}
   - {fileID: 753746678}
   - {fileID: 753746677}
+  - {fileID: 753746720}
   - {fileID: 753746673}
   - {fileID: 753746676}
+  - {fileID: 753746722}
   - {fileID: 753746675}
+  - {fileID: 753746721}
+  - {fileID: 753746717}
   - {fileID: 753746688}
   - {fileID: 753746687}
   - {fileID: 753746690}
@@ -2776,7 +2784,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4b86e90cad6bef741a091c8bf853bdb1, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2801,7 +2809,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 444.45593
     y: 440.0064
-    width: 98
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2835,6 +2843,36 @@ MonoBehaviour:
   indentLevel: 0
   newPosition: {fileID: 1906565319}
   changeRotation: 1
+--- !u!114 &753746717
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 99
+  indentLevel: 0
+  storyText: 'This has been a broadcast from the Salvation Project. Until next time!
+
+    Seth
+    out!'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4b9d6d017c17d5b4a8764cfb16def79c, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &753746718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2848,7 +2886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -81.829155, y: -320.46017}
+  scrollPos: {x: 52.170845, y: -24.460175}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 405
@@ -2862,7 +2900,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 753746707}
   selectedCommands:
-  - {fileID: 753746681}
+  - {fileID: 753746721}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}
@@ -2885,6 +2923,65 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753746670}
   m_Mesh: {fileID: -5495902117074765545, guid: 1be2500effd005149bb0b42be0f82670, type: 3}
+--- !u!114 &753746720
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 98
+  indentLevel: 0
+  storyText: Beware, these can be hidden in plain sight!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f12aa557527f8b1449e362d242a9f5ca, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &753746721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 101
+  indentLevel: 0
+  newPosition: {fileID: 2106189758}
+  changeRotation: 1
+--- !u!114 &753746722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 100
+  indentLevel: 0
+  newPosition: {fileID: 1568823524}
+  changeRotation: 1
 --- !u!1 &968436413
 GameObject:
   m_ObjectHideFlags: 0
@@ -3194,7 +3291,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1290
+  m_Name: pb_Mesh-47580
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3358,7 +3455,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1326
+  m_Name: pb_Mesh-47616
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3863,6 +3960,7 @@ Transform:
   - {fileID: 1906565319}
   - {fileID: 1404797999}
   - {fileID: 968436414}
+  - {fileID: 1568823524}
   m_Father: {fileID: 1643421167}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4030,6 +4128,36 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1568823523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568823524}
+  m_Layer: 0
+  m_Name: 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1568823524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568823523}
+  m_LocalRotation: {x: -0, y: 0.033077806, z: -0, w: 0.9994528}
+  m_LocalPosition: {x: -3.082, y: 6.082, z: -12.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509893804}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 3.791, z: 0}
 --- !u!43 &1578653093
 Mesh:
   m_ObjectHideFlags: 0
@@ -4444,7 +4572,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1302
+  m_Name: pb_Mesh-47592
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

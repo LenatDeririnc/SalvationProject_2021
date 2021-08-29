@@ -1374,6 +1374,15 @@ GameObject:
   - component: {fileID: 753746675}
   - component: {fileID: 753746674}
   - component: {fileID: 753746673}
+  - component: {fileID: 753746696}
+  - component: {fileID: 753746695}
+  - component: {fileID: 753746693}
+  - component: {fileID: 753746690}
+  - component: {fileID: 753746688}
+  - component: {fileID: 753746687}
+  - component: {fileID: 753746699}
+  - component: {fileID: 753746698}
+  - component: {fileID: 753746697}
   m_Layer: 0
   m_Name: TV Dialogue (1)
   m_TagString: Untagged
@@ -1478,7 +1487,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 37812a0403a488148a72f4975eb49b4d, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1505,7 +1514,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9a82fc65c6ed3b042bca78b0840d061b, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1528,13 +1537,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 0
-  storyText: SATANNNNN SHALL NOT PASS! SATANNNNN SHALL NOT PASS! SATANNNNN SHALL
-    NOT PASS! SATANNNNN SHALL NOT PASS! SATANNNNN SHALL NOT PASS! SATANNNNN SHALL
-    NOT PASS!
+  storyText: 'SATANNNNN SHALL NOT PASS! SATANNNNN SHALL NOT PASS! '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 24b2b61079276c74f8e4daa5129c7b46, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1562,7 +1569,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 7e1e00f51533777418fa00523cebd6a4, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1585,13 +1592,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  storyText: SATANNNNN SHALL NOT PASS! SATANNNNN SHALL NOT PASS! SATANNNNN SHALL
-    NOT PASS! SATANNNNN SHALL NOT PASS! SATANNNNN SHALL NOT PASS! SATANNNNN SHALL
-    NOT PASS!
+  storyText: 'SATAN SHALL NOT PASS! '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 332031994b82b5541970e01efb93202d, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1614,12 +1619,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  storyText: CHECK YOUR WINDOWS! CHECK YOUR WINDOWS! CHECK YOUR WINDOWS! BOARD THEM
-    UP! BOARD THEM UP!
+  storyText: CHECK YOUR WINDOWS! CHECK YOUR WINDOWS!  BOARD THEM UP! BOARD THEM UP!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 2980c618457e34848b98895ecb1955a6, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1647,7 +1651,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5ff39ad948b835647bb8cfc7e883ba1e, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1674,7 +1678,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: dad668dc4b4f7a241b77028d3fcd4cca, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1702,7 +1706,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 51204f535a8de0148b0055d86475df30, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1729,7 +1733,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4ef476b9c494bcb4e8f00979002c57d0, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1754,7 +1758,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 417.9734
     y: 447.31586
-    width: 158.24742
+    width: 118.24742
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1764,19 +1768,60 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 753746685}
+  - {fileID: 753746696}
   - {fileID: 753746684}
+  - {fileID: 753746687}
   - {fileID: 753746683}
+  - {fileID: 753746688}
   - {fileID: 753746682}
+  - {fileID: 753746690}
   - {fileID: 753746681}
+  - {fileID: 753746693}
   - {fileID: 753746680}
+  - {fileID: 753746695}
   - {fileID: 753746679}
+  - {fileID: 753746699}
   - {fileID: 753746678}
+  - {fileID: 753746698}
   - {fileID: 753746677}
+  - {fileID: 753746697}
   - {fileID: 753746676}
   - {fileID: 753746675}
   - {fileID: 753746674}
   - {fileID: 753746673}
   suppressAllAutoSelections: 0
+--- !u!114 &753746687
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  newPosition: {fileID: 1906565319}
+  changeRotation: 1
+--- !u!114 &753746688
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  indentLevel: 0
+  newPosition: {fileID: 2106189758}
+  changeRotation: 1
 --- !u!114 &753746689
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1793,7 +1838,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 441.20068
     y: 324.3508
-    width: 104.639175
+    width: 64.639175
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1806,6 +1851,22 @@ MonoBehaviour:
   - {fileID: 753746691}
   - {fileID: 753746692}
   suppressAllAutoSelections: 0
+--- !u!114 &753746690
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 118
+  indentLevel: 0
+  newPosition: {fileID: 1464206375}
+  changeRotation: 1
 --- !u!114 &753746691
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1845,6 +1906,22 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &753746693
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 117
+  indentLevel: 0
+  newPosition: {fileID: 945278695}
+  changeRotation: 1
 --- !u!114 &753746694
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1860,6 +1937,86 @@ MonoBehaviour:
   parentBlock: {fileID: 753746689}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &753746695
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 116
+  indentLevel: 0
+  newPosition: {fileID: 968436414}
+  changeRotation: 1
+--- !u!114 &753746696
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 115
+  indentLevel: 0
+  newPosition: {fileID: 1464206375}
+  changeRotation: 1
+--- !u!114 &753746697
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  newPosition: {fileID: 1464206375}
+  changeRotation: 1
+--- !u!114 &753746698
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 122
+  indentLevel: 0
+  newPosition: {fileID: 945278695}
+  changeRotation: 1
+--- !u!114 &753746699
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753746670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7aa3176e6b4c90943f9da87497396c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 121
+  indentLevel: 0
+  newPosition: {fileID: 1906565319}
+  changeRotation: 1
 --- !u!114 &753746711
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1918,7 +2075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -112.98382, y: -255.18178}
+  scrollPos: {x: 298.35617, y: 22.138035}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 405
@@ -1931,7 +2088,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 753746686}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 753746676}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}
@@ -1954,6 +2112,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753746670}
   m_Mesh: {fileID: -5495902117074765545, guid: 1be2500effd005149bb0b42be0f82670, type: 3}
+--- !u!1 &945278694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 945278695}
+  m_Layer: 0
+  m_Name: THEY WILL
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &945278695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945278694}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.09, y: 6.16, z: -12.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509893804}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &968436413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,7 +2170,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509893804}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -32.858, z: 0}
 --- !u!1001 &1030956973
 PrefabInstance:
@@ -2735,7 +2923,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509893804}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 36.256, z: 0}
 --- !u!43 &1421701196
 Mesh:
@@ -2901,6 +3089,36 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1464206374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464206375}
+  m_Layer: 0
+  m_Name: 0 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1464206375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464206374}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.09, y: 6.247, z: -13.434}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509893804}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1509893803
 GameObject:
   m_ObjectHideFlags: 0
@@ -2928,6 +3146,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1464206375}
+  - {fileID: 945278695}
   - {fileID: 2106189758}
   - {fileID: 1906565319}
   - {fileID: 1404797999}
@@ -3273,7 +3493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1643421167}
   m_Layer: 0
-  m_Name: Cycle 1
+  m_Name: Cycle 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3699,7 +3919,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509893804}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 36.256, z: 0}
 --- !u!1 &2048165240
 GameObject:
@@ -3759,7 +3979,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1509893804}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8256856862422402806
 PrefabInstance:

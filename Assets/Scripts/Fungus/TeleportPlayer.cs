@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace Fungus
 {
-    [CommandInfo("Camera", "Teleport Camera", "Change camera position to transform")]
-    public class TeleportCamera : Command
+    [CommandInfo("Player", "Teleport Player", "Change camera position to transform")]
+    public class TeleportPlayer : Command
     {
         [SerializeField] private Transform newPosition;
         [SerializeField] private bool changeRotation = true;
@@ -12,10 +12,10 @@ namespace Fungus
         public override void OnEnter()
         {
 
-            PlayerManager.SetCameraPosition(newPosition.position);
+            PlayerManager.SetPlayerPosition(newPosition.position);
             
             if (changeRotation)
-                PlayerManager.SetCameraRotation(newPosition.rotation);
+                PlayerManager.SetPlayerRotation(newPosition.rotation);
             
             Continue();
         }

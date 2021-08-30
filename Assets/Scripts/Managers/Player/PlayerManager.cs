@@ -33,6 +33,9 @@ namespace Managers.Player
         public static Action onCameraSpawn;
         public static Action<Vector3> setCameraPosition;
         public static Action<Quaternion> setCameraRotation;
+        
+        public static Action<Vector3> setPlayerPosition;
+        public static Action<Quaternion> setPlayerRotation;
 
         public static void SwitchView(Views view)
         {
@@ -170,6 +173,28 @@ namespace Managers.Player
             }
             
             return defaultWalkSpeed.Invoke();
+        }
+
+        public static void SetPlayerPosition(Vector3 position)
+        {
+            if (setPlayerPosition == null)
+            {
+                Debug.LogWarning("can't set player position, player has not created!");
+                return;
+            }
+            
+            setPlayerPosition.Invoke(position);
+        }
+        
+        public static void SetPlayerRotation(Quaternion rotation)
+        {
+            if (setPlayerRotation == null)
+            {
+                Debug.LogWarning("can't set player rotation, player has not created!");
+                return;
+            }
+            
+            setPlayerRotation.Invoke(rotation);
         }
 
         public static void SetCameraPosition(Vector3 position)

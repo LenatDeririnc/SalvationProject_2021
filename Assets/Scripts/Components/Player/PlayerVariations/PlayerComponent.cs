@@ -25,6 +25,18 @@ namespace Components.Player.PlayerVariations
             PlayerManager.setWalkSpeed = m_movement.SetWalkSpeed;
             PlayerManager.walkSpeed = m_movement.WalkSpeed;
             PlayerManager.defaultWalkSpeed = m_movement.DefaultWalkSpeed;
+            PlayerManager.setPlayerPosition = SetPosition;
+            PlayerManager.setPlayerRotation = SetRotation;
+        }
+        
+        private void SetPosition(Vector3 position)
+        {
+            m_transform.position = position;
+        }
+
+        private void SetRotation(Quaternion rotation)
+        {
+            m_look.Camera().transform.rotation = rotation;
         }
 
         private void Start()

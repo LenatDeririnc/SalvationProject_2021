@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1135621509}
+  selectedFlowchart: {fileID: 825457782}
 --- !u!4 &80242225
 Transform:
   m_ObjectHideFlags: 1
@@ -4243,7 +4243,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-759930
+  m_Name: pb_Mesh-7806
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4633,9 +4633,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 825457803}
+  - {fileID: 825457805}
   selectedCommands:
-  - {fileID: 825457812}
+  - {fileID: 825457807}
   variables:
   - {fileID: 825457778}
   - {fileID: 825457777}
@@ -5884,8 +5884,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 677
-    y: 90
+    x: 678
+    y: 89
     width: 97
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5988,7 +5988,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: f8199caa8f6cfe94fa1642b73f224ecc, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -6018,7 +6018,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 57751e966135ce04fbe67f41ba95a609, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -7138,7 +7138,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-759954
+  m_Name: pb_Mesh-7830
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7302,7 +7302,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-759918
+  m_Name: pb_Mesh-7794
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8062,6 +8062,7 @@ GameObject:
   - component: {fileID: 1135621508}
   - component: {fileID: 1135621515}
   - component: {fileID: 1135621514}
+  - component: {fileID: 1135621516}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -8144,10 +8145,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1135621511}
-  selectedCommands:
-  - {fileID: 1135621514}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -8173,11 +8172,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: 'Kermit: Focus now!'
+  storyText: Focus now!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9bcbcb32f8b9fa34487122e1a834aa00, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -8218,6 +8217,7 @@ MonoBehaviour:
   - {fileID: 1135621508}
   - {fileID: 1135621510}
   - {fileID: 1135621524}
+  - {fileID: 1135621516}
   - {fileID: 1135621523}
   - {fileID: 1135621515}
   - {fileID: 1135621514}
@@ -8258,7 +8258,7 @@ MonoBehaviour:
     integerVal: 4
 --- !u!114 &1135621514
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8279,7 +8279,7 @@ MonoBehaviour:
   callMode: 1
 --- !u!114 &1135621515
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8298,6 +8298,33 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 1
+--- !u!114 &1135621516
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135621505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 0
+  storyText: The storage room is right across the corridor!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 76dffae3780de7144b2e8f4230d15299, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1135621522
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8335,7 +8362,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 512a95fd47fb29d4fb23ffac69758a13, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -8358,12 +8385,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Get the chalk and candles from storage, lighter from the kitchen, and
-    DON'T forget the lighter! The storage room is right across the corridor!
+  storyText: 'Get the chalk and candles from storage, lighter from the kitchen, and
+    DON''T forget the lighter! '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c3b5f70d3ef21674fa81cd4ebeae4452, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -8745,7 +8772,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-759894
+  m_Name: pb_Mesh-7770
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10411,7 +10438,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-759942
+  m_Name: pb_Mesh-7818
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10861,7 +10888,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-759906
+  m_Name: pb_Mesh-7782
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

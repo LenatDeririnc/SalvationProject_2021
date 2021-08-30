@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1455795290}
+  selectedFlowchart: {fileID: 1135621509}
 --- !u!4 &80242225
 Transform:
   m_ObjectHideFlags: 1
@@ -3569,7 +3569,6 @@ GameObject:
   - component: {fileID: 1135621506}
   - component: {fileID: 1135621509}
   - component: {fileID: 1135621511}
-  - component: {fileID: 1135621514}
   - component: {fileID: 1135621513}
   - component: {fileID: 1135621512}
   - component: {fileID: 1135621510}
@@ -3577,7 +3576,6 @@ GameObject:
   - component: {fileID: 1135621517}
   - component: {fileID: 1135621516}
   - component: {fileID: 1135621515}
-  - component: {fileID: 1135621508}
   - component: {fileID: 1135621518}
   - component: {fileID: 1135621520}
   - component: {fileID: 1135621519}
@@ -3620,45 +3618,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 35
   indentLevel: 0
-  storyText: YESSS!! YEHEHEHESSS!! NOW THE TIME HAS COME, YOUR SOUL WILL BE OURS!
+  storyText: PERISH YOU NAIVE WENCH, AND SUCCUMB TO THE WILL OF OUR DARK LORD!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 2d2915177d34dab4d8a304c64836399c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 0
   waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1135621508
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135621505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 0
-  storyText: PERISH YOU NAIVE WENCH, AND SUCCUMB TO THE WILL OF OUR DARK LORD!
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 5
-  extendPrevious: 0
-  fadeWhenDone: 0
-  waitForClick: 0
-  stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &1135621509
 MonoBehaviour:
@@ -3685,8 +3656,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1135621511}
-  selectedCommands: []
+  - {fileID: 1135621510}
+  selectedCommands:
+  - {fileID: 1135621515}
   variables: []
   description: 
   stepPause: 0
@@ -3713,7 +3685,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 154.11334
-    y: 85.91764
+    y: 84.88671
     width: 102.57732
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3743,7 +3715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 49.659668
+    x: 50.690598
     y: 85.46378
     width: 77.83505
     height: 40
@@ -3759,8 +3731,6 @@ MonoBehaviour:
   - {fileID: 1135621517}
   - {fileID: 1135621516}
   - {fileID: 1135621512}
-  - {fileID: 1135621514}
-  - {fileID: 1135621508}
   suppressAllAutoSelections: 0
 --- !u!114 &1135621512
 MonoBehaviour:
@@ -3776,18 +3746,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: The Lord Demands it! The Lord is Coming!
+  storyText: 'THE SALVATION PROJECT! IT IS FINALLY COMPLETED!
+
+    THE HOLLOW STAR 
+    HAS AWAKENED AND YOU WERE IT''S ORIGINATOR!'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: adea3dd61400acc40ab954b968570d16, type: 3}
   showAlways: 1
   showCount: 0
   extendPrevious: 0
   fadeWhenDone: 0
   waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &1135621513
 MonoBehaviour:
@@ -3803,14 +3776,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: 'THATS'' IT!
-
-    Now, draw the sacred pentagram, and place the candles
-    on the edges of the forsaken star!'
+  storyText: YESSS!! YEHEHEHESSS!! NOW THE TIME HAS COME, YOUR SOUL WILL BE OURS!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 1b576317677003d4295f26238d41e75d, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3819,24 +3789,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1135621514
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135621505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 30
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
 --- !u!114 &1135621515
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3853,7 +3805,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 6
+    floatVal: 8.7
   durationOLD: 0
 --- !u!114 &1135621516
 MonoBehaviour:
@@ -4070,7 +4022,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 4
+    floatVal: 0.5
   durationOLD: 0
 --- !u!114 &1135621521
 MonoBehaviour:
@@ -4139,11 +4091,11 @@ MonoBehaviour:
   fadeWhenDone: 1
   waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &1135621524
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

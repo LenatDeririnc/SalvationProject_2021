@@ -31,8 +31,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2732319109942748984}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.0000006258487}
-  m_LocalPosition: {x: 25.34, y: 0.98, z: -8.389999}
+  m_LocalRotation: {x: -0, y: 0.7071072, z: -0, w: -0.7071064}
+  m_LocalPosition: {x: 24.569, y: 0.921504, z: -1.7869997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2732319109984179736}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_enabled: 1
-  walkStepsTime: 0.5
+  walkStepsTime: 0.75
   walkInputSoundOffset: 0.5
   walkSteps:
   - {fileID: 8300000, guid: 1f2f870d1ec8fc44081eb0179bed95d4, type: 3}
@@ -121,7 +121,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9568aa0a4d8244c4798dc4b1fff5160b, type: 3}
   rb: {fileID: 2732319109942748986}
   getForwardFrom: {fileID: 2732319109984179736}
-  forceScale: 2500
+  forceScale: 1500
 --- !u!114 &8425735077383106883
 MonoBehaviour:
   m_ObjectHideFlags: 0

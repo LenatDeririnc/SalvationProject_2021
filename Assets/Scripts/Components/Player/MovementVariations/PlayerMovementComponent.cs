@@ -87,10 +87,13 @@ namespace Components.Player.MovementVariations
 
         private float defaultForceScale;
 
+        private float walkStepsSynthedForceScale = 1f;
+
         private void Awake()
         {
             source = GetComponent<AudioSource>();
             defaultForceScale = forceScale;
+            walkStepsSynthedForceScale = defaultForceScale / forceScale;
         }
 
         private Coroutine walkCoroutine;
@@ -107,8 +110,9 @@ namespace Components.Player.MovementVariations
         {
             if (walkCoroutine != null)
                 return;
-
-            walkCoroutine = StartCoroutine(WalkSound(walkStepsTime));
+            
+            walkStepsSynthedForceScale = defaultForceScale / forceScale;
+            walkCoroutine = StartCoroutine(WalkSound(walkStepsTime * walkStepsSynthedForceScale));
         }
 
         private IEnumerator WalkSound(float time)

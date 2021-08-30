@@ -113,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_enabled: 1
   walkStepsTime: 0.5
-  walkInputSoundOffset: 2
+  walkInputSoundOffset: 0.5
   walkSteps:
   - {fileID: 8300000, guid: 1f2f870d1ec8fc44081eb0179bed95d4, type: 3}
   - {fileID: 8300000, guid: 92fe7f47c9b6fcd40baaf6b44f1e97ba, type: 3}

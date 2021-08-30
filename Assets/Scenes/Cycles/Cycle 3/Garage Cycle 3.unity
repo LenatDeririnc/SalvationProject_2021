@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1602985630}
+  selectedFlowchart: {fileID: 1355492639}
 --- !u!4 &80242225
 Transform:
   m_ObjectHideFlags: 1
@@ -2768,9 +2768,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1355492638}
-  selectedCommands:
-  - {fileID: 1355492647}
+  - {fileID: 1355492652}
+  selectedCommands: []
   variables:
   - {fileID: 1355492650}
   - {fileID: 1355492649}
@@ -3163,7 +3162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: Now I need to find a hammer and nails.
+  storyText: Now I need to find a hammer and some nails.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3352,7 +3351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: Now I need to find planks.
+  storyText: Now I need to find the planks.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3395,7 +3394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: These are all the materials I need.
+  storyText: These are all the materials I'll need.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3811,7 +3810,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: Here is tools.
+  storyText: This hammer should do just fine! The nails are just the size i need
+    too.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3873,7 +3873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: Here is planks.
+  storyText: These planks should be enough to cover all the windows in the house!.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4191,7 +4191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: They must be around somewhere.
+  storyText: They must be around here somewhere.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 825457782}
+  selectedFlowchart: {fileID: 523026043}
 --- !u!4 &80242225
 Transform:
   m_ObjectHideFlags: 1
@@ -614,7 +614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 0.01
   startValue: 0
-  maxVolume: 0.6
+  maxVolume: 0.371
   targetValue: 0
 --- !u!82 &205923465
 AudioSource:
@@ -626,7 +626,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 44011a51eb61df84ebc29ef581cb9562, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b1fb466d70b26b545afe029ba8f279b5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0
   m_Pitch: 1

@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 783594783}
+  selectedFlowchart: {fileID: 108594978}
 --- !u!4 &80242225
 Transform:
   m_ObjectHideFlags: 1
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &108594887
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1100,7 +1100,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: 
   startIndex: 0
-  callMode: 0
+  callMode: 1
 --- !u!114 &108594889
 MonoBehaviour:
   m_ObjectHideFlags: 2

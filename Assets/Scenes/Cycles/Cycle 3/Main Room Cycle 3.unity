@@ -2662,7 +2662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 0.01
   startValue: 0
-  maxVolume: 0.6
+  maxVolume: 0.36
   targetValue: 0
 --- !u!82 &478452446
 AudioSource:
@@ -3526,7 +3526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: You are tired. You should go to sleep.
+  storyText: You look tired. You should go to sleep.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3689,7 +3689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1106.7731
+    x: 1105.6742
     y: 487.11453
     width: 92.85714
     height: 40
@@ -8000,7 +8000,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1565742410
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14508,8 +14508,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1973994015}
-  selectedCommands:
-  - {fileID: 1973994073}
+  selectedCommands: []
   variables:
   - {fileID: 1973994049}
   - {fileID: 1973994048}
@@ -14794,7 +14793,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1973994073
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16215,8 +16214,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 6749416830021477869}
-  selectedCommands: []
+  - {fileID: 764119343}
+  selectedCommands:
+  - {fileID: 764119336}
   variables:
   - {fileID: 6749416830021477864}
   - {fileID: 6749416830021477863}
@@ -17770,7 +17770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 615.20667
+    x: 614.1078
     y: 657.98315
     width: 146.70328
     height: 40

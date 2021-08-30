@@ -1541,8 +1541,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 0
-  storyText: MY NAME IS SETH, AND TODAY, OUR PSA IS GOING TO BE DEDICATED TO THE
-    SIGNS OF SATAN IN YOUR HOUSE!
+  storyText: MY NAME IS SETH,  AND TODAY'S PUBLIC SERVICE ANNOUNCEMENT IS DEDICATED
+    TO THE SIGNS OF SATAN IN YOUR HOUSE!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1863,7 +1863,7 @@ MonoBehaviour:
   changeRotation: 1
 --- !u!114 &753746700
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1880,7 +1880,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &753746701
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1898,7 +1898,7 @@ MonoBehaviour:
   fadeDuration: 0
 --- !u!114 &753746702
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1910,12 +1910,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  volume: 1
+  volume: 0.698
   fadeDuration: 4
   waitUntilFinished: 0
 --- !u!114 &753746703
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2000,8 +2000,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 753746686}
-  selectedCommands: []
+  - {fileID: 753746689}
+  selectedCommands:
+  - {fileID: 753746702}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}

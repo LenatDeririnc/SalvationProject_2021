@@ -3361,7 +3361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 0.01
   startValue: 0
-  maxVolume: 0.6
+  maxVolume: 0.391
   targetValue: 0
 --- !u!82 &421282517
 AudioSource:

@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 5867019373411989656}
+  selectedFlowchart: {fileID: 6592271142710502260}
 --- !u!4 &80242225
 Transform:
   m_ObjectHideFlags: 1
@@ -2033,7 +2033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 0.01
   startValue: 0
-  maxVolume: 0.6
+  maxVolume: 0.406
   targetValue: 0
 --- !u!1 &1638561133
 GameObject:
@@ -3918,7 +3918,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 5867019373411989659}
+  - {fileID: 5867019373411989745}
   selectedCommands: []
   variables:
   - {fileID: 6749416828950200615}
@@ -4011,7 +4011,7 @@ MonoBehaviour:
   itemId: 0
   blockName: start
   description: 
-  eventHandler: {fileID: 6749416828950200624}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 6749416828950200620}
   - {fileID: 6749416828950200617}
@@ -4652,7 +4652,6 @@ GameObject:
   - component: {fileID: 6749416828950200621}
   - component: {fileID: 6749416828950200622}
   - component: {fileID: 6749416828950200623}
-  - component: {fileID: 6749416828950200624}
   - component: {fileID: 6749416828950200609}
   m_Layer: 0
   m_Name: TV Dialogue
@@ -4974,21 +4973,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 1
---- !u!114 &6749416828950200624
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6749416828950200606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 5867019373411989660}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!33 &7011741649145533441
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5071,7 +5055,7 @@ MonoBehaviour:
   itemId: 85
   indentLevel: 0
   storyText: 'Karen: This does raise a concern! I think i saw something that could
-    be satanic in my son''s room...'
+    be satanic in my son''s room upstairs...'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

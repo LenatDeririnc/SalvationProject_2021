@@ -681,7 +681,7 @@ MonoBehaviour:
   itemId: 104
   indentLevel: 0
   storyText: We implore you - turn on every light in the home until 8 p.m., and make
-    your house safer! The Devil Shall not pass!
+    your house safer! The Devil shall not pass!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -764,11 +764,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  storyText: 'But that is not enough! As Jeremiah 29:11 says:
-
-    For I know the
-    plans I have for you, declares the Lord, plans for welfare and not for evil,
-    to give you a future and a hope.'
+  storyText: 'But that is not enough! As Jeremiah 29:11 says: For I know the plans
+    I have for you, declares the Lord, plans for welfare and not for evil, to give
+    you a future and a hope.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -877,8 +875,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 97
   indentLevel: 0
-  storyText: "My name is Seth, and today, our PSA is going to be dedicated to  \u2014
-    Energy Consumption!"
+  storyText: "My name is Seth, and today's Public Service Announcement is dedicated
+    to  \u2014 Energy Consumption!"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1306,7 +1304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 119
   indentLevel: 0
-  volume: 1
+  volume: 0.667
   fadeDuration: 4
   waitUntilFinished: 0
 --- !u!114 &753746705
@@ -1494,7 +1492,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 753746689}
   selectedCommands:
-  - {fileID: 753746703}
+  - {fileID: 753746704}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}

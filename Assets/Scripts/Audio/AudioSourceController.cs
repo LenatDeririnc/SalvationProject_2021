@@ -12,6 +12,7 @@ namespace AudioSettings
 
         [SerializeField] private float fadeSpeed = 1;
         [SerializeField] private float startValue = 0;
+        [SerializeField] [Range(0, 1)] private float maxVolume = 1;
         [SerializeField] [Range(0, 1)] private float targetValue;
 
         private float value = 0;
@@ -66,10 +67,10 @@ namespace AudioSettings
 
         public void FixedUpdate()
         {
-            if (Mathf.Abs(value - targetValue) <= 0.001)
+            if (Mathf.Abs(value - targetValue * maxVolume) <= 0.001)
                 return;
 
-            value = Mathf.Lerp(value, targetValue, fadeSpeed);
+            value = Mathf.Lerp(value, targetValue * maxVolume, fadeSpeed);
 
             source.volume = value;
         }

@@ -3634,17 +3634,16 @@ GameObject:
   - component: {fileID: 1135621513}
   - component: {fileID: 1135621512}
   - component: {fileID: 1135621510}
-  - component: {fileID: 1135621507}
   - component: {fileID: 1135621517}
   - component: {fileID: 1135621516}
-  - component: {fileID: 1135621515}
   - component: {fileID: 1135621518}
-  - component: {fileID: 1135621520}
   - component: {fileID: 1135621519}
   - component: {fileID: 1135621521}
   - component: {fileID: 1135621522}
-  - component: {fileID: 1135621523}
   - component: {fileID: 1135621524}
+  - component: {fileID: 1135621514}
+  - component: {fileID: 1135621508}
+  - component: {fileID: 1135621507}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -3668,7 +3667,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1135621507
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3678,21 +3677,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 35
+  itemId: 50
   indentLevel: 0
-  storyText: PERISH YOU NAIVE WENCH, AND SUCCUMB TO THE WILL OF OUR DARK LORD!
+  storyText: 
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 2d2915177d34dab4d8a304c64836399c, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 0
+  fadeWhenDone: 1
   waitForClick: 0
   stopVoiceover: 1
   waitForVO: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &1135621508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135621505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.5
+  durationOLD: 0
 --- !u!114 &1135621509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3706,11 +3723,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 314.95905, y: 101.71122}
+  scrollPos: {x: 233.84424, y: 79.47262}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 373
-  zoom: 0.97
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3720,7 +3737,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1135621511}
   selectedCommands:
-  - {fileID: 1135621512}
+  - {fileID: 1135621514}
   variables: []
   description: 
   stepPause: 0
@@ -3748,7 +3765,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 154.11334
     y: 84.88671
-    width: 102.57732
+    width: 99.45055
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3757,10 +3774,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1135621515}
-  - {fileID: 1135621507}
-  - {fileID: 1135621520}
-  - {fileID: 1135621523}
   - {fileID: 1135621519}
   suppressAllAutoSelections: 0
 --- !u!114 &1135621511
@@ -3779,7 +3792,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 50.690598
     y: 85.46378
-    width: 77.83505
+    width: 77.47253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3791,8 +3804,11 @@ MonoBehaviour:
   - {fileID: 1135621518}
   - {fileID: 1135621513}
   - {fileID: 1135621517}
-  - {fileID: 1135621516}
   - {fileID: 1135621512}
+  - {fileID: 1135621514}
+  - {fileID: 1135621508}
+  - {fileID: 1135621507}
+  - {fileID: 1135621516}
   suppressAllAutoSelections: 0
 --- !u!114 &1135621512
 MonoBehaviour:
@@ -3821,7 +3837,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 0
   waitForClick: 0
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &1135621513
@@ -3851,24 +3867,33 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1135621515
+--- !u!114 &1135621514
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135621505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 39
+  itemId: 48
   indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 8.7
-  durationOLD: 0
+  storyText: PERISH YOU NAIVE WENCH, AND SUCCUMB TO THE WILL OF OUR DARK LORD!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 2d2915177d34dab4d8a304c64836399c, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 0
+  waitForVO: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &1135621516
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3889,7 +3914,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: 
   startIndex: 0
-  callMode: 1
+  callMode: 3
 --- !u!114 &1135621517
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4068,24 +4093,6 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1135621520
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135621505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 42
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 0.5
-  durationOLD: 0
 --- !u!114 &1135621521
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4102,7 +4109,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 103.597595
     y: 199.31964
-    width: 117.01031
+    width: 112.63736
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4128,33 +4135,6 @@ MonoBehaviour:
   itemId: 45
   indentLevel: 0
   scene: {fileID: 11400000, guid: 3e3fde08dc35e8542a9228bf1856e1f7, type: 2}
---- !u!114 &1135621523
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135621505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 46
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 1
-  waitForVO: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &1135621524
 MonoBehaviour:
   m_ObjectHideFlags: 2

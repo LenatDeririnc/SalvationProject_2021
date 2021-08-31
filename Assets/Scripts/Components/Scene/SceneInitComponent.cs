@@ -7,6 +7,7 @@ using Components.UI;
 using Helpers;
 using Interfaces.Player;
 using Managers.Data;
+using Managers.Menu;
 using Managers.Player;
 using Managers.UI;
 using ScriptableObjects.Scenes;
@@ -50,6 +51,7 @@ namespace Components.Scene
         private void Awake()
         {
             Init();
+            // PauseManager.Init();
 
             if (FindObjectOfType<PlayerComponent>() == null && !doNotLoadPlayer)
             {

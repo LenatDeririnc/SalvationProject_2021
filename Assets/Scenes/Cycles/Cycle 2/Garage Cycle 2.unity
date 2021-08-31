@@ -947,6 +947,7 @@ GameObject:
   - component: {fileID: 540204671}
   - component: {fileID: 540204675}
   - component: {fileID: 540204674}
+  - component: {fileID: 540204676}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1093,7 +1094,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 647.7368
     y: 292.3158
-    width: 100
+    width: 101.2195
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1104,6 +1105,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 540204649}
   - {fileID: 540204648}
+  - {fileID: 540204676}
   - {fileID: 540204667}
   - {fileID: 540204670}
   - {fileID: 540204668}
@@ -1133,7 +1135,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 384
     y: 295
-    width: 119
+    width: 119.512184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1158,21 +1160,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -103.17057, y: -45.523563}
+  scrollPos: {x: -101.22144, y: -14.70052}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 460
-  zoom: 1
+  blockViewHeight: 431
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 540204645}
-  selectedCommands:
-  - {fileID: 540204675}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 540204657}
   - {fileID: 540204669}
@@ -1606,7 +1606,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 251.34439
     y: 143.7523
-    width: 111
+    width: 110.9756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1648,7 +1648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 528.34436
     y: 162.7523
-    width: 87
+    width: 87.80487
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1766,7 +1766,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 515.84436
     y: 373.25232
-    width: 119
+    width: 119.512184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1859,7 +1859,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 506.34436
     y: 82.75232
-    width: 123
+    width: 121.9512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2135,7 +2135,7 @@ MonoBehaviour:
   variable: {fileID: 540204669}
 --- !u!114 &540204674
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2150,7 +2150,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &540204675
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2164,6 +2164,27 @@ MonoBehaviour:
   indentLevel: 0
   holder: {fileID: 11400000, guid: 0711cd5aa757fb54587b3580283e302b, type: 2}
   variable: {fileID: 540204674}
+--- !u!114 &540204676
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540204639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 33
+  indentLevel: 0
+  targetFlowchart: {fileID: 1753856241}
+  targetBlock: {fileID: 1753856243}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 1
 --- !u!43 &605215423
 Mesh:
   m_ObjectHideFlags: 0
@@ -3278,19 +3299,7 @@ MonoBehaviour:
         m_CallState: 2
   onTriggerOn:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1753856241}
-        m_TargetAssemblyTypeName: Fungus.Flowchart, Fungus
-        m_MethodName: ExecuteBlock
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: NoBlackout
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onTriggerOff:
     m_PersistentCalls:
       m_Calls: []
@@ -4107,7 +4116,7 @@ MonoBehaviour:
   value: 1
 --- !u!114 &1753856243
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4879,7 +4888,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!114 &1753856264
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

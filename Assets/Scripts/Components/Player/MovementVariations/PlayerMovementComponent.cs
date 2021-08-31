@@ -1,5 +1,7 @@
 using System.Collections;
 using Interfaces.Player;
+using Managers.Menu;
+using Managers.Player;
 using UnityEngine;
 
 namespace Components.Player.MovementVariations
@@ -134,6 +136,9 @@ namespace Components.Player.MovementVariations
 
         void Update()
         {
+            // if (PauseManager.isGamePaused)
+            //     return;
+
             if (!m_enabled)
                 return;
             

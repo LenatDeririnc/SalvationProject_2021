@@ -1,4 +1,5 @@
 using Interfaces.Player;
+using Managers.Menu;
 using Managers.Player.CameraRotateBehaviours;
 using UnityEngine;
 
@@ -35,6 +36,9 @@ namespace Components.Player.LookVariations
 
         void Update()
         {
+            // if (PauseManager.isGamePaused)
+            //     return;
+            
             if (!m_enabled || m_cameraRotateBehaviour.UseFixedUpdate())
                 return;
             

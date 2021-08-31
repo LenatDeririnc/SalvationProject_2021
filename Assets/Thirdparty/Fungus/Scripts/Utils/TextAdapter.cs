@@ -238,7 +238,7 @@ namespace Fungus
             get
             {
 #if UNITY_2018_1_OR_NEWER
-                if(tmpro != null)
+                if(tmpro != null && tmpro.maxVisibleCharacters < tmpro.textInfo.characterInfo.Length)
                 {
                     return tmpro.textInfo.characterInfo[tmpro.maxVisibleCharacters].character;
                 }

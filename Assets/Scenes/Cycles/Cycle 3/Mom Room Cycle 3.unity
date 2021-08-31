@@ -4461,7 +4461,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -235.8919
     y: 100.672
-    width: 67
+    width: 68.085106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4672,7 +4672,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80.46484
     y: 100.09445
-    width: 136
+    width: 140.42554
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4719,19 +4719,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 298.44305, y: 95.527016}
+  scrollPos: {x: 337.88788, y: 17.482473}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 466
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 439602627}
+  selectedCommands:
+  - {fileID: 439602636}
   variables:
   - {fileID: 439602616}
   - {fileID: 439602640}
@@ -5034,7 +5036,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 103.46484
     y: 283.09445
-    width: 91
+    width: 93.61702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5074,7 +5076,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 106.46484
     y: 191.09445
-    width: 85
+    width: 87.23404
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5206,7 +5208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: It's not here!
+  storyText: It's not here...?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5233,7 +5235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: What is that?
+  storyText: What was that thing?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

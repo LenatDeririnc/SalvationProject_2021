@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 
 namespace Fungus
 {
@@ -41,7 +42,7 @@ namespace Fungus
         }
 
         [Tooltip("The story text UI object")]
-        [SerializeField] protected Text storyText;
+        [SerializeField] protected TMP_Text storyText;
         [Tooltip("TextAdapter will search for appropriate output on this GameObject if storyText is null")]
         [SerializeField] protected GameObject storyTextGO;
         protected TextAdapter storyTextAdapter = new TextAdapter();

@@ -1323,7 +1323,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: This was a Salvation Project program, until next time! Seth out!
+  storyText: 'This was a Salvation Project program, until next time!
+
+    Seth out!'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1999,10 +2001,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 753746689}
-  selectedCommands:
-  - {fileID: 753746702}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}

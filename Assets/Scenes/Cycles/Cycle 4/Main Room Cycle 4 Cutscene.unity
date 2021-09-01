@@ -1406,7 +1406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeSpeed: 0.01
   startValue: 0
-  maxVolume: 0.6
+  maxVolume: 0.367
   targetValue: 0
 --- !u!82 &406474815
 AudioSource:
@@ -1418,7 +1418,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 44011a51eb61df84ebc29ef581cb9562, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0f9222a1c98c858438d91961855da226, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0
   m_Pitch: 1
@@ -6854,7 +6854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 170.90561, y: -129.3012}
+  scrollPos: {x: 354.4353, y: 18.933977}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 411
@@ -6865,8 +6865,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1455795280}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1455795287}

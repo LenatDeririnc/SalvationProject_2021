@@ -3748,7 +3748,7 @@ MonoBehaviour:
   itemId: 103
   indentLevel: 0
   storyText: The lights, your son's behaviour... And however more that you don't
-    notice!  And i am here, to help you with the protection of your home!
+    notice!  And I am here, to help you with the protection of your home!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3803,12 +3803,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  storyText: 'Seth: Silly, i AM helping everyone! I have already helped countless
-    people, and you are just another lucky child of god, who gets the special treatment!'
+  storyText: 'Seth: Silly, I AM helping everyone! '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: a55fde937c0a77c4a9ad73411ab4c5c5, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 9247583d6bc7d0d4f83be06c9a794073, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3936,7 +3935,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1088.8992
     y: 641.80225
-    width: 60
+    width: 84.14633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4013,7 +4012,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 939.8992
     y: 640.80225
-    width: 60
+    width: 86.58536
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4041,7 +4040,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 916.99805
     y: 790.42993
-    width: 106.34145
+    width: 146.34146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4054,6 +4053,7 @@ MonoBehaviour:
   - {fileID: 633276667}
   - {fileID: 633276668}
   - {fileID: 633276676}
+  - {fileID: 6749416828950200642}
   - {fileID: 633276677}
   - {fileID: 6749416828950200637}
   - {fileID: 6749416828950200635}
@@ -4126,7 +4126,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 791.8992
     y: 641.80225
-    width: 60
+    width: 92.68292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4338,7 +4338,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 888.8992
     y: 499.80225
-    width: 131.9512
+    width: 171.9512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4375,7 +4375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: But the corridors are equally important, so i should probably light
+  storyText: But the corridors are equally important, so I should probably light
     them too!
   description: 
   character: {fileID: 0}
@@ -4461,7 +4461,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.77084
     y: 484.88535
-    width: 69.75609
+    width: 109.75609
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6680,10 +6680,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -485.29996, y: -348.21146}
+  scrollPos: {x: -198.71442, y: -161.62598}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 431
+  blockViewHeight: 280
   zoom: 0.8200001
   scrollViewRect:
     serializedVersion: 2
@@ -6693,8 +6693,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 633276685}
-  selectedCommands:
-  - {fileID: 6749416828950200641}
+  selectedCommands: []
   variables:
   - {fileID: 5867019373411989754}
   - {fileID: 5867019373411989753}
@@ -6754,7 +6753,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 416.98944
     y: 845.70685
-    width: 60
+    width: 92.68292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6904,6 +6903,7 @@ GameObject:
   - component: {fileID: 6749416828950200640}
   - component: {fileID: 6749416828950200633}
   - component: {fileID: 6749416828950200641}
+  - component: {fileID: 6749416828950200642}
   m_Layer: 0
   m_Name: TV Dialogue
   m_TagString: Untagged
@@ -6958,7 +6958,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 665.27075
     y: 266.86237
-    width: 73.41463
+    width: 113.41463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7435,7 +7435,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 870.22595
     y: 367.19016
-    width: 162.43901
+    width: 202.43901
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8276,7 +8276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 151
   indentLevel: 0
-  storyText: Go to sleep now, i will guard it with my life! After you wake up, there
+  storyText: Go to sleep now, I will guard it with my life! After you wake up, there
     is much to be done!
   description: 
   character: {fileID: 0}
@@ -8371,6 +8371,34 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 1
+--- !u!114 &6749416828950200642
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749416828950200606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 157
+  indentLevel: 0
+  storyText: I have already helped countless people, and you are just another lucky
+    child of god, who gets the special treatment!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: d7d6c8ec7fa405345bc9d1d55fd2cec4, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!33 &7011741649145533441
 MeshFilter:
   m_ObjectHideFlags: 0

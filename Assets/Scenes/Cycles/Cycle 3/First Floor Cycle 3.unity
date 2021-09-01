@@ -6658,7 +6658,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1127731871}
   selectedCommands:
-  - {fileID: 1127731880}
+  - {fileID: 1127731873}
   variables:
   - {fileID: 1127731869}
   description: 
@@ -6717,7 +6717,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 327.20068
-    y: 341.3508
+    y: 340.3508
     width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6769,7 +6769,7 @@ MonoBehaviour:
   itemId: 5
   indentLevel: 0
   actionType: 0
-  speed: 1000
+  speed: 600
 --- !u!114 &1127731874
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6803,7 +6803,7 @@ MonoBehaviour:
   itemId: 3
   indentLevel: 0
   actionType: 0
-  speed: 500
+  speed: 300
 --- !u!114 &1127731876
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6938,7 +6938,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!114 &1127731880
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

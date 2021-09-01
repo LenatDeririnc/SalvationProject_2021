@@ -2158,7 +2158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 5867019374483315786}
+  selectedFlowchart: {fileID: 1565742369}
 --- !u!4 &80242225
 Transform:
   m_ObjectHideFlags: 1
@@ -6140,9 +6140,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1565742387}
+  - {fileID: 1565742381}
   selectedCommands:
-  - {fileID: 1565742410}
+  - {fileID: 1565742390}
   variables:
   - {fileID: 1565742383}
   - {fileID: 1565742382}
@@ -7417,7 +7417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: it was the last one!
+  storyText: It was the last one!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

@@ -24,9 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Cycles/Cycle 4/TV world Cycle 4.unity
     guid: 9981f4728d339ce45bb82e4837654fbb
   - enabled: 1
-    path: Assets/Scenes/Cycles/Cycle 4/Main Room Cycle 4 Cutscene.unity
-    guid: 0fab2ca1740200c4dbec4509810c49d6
-  - enabled: 1
     path: Assets/Scenes/Cycles/End/Main Room Cycle 5.unity
     guid: 25d601936e076e547ada541895d1e232
   - enabled: 1
@@ -56,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cycles/Cycle 4/Main Room Cycle 4.unity
     guid: 68cb3b552822df342b888a372fbff47a
+  - enabled: 1
+    path: Assets/Scenes/Cycles/Cycle 4/Main Room Cycle 4 Cutscene.unity
+    guid: 0fab2ca1740200c4dbec4509810c49d6
   - enabled: 1
     path: Assets/Scenes/SampleScenes/House/Second Floor/Second Floor.unity
     guid: 7d5f59482d292314cb56efb2f1092ed1

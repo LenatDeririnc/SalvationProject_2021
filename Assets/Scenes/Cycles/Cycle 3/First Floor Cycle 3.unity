@@ -823,7 +823,7 @@ GameObject:
   - component: {fileID: 95918880}
   - component: {fileID: 95918879}
   m_Layer: 0
-  m_Name: music_firstfloor (2)
+  m_Name: music_firstfloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1546,7 +1546,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!114 &95918879
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5241,7 +5241,7 @@ GameObject:
   - component: {fileID: 840461647}
   - component: {fileID: 840461646}
   m_Layer: 0
-  m_Name: Localization (6)
+  m_Name: Localization
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5260,7 +5260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: d177c21c0018fcd4da9ca9459fd4aa96, type: 3}
+  localizationFile: {fileID: 4900000, guid: 0a25ae06840139242af886b55a90ab10, type: 3}
 --- !u!4 &840461647
 Transform:
   m_ObjectHideFlags: 0
@@ -5268,12 +5268,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840461645}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.885068, y: 0.70227486, z: 16.560387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1978731597}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &852034637
 GameObject:
@@ -6702,8 +6702,7 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1127731871}
-  selectedCommands:
-  - {fileID: 1127731873}
+  selectedCommands: []
   variables:
   - {fileID: 1127731869}
   description: 
@@ -11937,7 +11936,7 @@ GameObject:
   - component: {fileID: 1966107545}
   - component: {fileID: 1966107551}
   m_Layer: 0
-  m_Name: FadeOnLevelLoad (4)
+  m_Name: FadeOnLevelLoad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12126,6 +12125,7 @@ Transform:
   - {fileID: 48918734}
   - {fileID: 331226449}
   - {fileID: 2105519468}
+  - {fileID: 840461647}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

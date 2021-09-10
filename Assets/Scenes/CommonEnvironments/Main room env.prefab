@@ -21071,7 +21071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5877284232464901424, guid: ba3d22b981e65c8478132180d3103070, type: 3}
       propertyPath: m_Name
-      value: Windows (1)
+      value: Windows_Object (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba3d22b981e65c8478132180d3103070, type: 3}
@@ -21278,7 +21278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5877284232464901424, guid: ba3d22b981e65c8478132180d3103070, type: 3}
       propertyPath: m_Name
-      value: Windows
+      value: Windows_Object
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba3d22b981e65c8478132180d3103070, type: 3}
@@ -21621,7 +21621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5877284232464901424, guid: ba3d22b981e65c8478132180d3103070, type: 3}
       propertyPath: m_Name
-      value: Windows (2)
+      value: Windows_Object (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba3d22b981e65c8478132180d3103070, type: 3}

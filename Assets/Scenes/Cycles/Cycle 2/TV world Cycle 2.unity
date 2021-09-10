@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 753746706}
   - component: {fileID: 753746708}
   m_Layer: 0
-  m_Name: TV Dialogue (1)
+  m_Name: TV world Cycle 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -875,7 +875,7 @@ MonoBehaviour:
   itemId: 97
   indentLevel: 0
   storyText: "My name is Seth, and today's Public Service Announcement is dedicated
-    to  \u2014 Energy Consumption!"
+    to \u2014 Energy Consumption!"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1520,7 +1520,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 753746715}
   selectedCommands:
-  - {fileID: 753746708}
+  - {fileID: 753746682}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}
@@ -1778,13 +1778,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923507544}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.277117, y: -0.17137195, z: 2.4364696}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.862806, y: 3.5263803, z: -0.37658978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 903659615}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1643421167}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &968436413
 GameObject:
@@ -1908,7 +1908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: d177c21c0018fcd4da9ca9459fd4aa96, type: 3}
+  localizationFile: {fileID: 4900000, guid: 0a25ae06840139242af886b55a90ab10, type: 3}
 --- !u!4 &1082986190
 Transform:
   m_ObjectHideFlags: 0
@@ -1916,12 +1916,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082986188}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.4143102, y: 3.6977522, z: -2.8130593}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1643421167}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1105358204
 Mesh:
@@ -2587,6 +2587,8 @@ Transform:
   - {fileID: 501020086}
   - {fileID: 1509893804}
   - {fileID: 470212157}
+  - {fileID: 1082986190}
+  - {fileID: 923507545}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 108594874}
   - component: {fileID: 108594880}
   m_Layer: 0
-  m_Name: Windows (2)
+  m_Name: Windows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4162,7 +4162,7 @@ GameObject:
   - component: {fileID: 140901564}
   - component: {fileID: 140901565}
   m_Layer: 0
-  m_Name: Crosses (1)
+  m_Name: Crosses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7167,9 +7167,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1189970538}
     m_Modifications:
+    - target: {fileID: 4891347863839804417, guid: 419b4436d27fe864792beb8071d4aeb0, type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4891347863839804432, guid: 419b4436d27fe864792beb8071d4aeb0, type: 3}
       propertyPath: m_Name
-      value: EndCheck
+      value: TasksEnd
       objectReference: {fileID: 0}
     - target: {fileID: 4891347863839804433, guid: 419b4436d27fe864792beb8071d4aeb0, type: 3}
       propertyPath: m_RootOrder
@@ -7889,7 +7893,7 @@ GameObject:
   - component: {fileID: 840461647}
   - component: {fileID: 840461646}
   m_Layer: 0
-  m_Name: Localization (4)
+  m_Name: Localization
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7908,7 +7912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: d177c21c0018fcd4da9ca9459fd4aa96, type: 3}
+  localizationFile: {fileID: 4900000, guid: 0a25ae06840139242af886b55a90ab10, type: 3}
 --- !u!4 &840461647
 Transform:
   m_ObjectHideFlags: 0
@@ -8703,7 +8707,7 @@ GameObject:
   - component: {fileID: 1394985764}
   - component: {fileID: 1394985763}
   m_Layer: 0
-  m_Name: music_childroom (3)
+  m_Name: music_childroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10877,7 +10881,7 @@ GameObject:
   - component: {fileID: 1966107545}
   - component: {fileID: 1966107551}
   m_Layer: 0
-  m_Name: FadeOnLevelLoad (6)
+  m_Name: FadeOnLevelLoad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11020,7 +11024,7 @@ MeshFilter:
   m_Mesh: {fileID: -5495902117074765545, guid: 1be2500effd005149bb0b42be0f82670, type: 3}
 --- !u!114 &1966107551
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

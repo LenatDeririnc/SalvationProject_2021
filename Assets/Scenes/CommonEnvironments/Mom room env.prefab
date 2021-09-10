@@ -62604,7 +62604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5877284232464901424, guid: ba3d22b981e65c8478132180d3103070, type: 3}
       propertyPath: m_Name
-      value: Windows (6)
+      value: Windows_Object
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba3d22b981e65c8478132180d3103070, type: 3}

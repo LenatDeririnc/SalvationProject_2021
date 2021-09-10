@@ -949,7 +949,7 @@ GameObject:
   - component: {fileID: 540204674}
   - component: {fileID: 540204676}
   m_Layer: 0
-  m_Name: Flowchart
+  m_Name: Blackout Garage Cycle 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2455,7 +2455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6592271142051220488, guid: 37e91b632b1360c4ca56cb1345edd914, type: 3}
       propertyPath: m_Name
-      value: FadeOnLevelLoad (4)
+      value: FadeOnLevelLoad
       objectReference: {fileID: 0}
     - target: {fileID: 6592271142051220493, guid: 37e91b632b1360c4ca56cb1345edd914, type: 3}
       propertyPath: value
@@ -3488,6 +3488,7 @@ Transform:
   - {fileID: 2076925686}
   - {fileID: 470352243}
   - {fileID: 2083292857}
+  - {fileID: 1915095079}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4054,7 +4055,7 @@ GameObject:
   - component: {fileID: 1753856243}
   - component: {fileID: 1753856264}
   m_Layer: 0
-  m_Name: music_garage (1)
+  m_Name: music_garage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5122,7 +5123,7 @@ GameObject:
   - component: {fileID: 1915095079}
   - component: {fileID: 1915095078}
   m_Layer: 0
-  m_Name: Localization (3)
+  m_Name: Localization
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5141,7 +5142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: d177c21c0018fcd4da9ca9459fd4aa96, type: 3}
+  localizationFile: {fileID: 4900000, guid: 0a25ae06840139242af886b55a90ab10, type: 3}
 --- !u!4 &1915095079
 Transform:
   m_ObjectHideFlags: 0
@@ -5149,12 +5150,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915095077}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.69076, y: -1.2891054, z: 6.085382}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1245704433}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2028869033
 PrefabInstance:

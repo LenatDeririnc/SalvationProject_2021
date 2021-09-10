@@ -14,6 +14,12 @@ namespace Components.Player
 
         public float MaxPitch => m_maxPitch;
         public Transform transform => m_transform;
+        
+        private Transform m_parentTransform;
+        public Transform parentTransform => m_parentTransform;
+
+        public void SetParent(Transform parent) => m_parentTransform = parent;
+
         public float Pitch
         {
             get => m_pitch;

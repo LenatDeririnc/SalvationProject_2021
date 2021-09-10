@@ -1,0 +1,33 @@
+Key,Description,Standard
+SAY.Doors.1.,,I don't need to go there right now!
+SAY.Doors.10.,,I am afraid to go outside! What if there are demons there?
+SAY.Doors.19.,,I don't really need to go to the bathroom.
+SAY.PickUps.5.,,This is a MENTALLICA poster
+SAY.PickUps.9.,,What a terrifying poster! I better take it down.
+SAY.PickUps.6.,,This is a MENTALLICA audiotape.
+SAY.PickUps.8.,,Sure does look satanic! It is definetely dangerous!
+SAY.PickUps.7.,,"This is a ""rulebook"" for a board game Dungeons and Demons!"
+SAY.PickUps.10.,,"If this isn't an indoctrination book, i don't know what is!"
+SAY.PickUps.24.,,"I think that's all of them! I should just burn it in the furnace, in the garage."
+SAY.PickUps.23.,,"Now, there {$items} more satanic objects to find!"
+SAY.TV Dialogue (1).39.,,"LADIES AND GENTELMEN, WELCOME!"
+SAY.TV Dialogue (1).5.,,"MY NAME IS SETH, AND TODAY'S PUBLIC SERVICE ANNOUNCEMENT IS DEDICATED TO: YOUR FEARS!"
+SAY.TV Dialogue (1).6.,,THIS PROGRAM IS BROUGHT TO YOU BY THE SALVATION PROJECT.
+SAY.TV Dialogue (1).7.,,And what fear are we going to be discussing today?
+MENU.TV Dialogue (1).10,,Spiders
+MENU.TV Dialogue (1).12,,The Nuclear War
+MENU.TV Dialogue (1).13,,Satanism
+SAY.TV Dialogue (1).76.,,THAT'S RIGHT!
+SAY.TV Dialogue (1).77.,,SATANISM!
+SAY.TV Dialogue (1).78.,,"Satanism is a great danger to our citizens, and we aaaall should be on our toes!"
+SAY.TV Dialogue (1).79.,,"It's a danger to our souls, to our world, and OUR way of living!"
+SAY.TV Dialogue (1).80.,,And this Danger strikes where it hurts most - our children!
+SAY.TV Dialogue (1).81.,,"To make sure your kids are safe, you should locate the satanic objects in your household before it's too late!"
+SAY.TV Dialogue (1).82.,,"The typical satanic object includes: satanic audiotapes, satanic posters, or satanic books. "
+SAY.TV Dialogue (1).98.,,"Beware, these can be hidden in plain sight!"
+SAY.TV Dialogue (1).83.,,"And on that, we wish your family luck, in searching and destroying the threats inside your home!"
+SAY.TV Dialogue (1).84.,,"Be careful, because if you don't care, THEY WILL."
+SAY.TV Dialogue (1).99.,,This has been a broadcast from the Salvation Project. Until next time!\nSeth out!
+SAY.Furnace.13.,,I should go look for these demonic items in my son's bedroom!
+SAY.Furnace.17.,,"Burn, burn, burn! There is no place for Satan in my home!"
+SAY.Furnace.30.,,"Now that the job is done, i can finally rest near the TV again. Another day done right!"

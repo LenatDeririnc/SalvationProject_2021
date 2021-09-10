@@ -1,0 +1,75 @@
+Key,Description,Standard
+SAY.Windows (1).132.,,Window is already closed.
+SAY.Windows (1).159.,,I have to get the instruments and materials from the garage!
+SAY.Windows (1).134.,,One more window down!
+SAY.Windows (1).145.,,That's it for windows!
+SAY.Windows (1).138.,,"""{$count}"" more to go!"
+SAY.EndCheck.72.,,I think that's it! Now the house is inpenetrable to demons!
+SAY.EndCheck.174.,,I think...
+SAY.EndCheck.175.,,I should go and see Seth.
+SAY.Doors.1.,,I don't need to go there right now!
+SAY.Doors.10.,,I am afraid to go outside! What if there are demons there?
+SAY.Doors.19.,,I don't really need to go to the bathroom.
+SAY.Flowchart.13.,,These planks should be enough to cover all the windows in the house!.
+SAY.Flowchart.16.,,This hammer should do just fine! The nails are just the size i need too.
+SAY.Flowchart.24.,,These are all the materials I'll need.
+SAY.Flowchart.34.,,I have to find all the windows!
+SAY.Flowchart.29.,,Now I need to find a hammer and some nails.
+SAY.Flowchart.35.,,They must be around somewhere.
+SAY.Flowchart.26.,,Now I need to find the planks.
+SAY.Flowchart.36.,,They must be around here somewhere.
+SAY.Windows (2).132.,,Window is already closed.
+SAY.Windows (2).159.,,I have to get the instruments and materials from the garage!
+SAY.Windows (2).134.,,One more window down!
+SAY.Windows (2).145.,,That's it for windows!
+SAY.Windows (2).138.,,"""{$count}"" more to go!"
+SAY.Crosses (1).1.,,"Oh my God! It was turned, just like he said!"
+SAY.Crosses (1).2.,,I should fix it immediately!
+SAY.Crosses (1).6.,,That's better!
+SAY.Crosses (1).25.,,I need to find one more rotated cross!
+SAY.Crosses (1).24.,,It was the last one!
+SAY.Crosses (1).26.,,Cross is rotated back already.
+SAY.Crosses.1.,,"Oh my God! It was turned, just like he said!"
+SAY.Crosses.2.,,I should fix it immediately!
+SAY.Crosses.6.,,That's better!
+SAY.Crosses.25.,,I need to find one more rotated cross!
+SAY.Crosses.24.,,It was the last one!
+SAY.Crosses.26.,,Cross is rotated back already.
+SAY.Windows.132.,,Window is already closed.
+SAY.Windows.159.,,I have to get the instruments and materials from the garage!
+SAY.Windows.134.,,One more window down!
+SAY.Windows.145.,,That's it for windows!
+SAY.Windows.138.,,"""{$count}"" more to go!"
+SAY.Start.63.,,I see you have completed your mission!
+SAY.Start.65.,,"And most importantly, you are still alive!"
+SAY.Start.64.,,"Karen: I was attacked, twice! How can you be so insensitive?"
+SAY.Start.66.,,"Seth: I AM NOT INSENSITIVE, I AM JUST DOING MY JOB! AND MY JOB IS TO KEEP YOU SAFE!"
+SAY.Start.67.,,"MISSUS, YOU SHOUD NOT ANGER THE ONE, WHO GIVES YOU SALVATION!"
+SAY.Start.68.,,You look tired. You should go to sleep.
+SAY.Start.69.,,Karen: But i don't want to sleep! I need to understand!
+SAY.Start.70.,,Seth: Go. To. Sleep.
+SAY.Start.59.,,"Maybe check your garage for instruments and materials, you are bound to have something!"
+SAY.Start.60.,,"I also remember you having a cross in here nearby, as well as a mirror in your room."
+SAY.Start.61.,,"So, what are you waiting for? Go go go!!"
+SAY.Start.57.,,What a charmer huh? Sure is an energetic fella!
+SAY.Start.58.,,"But he is right! You should get on your feet, and start covering them windows!"
+SAY.Start.89.,,...
+SAY.Windows (3).132.,,Window is already closed.
+SAY.Windows (3).159.,,I have to get the instruments and materials from the garage!
+SAY.Windows (3).134.,,One more window down!
+SAY.Windows (3).145.,,That's it for windows!
+SAY.Windows (3).138.,,"""{$count}"" more to go!"
+SAY.SpookyEvent.17.,,What was that thing?
+SAY.SpookyEvent.18.,,It's not here...?
+SAY.Mirror.20.,,I need to cover this!
+SAY.Mirror.9.,,Mirror is covered already.
+SAY.TV Dialogue (1).102.,,"WELCOME, EVERYONE!"
+SAY.TV Dialogue (1).103.,,"MY NAME IS SETH,  AND TODAY'S PUBLIC SERVICE ANNOUNCEMENT IS DEDICATED TO THE SIGNS OF SATAN IN YOUR HOUSE!"
+SAY.TV Dialogue (1).104.,,This program is brought to you by The Salvation Project.
+SAY.TV Dialogue (1).105.,,"As you should know, THE DEVIL IS COMING! And we should all be protecting ourselves and our loved ones from the Devil!"
+SAY.TV Dialogue (1).106.,,CHECK YOUR WINDOWS! CHECK YOUR WINDOWS!  BOARD THEM UP! BOARD THEM UP!
+SAY.TV Dialogue (1).107.,,SATAN SHALL NOT PASS! 
+SAY.TV Dialogue (1).108.,,CHECK YOUR CROSSES! MAKE SURE THEY ARE NOT INVERTED! CHECK YOUR MIRRORS! COVER THEM UP!
+SAY.TV Dialogue (1).109.,,SATANNNNN SHALL NOT PASS! SATANNNNN SHALL NOT PASS! 
+SAY.TV Dialogue (1).110.,,"Be careful, because if you don't care, THEY WILL."
+SAY.TV Dialogue (1).111.,,"This was a Salvation Project program, until next time!\nSeth out!"

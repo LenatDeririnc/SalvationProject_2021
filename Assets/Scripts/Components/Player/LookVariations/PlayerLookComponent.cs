@@ -10,6 +10,7 @@ namespace Components.Player.LookVariations
     {
         [SerializeField] private bool m_enabled = true;
 
+        private IPlayer m_player;
         private PlayerCamera m_camera;
         private CameraRotateBehaviour m_cameraRotateBehaviour;
 
@@ -25,11 +26,14 @@ namespace Components.Player.LookVariations
         public PlayerCamera Camera()
         {
             m_camera ??= GetComponentInChildren<PlayerCamera>();
+            if (m_camera.parentTransform == null)
+                m_camera.SetParent(m_player.Transform());
             return m_camera;
         }
 
         private void Awake()
         {
+            m_player ??= GetComponent<IPlayer>();
             Camera();
             m_cameraRotateBehaviour = new InputRotate(m_camera);
         }

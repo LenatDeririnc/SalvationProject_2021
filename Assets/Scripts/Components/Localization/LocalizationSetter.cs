@@ -37,7 +37,6 @@ public class LocalizationSetter : MonoBehaviour
         // This variable selects the language.
         // For example, if in the table your first language is English then 0 = English.
         // If the second language in the table is Russian then 1 = Russian etc.
-        Debug.Log(lang);
         int i = LocalizationMap[lang];
 
         // This part changes the language

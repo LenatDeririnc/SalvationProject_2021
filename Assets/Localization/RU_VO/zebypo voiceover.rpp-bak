@@ -1,0 +1,2638 @@
+<REAPER_PROJECT 0.1 "6.32/win64" 1631378872
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3198 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 444.72134985869207
+  ZOOM 50.47430263272141 21698 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE "G:\UnityGames\ZomboTV\Assets\Localization\RU_VO\Cycle 4\17.mp3"
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 2 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 3
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    bDNwbYAAAAAAAAAAAgAAAP////8EAAAAgAAAAAAAAAA=
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 450.44893615108725 457.40296982152876
+  SELECTION2 450.44893615108725 457.40296982152876
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 -1 -1 -1 0 0 0 -1 -1 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {0725E623-DB03-4F69-BE82-9BFAF2B2F24D}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {73F5497B-4D36-4EB2-9F7A-2069078825BE}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {C545DDC8-33EE-4C8D-BCB1-A62335CD3F58}
+    NAME zeburo_VO_FX
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C545DDC8-33EE-4C8D-BCB1-A62335CD3F58}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 3.84
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C486AEF6-6648-4E39-9817-B94D15F73C40}
+      IID 1
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2CD04416-F24C-46B1-ACC0-0433EB5DED98}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 4.06
+      SNAPOFFS 0
+      LENGTH 6.31
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7F754F9A-5B96-4199-8BDF-6564D11FC119}
+      IID 2
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 4.06
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D5D45253-F8BD-4669-8D59-EF6DDC9B5D8A}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 10.37
+      SNAPOFFS 0
+      LENGTH 4.32
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0E9E8CEA-9ADD-4BE9-BD7C-BEC368088D4F}
+      IID 3
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 10.37
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3638DCB6-B386-402A-BC7C-3A1870BF8BD4}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 14.69
+      SNAPOFFS 0
+      LENGTH 2.86
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4E52C2C6-7751-4AF5-BC57-8BBCA224677B}
+      IID 4
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 14.69
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {97709F17-F91F-4D7C-9A44-5A9CEE995D4D}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 18.46
+      SNAPOFFS 0
+      LENGTH 1.31
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9532E8C9-613F-45F1-B3F1-7B64296E5193}
+      IID 6
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 21.59
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F75FD937-1AC1-4923-878D-A937A55A3947}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 19.77
+      SNAPOFFS 0
+      LENGTH 1.63
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {20BEE4B7-2B3B-41AD-9ECF-5516721D386B}
+      IID 7
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 22.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DB2B82EA-59DE-4D9A-ADF9-89B7B27BB686}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 21.4
+      SNAPOFFS 0
+      LENGTH 7.80673010208886
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE03C070-8EFA-4B4C-A693-BFE7A9BFDFF4}
+      IID 9
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 24.53
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {93C11682-A67A-4C02-A8A1-7B75C4724498}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 29.20673010208888
+      SNAPOFFS 0
+      LENGTH 5.98579539926242
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3720B77C-C1DF-4F94-8E17-5113E6D83747}
+      IID 10
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 32.98420460073758
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F01F4991-E7DA-4AC9-971B-642803840040}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 35.1925255013513
+      SNAPOFFS 0
+      LENGTH 3.91
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D528E36E-A2D6-491C-8857-BB765A876315}
+      IID 11
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 38.97
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5516F74E-15D8-4527-B58E-455320DA482B}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 39.66485080852359
+      SNAPOFFS 0
+      LENGTH 6.86885989870814
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D5DBDAC2-7B46-422A-94F8-14C47B223779}
+      IID 14
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 49.98232530717227
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {982731C0-7625-4EC1-82F0-DC67EF91F7D7}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 46.53371070723173
+      SNAPOFFS 0
+      LENGTH 8.46628929276827
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {376E56F7-B91C-458A-955A-2A4C2BFA7EB2}
+      IID 15
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 56.85118520588041
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E63B0472-B3B3-493F-BF44-7B892823064C}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 55
+      SNAPOFFS 0
+      LENGTH 4.82101346210975
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7171920E-5E84-4913-9BB5-F89F2049466D}
+      IID 16
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 65.31747449864868
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {22A8212B-B1E3-49FC-A352-00A0B98EA100}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 59.82101346210975
+      SNAPOFFS 0
+      LENGTH 7.03776628965997
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {03E23C87-4811-4631-9280-A83A88CE2C70}
+      IID 17
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 70.13848796075843
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BD54765F-CCB6-44D4-99F7-0F5471C3145A}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 66.85877975176972
+      SNAPOFFS 0
+      LENGTH 4.57454808827899
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E3BCD531-27C3-4D86-A6C1-980558C63C56}
+      IID 18
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 77.1762542504184
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D337819B-9AFE-4DAA-BE1D-57900529785B}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 71.4333278400487
+      SNAPOFFS 0
+      LENGTH 3.73382901310232
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E792E9FA-86C9-413F-ADC8-FA1170038EF8}
+      IID 19
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 81.75080233869738
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {14DEEAA1-3585-403B-8F3B-12DF26ADDC4B}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 77.28
+      SNAPOFFS 0
+      LENGTH 3.59
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F4B52EC4-C1FD-416D-9691-257B8D8CDCD5}
+      IID 24
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 95.58044930957767
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0026445E-ED9B-492F-9C8F-850AC1B6A14A}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 80.87
+      SNAPOFFS 0
+      LENGTH 6.36
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {854B1649-9936-4D3F-99B0-13AAD18BE167}
+      IID 25
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 99.17044930957766
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {861B0C1F-991F-4EA5-845E-B4A7A556237C}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 87.23
+      SNAPOFFS 0
+      LENGTH 4.27
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8CCD3D2F-9F82-4B28-A92E-21EBAA1E03CE}
+      IID 26
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 105.53044930957766
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {12CE1EBE-7014-48D8-BB2A-A0C72906E56F}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 91.5
+      SNAPOFFS 0
+      LENGTH 5.31
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4B0214F4-9FA4-4266-9D6B-F3EC75C74A99}
+      IID 27
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 109.80044930957766
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {12D58E03-F49E-4E46-94D0-C51AB229B718}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 96.81
+      SNAPOFFS 0
+      LENGTH 7.14
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6047D654-9924-4591-9750-7DF69E23000E}
+      IID 28
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 115.11044930957765
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EDE0E60F-BF12-4B45-AE43-C3E78D888475}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 103.94999999999987
+      SNAPOFFS 0
+      LENGTH 8.2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6459A5BF-CC50-4DB7-A7D0-388C8C85AE33}
+      IID 29
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 122.25044930957763
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {62B5A38C-3261-4707-A9EA-2F588A4A487A}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 112.14999999999988
+      SNAPOFFS 0
+      LENGTH 6.41
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {383B3594-ADD3-45A2-BB49-A3103F895DE8}
+      IID 30
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 130.45044930957764
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {53E793F6-5E1B-4C5C-9973-A48E2FCC72FD}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 118.55999999999977
+      SNAPOFFS 0
+      LENGTH 3.32
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D7B443CA-4E0D-4D10-90B3-F80C16DFD88B}
+      IID 31
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 136.86044930957752
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1DC064F1-C54A-47FF-AB04-F0879F4F35D9}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 121.87999999999977
+      SNAPOFFS 0
+      LENGTH 8.55
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB54E1CB-63FE-4B03-85FD-2741E122EB34}
+      IID 32
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 140.18044930957751
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {57EC5A36-D8E1-42B8-89F4-723727516186}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 130.54999999999976
+      SNAPOFFS 0
+      LENGTH 6.47
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F03B649C-1402-45C7-B51E-C293C59A4706}
+      IID 33
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 148.87044930957774
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4A4BB2D3-F151-4590-9057-2E64D4D58538}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 137.91999999999973
+      SNAPOFFS 0
+      LENGTH 9.26
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {006A47DB-4498-45F6-83AE-A12ECF030C03}
+      IID 35
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 156.24044930957771
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CD7604E3-C6C7-4975-B1A4-1B214E58784C}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 147.59999999999974
+      SNAPOFFS 0
+      LENGTH 10.93
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E5C344A3-9204-4F4E-9DF9-1DBCCD29ED4A}
+      IID 36
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 165.92044930957772
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F5CD4AC6-319A-406D-B9DF-94B685D7676E}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 159.02999999999972
+      SNAPOFFS 0
+      LENGTH 7.65
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9E3FE8A8-5AD2-45FA-B546-14A4BC15B529}
+      IID 38
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 177.3504493095777
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {527412D1-3142-4DD2-963D-3B6F47B35233}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 167.53999999999968
+      SNAPOFFS 0
+      LENGTH 4.75
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AE0B3644-B738-448D-A1AC-A60C2281B5CE}
+      IID 40
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 185.86044930957766
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F680BC1C-0F13-4540-9EED-F38397EE8232}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 172.51999999999967
+      SNAPOFFS 0
+      LENGTH 2.3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D7BC41D0-53F6-4D74-93FE-F048A7A6B19F}
+      IID 41
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 190.84044930957765
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DF187C81-F9A3-4471-BCB7-63F8AF54B2E2}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 174.81999999999962
+      SNAPOFFS 0
+      LENGTH 4.02
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AACE3CD1-7DB7-4E24-9DE7-55EF8FCD3145}
+      IID 42
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 193.1404493095776
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D0A5C12E-4D00-42A0-BF2B-7A939EAC9BCA}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 178.83999999999961
+      SNAPOFFS 0
+      LENGTH 5.2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A6FA13A4-5F11-4533-890D-36AE162811DD}
+      IID 43
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 197.16044930957759
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7A59D88A-5BF3-4AC2-86D3-955A10493DB3}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 184.1899999999996
+      SNAPOFFS 0
+      LENGTH 4.8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 1
+      IGUID {3DF80E18-733E-4763-A59E-6D2145BABCC2}
+      IID 44
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 202.36044930957758
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {60D238E4-7763-4629-8C82-3F1F58BD0472}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 188.98999999999958
+      SNAPOFFS 0
+      LENGTH 3.59
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 1
+      IGUID {C34A76D6-5DC1-4528-BD4C-8484EBF520CA}
+      IID 46
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 207.67044930957758
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EBC105D1-0186-4FB3-8831-CF4253AB4664}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 193.20999999999958
+      SNAPOFFS 0
+      LENGTH 5.85
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {643801C1-C340-4AE3-9B89-96F1659F5514}
+      IID 45
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 212.02044930957757
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {78C32346-901B-4DE4-ABBB-4F7D2F4480EF}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 199.45999999999958
+      SNAPOFFS 0
+      LENGTH 11.52
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7911ECA6-5658-4BBC-A617-4AB20E0F01CF}
+      IID 48
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 218.33044930957755
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2098EBF2-DD17-42C8-815B-8B517D80FCED}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 211.78999999999954
+      SNAPOFFS 0
+      LENGTH 4.37
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5EEB243C-E0F4-4E93-A374-E57AA5B237A5}
+      IID 50
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 230.11044930957752
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ACF34F65-FF2D-403B-A0F2-1C4E8ACDCD95}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 216.83999999999955
+      SNAPOFFS 0
+      LENGTH 4.32884341885446
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E0AEB7D1-5DCC-477F-9836-1728CFC003CF}
+      IID 54
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 235.16044930957753
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6A05298B-2A43-46BB-A3BA-1BFB94398A30}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 221.16884341885401
+      SNAPOFFS 0
+      LENGTH 3.64556293804387
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9296C7C7-F4BC-4140-B7CB-2F63AD9CCEAB}
+      IID 55
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 240.05231403160479
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {775CD02D-0B1B-40E3-BE92-837473CBC9F2}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 225.37742766007065
+      SNAPOFFS 0
+      LENGTH 11.51378564988372
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B2E6ABAE-4153-42E8-8D9D-6CA6B3ABA960}
+      IID 57
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 244.26089827282144
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {882D0ADC-D712-48A3-9F46-F0DD81F667FA}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 236.89121330995437
+      SNAPOFFS 0
+      LENGTH 2.81510651586399
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F3746E00-3F38-4111-B747-3266E1C0A826}
+      IID 58
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 255.77468392270515
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {178E6BA8-AD08-4A8D-B28F-67E40C676131}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 239.70631982581835
+      SNAPOFFS 0
+      LENGTH 5.20794705434835
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {13AB371D-3480-4055-B1A8-173021E05BEA}
+      IID 59
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 258.58979043856914
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3B281363-2A75-4030-80F4-3D14D97547D1}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 245.11132433627719
+      SNAPOFFS 0
+      LENGTH 3.16699483034699
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B32B7FBB-6D7B-40E9-8DAA-4E6CD9E023FB}
+      IID 60
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 263.99479494902789
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5EDB3E4E-E50A-40BA-BE1F-EDDF33E9B820}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 248.27831916662419
+      SNAPOFFS 0
+      LENGTH 9.44468236072365
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ACA672DF-8EE8-490E-A016-0964D7BFAED0}
+      IID 61
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 267.16178977937489
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {97EC6B57-124A-43BD-9FC5-2CFE480320AC}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 257.90598345087903
+      SNAPOFFS 0
+      LENGTH 2.05502775658067
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2BF0FBEC-B977-4037-8992-D48E93FDDC68}
+      IID 62
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 276.78945406362971
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6069F64E-09DC-4E0D-BD26-5AD89064824F}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 259.96101120745971
+      SNAPOFFS 0
+      LENGTH 7.2066726806118
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {891B4E8F-2741-4B82-95AB-83C1F2B1DA0B}
+      IID 63
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 278.84448182021038
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7B0E2024-2334-4708-8A99-EEAF657ED121}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 267.16768388807151
+      SNAPOFFS 0
+      LENGTH 4.36341509958919
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F196A3A0-F739-441B-B416-2B56ACDAA3E6}
+      IID 64
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 286.05115450082218
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BBC39602-B8F8-4D98-BDEB-776BAE9B0376}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 271.68592984603322
+      SNAPOFFS 0
+      LENGTH 4.09597998058217
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 2
+      IGUID {5C8D8152-B173-4B97-B142-0A1EE6187E48}
+      IID 66
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 294.87651342805577
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A04F2405-2A0B-411C-8D01-B930F441BD05}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 276.15483085837252
+      SNAPOFFS 0
+      LENGTH 6.0806300742662
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 2
+      IGUID {FBFE6FC0-EDDE-4A19-8998-5EA58DF11F8B}
+      IID 67
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 299.33845725570018
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C3854C40-5EF2-4D40-A1DF-FE5209C1C381}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 282.27073034568178
+      SNAPOFFS 0
+      LENGTH 8.05120463537099
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7BA25D28-6534-422F-978F-0EF487E00C7D}
+      IID 68
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 305.41908732996637
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D4EE4C68-F71B-49AF-99E7-E80E0FB94D0A}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 290.32193498105278
+      SNAPOFFS 0
+      LENGTH 1.99872562626348
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F3A5FCAE-02F9-4AB6-8877-F756244A5D02}
+      IID 70
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 313.47029196533737
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7849A444-A230-4662-80C4-34236DE51622}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 293.51708087655845
+      SNAPOFFS 0
+      LENGTH 6.79848223581149
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {89C4A194-21CF-431D-A375-016705C40A48}
+      IID 71
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 343.45117635928881
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3E24D887-7F44-468F-A4CD-C60DE12928C4}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 301.17454611073117
+      SNAPOFFS 0
+      LENGTH 2.23800968011176
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {79CE337C-FCDE-4952-81F6-5AB3600D4F06}
+      IID 127
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 331.82478644877051
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB169123-2DBC-4177-8F0F-2C1A8A6336D5}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 303.41255579084293
+      SNAPOFFS 0
+      LENGTH 2.87140864618135
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BED5CEFB-819C-466B-A3B7-B450DF7C1549}
+      IID 128
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 337.03273350311889
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {72D99E46-D224-4D5B-B518-597D77DF8E3C}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 320.50710578472143
+      SNAPOFFS 0
+      LENGTH 5.58798643399001
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4BD07A14-C267-466E-808D-4087096BA5E8}
+      IID 83
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 350.2496585951003
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6715D165-009D-4CB2-B7AB-256503CF3E11}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 326.09509221871144
+      SNAPOFFS 0
+      LENGTH 5.71921823834731
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0C3A8A68-6E04-4AAE-B7F6-AC188D71AF53}
+      IID 84
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 355.83764502909031
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {802C1329-51FE-473D-8B78-6747FCBB267F}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 331.81431045705875
+      SNAPOFFS 0
+      LENGTH 3.34823843391638
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E8642AA5-75CF-4613-882E-A049F9F0C43B}
+      IID 97
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 361.55686326743762
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {64E4C1B2-7074-44FD-ABB3-A087502467A1}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 335.16254889097513
+      SNAPOFFS 0
+      LENGTH 4.69545863217837
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {508F6C29-F1BA-4C12-88EF-0D19AB228474}
+      IID 98
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 364.90510170135394
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AD477F63-FC5A-427C-9E7E-B7347886C63E}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 339.8580075231535
+      SNAPOFFS 0
+      LENGTH 5.36906873130948
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AB2F3048-EA30-4CE9-B6AA-1AD1079AD331}
+      IID 99
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 369.60056033353243
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D45C7B72-CD94-4EB5-B863-DC7DEF3F107D}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 345.2270762544631
+      SNAPOFFS 0
+      LENGTH 5.28982048435307
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F321C105-7623-4EF2-AD60-CE484F4CC692}
+      IID 100
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 374.96962906484197
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F0159B10-5B23-4F75-B78E-027E4B0884AE}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 350.51689673881617
+      SNAPOFFS 0
+      LENGTH 4.25959327391706
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CD511DF4-CFB7-4F98-8470-446A480F4409}
+      IID 101
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 380.25944954919498
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D3137A5C-2BC4-4DD9-B809-C0A6BC38BE64}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 355.29160361795107
+      SNAPOFFS 0
+      LENGTH 2.31801122348065
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8D2D4746-5FD5-460B-985C-887CBA10D2CF}
+      IID 102
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 384.51904282311216
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E3BDA1A-6714-4EED-8BAB-13F9CB1D64FE}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 357.60961484143172
+      SNAPOFFS 0
+      LENGTH 2.87274895217666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9073D6A9-12AA-4C26-89C5-7C6E292F7239}
+      IID 104
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 386.8370540465927
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F34D6E4A-A680-4C2D-9120-5828B7B5520D}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 360.87860502839135
+      SNAPOFFS 0
+      LENGTH 7.01346985565885
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FD40D7A9-2E39-46FB-80B7-1C2C19F2785C}
+      IID 103
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 389.90792361616087
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EFC12BBE-3DC7-43D2-AB7C-DF9D4D336F3B}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 367.89207488405032
+      SNAPOFFS 0
+      LENGTH 4.33884152087381
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F1713B2F-E77C-4CA8-BE21-2ADB9C209862}
+      IID 105
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 396.92139347181984
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8B69F45B-C0E6-4666-B039-2B97271F3F24}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 372.23091640492413
+      SNAPOFFS 0
+      LENGTH 3.26899018695968
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C18EB205-0A83-4FFD-9C73-63B5085A6C00}
+      IID 106
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 401.26023499269365
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9FF0BEFF-4A01-46E7-AD8F-497D00B7D996}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 375.49990659188381
+      SNAPOFFS 0
+      LENGTH 3.3878625573945
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4BAA6C79-B8CF-4256-A975-4D4C14D9646E}
+      IID 107
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 404.52922517965334
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {45D7984F-C648-459E-9F23-A2E2A6036C40}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 379.16513801362657
+      SNAPOFFS 0
+      LENGTH 1.82270968000182
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {27E1CDAD-D9E8-4C3E-9EA1-15721B71AAF1}
+      IID 108
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 407.91708773704795
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CE6FE817-46D3-40B0-A330-795149636D7C}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 380.9878476936284
+      SNAPOFFS 0
+      LENGTH 3.78410379217752
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {99EB6874-7EBE-4EDB-810F-1C5E9AC1A213}
+      IID 109
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 409.73979741704972
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {591ECC12-CAAA-4305-A9AB-703DF9FA3FE9}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 384.77195148580591
+      SNAPOFFS 0
+      LENGTH 1.2877840130447
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {351F305F-64D8-4E51-B319-36B5473623D5}
+      IID 110
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 413.52390120922735
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EE3B3EB8-9902-41EB-A60F-59D26AB88552}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 386.05973549885078
+      SNAPOFFS 0
+      LENGTH 1.92176998869746
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A8EDD429-77BB-4BD5-9562-B7CAC715E548}
+      IID 111
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 414.81168522227205
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C48636E3-CD22-4D83-A1DD-EEE39B77768C}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 387.98150548754825
+      SNAPOFFS 0
+      LENGTH 1.92176998869752
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7538C48E-2F22-44D0-8610-9C4962B1D21E}
+      IID 112
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 416.73345521096957
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3A01A239-9857-4F51-9581-A1A755344B73}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 389.90327547624565
+      SNAPOFFS 0
+      LENGTH 4.7945189408743
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E5846785-3B92-4FC0-A304-F60BC7D2E231}
+      IID 113
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 418.65522519966709
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {757FB0F9-CE66-47F3-BCDD-260F04635E54}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 394.69779441711995
+      SNAPOFFS 0
+      LENGTH 6.63704068261512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BD57DB37-5B25-4D25-B7A9-2C9F3CEB0F98}
+      IID 114
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 423.44974414054133
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F8C141E4-1DA0-409B-902B-E84ED6DCF4FD}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 401.33483509973507
+      SNAPOFFS 0
+      LENGTH 3.07086956956823
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {681F503D-DA94-49A3-BCFD-950C0952CFF3}
+      IID 115
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 430.08678482315645
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {14029DAD-3240-48B3-8C03-6E5C7B108D83}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 404.84157002756456
+      SNAPOFFS 0
+      LENGTH 2.3378232852196
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {99D79E59-AA29-4A2A-97F6-7C0302300304}
+      IID 116
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 433.15765439272468
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {674D2581-3CF4-4CDA-A44D-9168CE91B32B}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 407.17939331278427
+      SNAPOFFS 0
+      LENGTH 6.2407994478321
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0351FAD1-2592-4433-B139-97420FD72CCD}
+      IID 117
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 435.49547767794434
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {592AB7C2-6E08-4929-8F08-8D643A6F92D8}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 413.42019276061637
+      SNAPOFFS 0
+      LENGTH 2.15951472956738
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3E28E318-3095-4CCF-B809-428DA2965B6A}
+      IID 118
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 441.7362771257765
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E6FBE964-6520-4CDB-B0B2-4362FB11EFFA}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 415.57970749018375
+      SNAPOFFS 0
+      LENGTH 5.27000842261384
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D167B2F3-2A58-4DB8-A29F-FDC101B70F16}
+      IID 119
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 443.89579185534382
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {78380FFF-DB04-41B1-9AAB-3DB571FE6353}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 420.84971591279759
+      SNAPOFFS 0
+      LENGTH 8.0833211895731
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E439910F-BB45-4255-ADAE-8F90368377A2}
+      IID 120
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 449.1658002779576
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ADE9E97F-81D0-4C85-8400-31BF46EAFD05}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 428.93303710237069
+      SNAPOFFS 0
+      LENGTH 4.12090884174319
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {94881A85-3F9C-42D7-AA32-75F3A56AA2B3}
+      IID 121
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 457.2491214675307
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3B4CFA08-F97E-4A7D-830D-AA61165A97B1}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 433.05394594411365
+      SNAPOFFS 0
+      LENGTH 6.67666480609358
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2D0D20DF-98EB-478F-8FED-E4194033BE86}
+      IID 122
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 461.37003030927383
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B5B1C886-5AC3-4080-9CD0-CCC076C4ED04}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 441.13726713368681
+      SNAPOFFS 0
+      LENGTH 9.11354840000888
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FEFA2069-EF99-4C7A-9A04-3214863E3DCA}
+      IID 125
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 483.57935151886062
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DF05DDD2-51BD-468E-A102-6E55C7CE3C04}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 450.44893615108725
+      SNAPOFFS 0
+      LENGTH 6.9540336704415
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F136A160-B002-4203-BF4C-3CAB942A173B}
+      IID 124
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 476.62531784841912
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F302DA88-BDB9-4EB4-9230-688AB4294ABE}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {038BB8A6-5110-4D1D-9805-3C3BABF2B7C8}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {038BB8A6-5110-4D1D-9805-3C3BABF2B7C8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 14.69
+      SNAPOFFS 0
+      LENGTH 3.35
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C58D1622-AB89-4F35-B21F-2D03AB1D7B68}
+      IID 5
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 17.75987465093319
+      PLAYRATE 0.99406726837815 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9ECE5DFC-32F4-4B63-BAF3-00FEEAAE8041}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 35.1925255013513
+      SNAPOFFS 0
+      LENGTH 4.16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2905F258-672B-4963-A595-1894F1486F48}
+      IID 13
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 45.51
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {62CF2660-0B6A-49EB-BF0D-EFE73C5A911C}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 75.27594823420304
+      SNAPOFFS 0
+      LENGTH 1.3794021927735
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {64229AE1-752F-4996-9732-CCD02594C5F8}
+      IID 21
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 90.40725487497915
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {005CA2AF-5D5D-4E99-AE56-84E407A4A800}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 271.61555218313663
+      SNAPOFFS 0
+      LENGTH 4.46194382764401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 3
+      IGUID {DE562FDD-C303-46E7-BD77-38C5A62ABAB1}
+      IID 65
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 290.41456960041137
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {117948EB-C0BE-481F-A13D-8072151EEA05}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 276.07749601078064
+      SNAPOFFS 0
+      LENGTH 6.08063007426682
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 3
+      IGUID {18BE68BF-F1CC-462D-8215-6723CADF8E96}
+      IID 69
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 299.33845725570018
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D5DD81AE-66B6-4913-A8E1-5EECC0D8BC12}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 290.33601051363206
+      SNAPOFFS 0
+      LENGTH 2.22393414753253
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {21F42CAB-12C2-40F5-8501-8B4437224B06}
+      IID 72
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 315.46901759160085
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {69A35523-A887-42CC-A3D9-97D88366B914}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 433.05394594411365
+      SNAPOFFS 0
+      LENGTH 8.06350912783455
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {128A997A-9101-4E09-9763-FA2732046029}
+      IID 123
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 468.0466951153673
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {35140FA3-9507-4D72-B0F8-ADBD85706472}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {7EDE38AA-52EA-4F3B-B72F-811A51521DC4}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7EDE38AA-52EA-4F3B-B72F-811A51521DC4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 75.23372163646508
+      SNAPOFFS 0
+      LENGTH 1.59053518146311
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DEB3E244-C4BC-4BA0-A973-27FA7BD11E93}
+      IID 23
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 93.23643692342245
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2372E360-B754-4C40-B61B-70B8772FDC1B}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 290.27970838331487
+      SNAPOFFS 0
+      LENGTH 2.26616074527067
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5886931D-1F8D-41F3-AB8A-B281E94B8231}
+      IID 73
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 317.69295173913338
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6D28158B-2F7E-4166-920A-2D82619C1F12}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {EFBA07A6-150F-4FD5-9672-3DBFC7D2BAB1}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {EFBA07A6-150F-4FD5-9672-3DBFC7D2BAB1}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 290.33601051363206
+      SNAPOFFS 0
+      LENGTH 2.46321820138087
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C4ECBC60-A8F9-4D24-82CF-A0A3CC587460}
+      IID 74
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 319.95911248440387
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9197B432-8BF6-4F3B-B40E-729438A917F0}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {95DE92B6-4CAE-4727-BA91-EC28CC3B3C29}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 1
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {95DE92B6-4CAE-4727-BA91-EC28CC3B3C29}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 290.36416157879074
+      SNAPOFFS 0
+      LENGTH 2.57582246201531
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4BF924CF-6E39-4154-B5EC-5CEBC1873ADA}
+      IID 75
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 322.42233068578486
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EF17C48F-5134-4393-AB64-A53927253F23}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {B41A5CA8-A058-4C98-9644-C279102FBE81}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B41A5CA8-A058-4C98-9644-C279102FBE81}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 290.35008604621146
+      SNAPOFFS 0
+      LENGTH 2.05502775658044
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C06049FA-A1C9-4846-80F2-F42AB0220D04}
+      IID 76
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 324.99815314780039
+      PLAYRATE 1.00000000000014 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7EBD17FB-8AA1-4B7F-A9BC-A7F33420A24E}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {A2C5B554-F4B8-4184-992D-5046CAAB79C2}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A2C5B554-F4B8-4184-992D-5046CAAB79C2}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 290.39231264394942
+      SNAPOFFS 0
+      LENGTH 2.28023627784978
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {245C890A-1F02-4D0D-BE8A-2CDC10D5E7B3}
+      IID 77
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 327.05318090438112
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A1D4558-D66B-4D5A-A31E-E12C925FC651}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {FDF8D87B-3242-4338-9ABF-DA0CC9A7F7BA}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FDF8D87B-3242-4338-9ABF-DA0CC9A7F7BA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 290.5330679697426
+      SNAPOFFS 0
+      LENGTH 2.49136926653961
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {006309BB-2709-4CA2-A059-DBC7DDD4089A}
+      IID 78
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 329.3334171822309
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {71C4F50C-66D0-4772-A6AA-50A7E3F0345B}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {641852E7-E822-4592-A09B-0CC63F4A6959}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {641852E7-E822-4592-A09B-0CC63F4A6959}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 290.43453924168733
+      SNAPOFFS 0
+      LENGTH 2.23800968011187
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7B74366A-4A0A-4C35-BDCF-88EF865A2965}
+      IID 79
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 331.82478644877051
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {72076E10-1B8B-41C9-98F3-429EA1453A62}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {CCD05C85-B2A4-40A2-B115-43AE287CD73C}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {CCD05C85-B2A4-40A2-B115-43AE287CD73C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 290.37823711137008
+      SNAPOFFS 0
+      LENGTH 2.96993737423651
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {809347BF-996B-43E8-A09E-269E8072EBA9}
+      IID 80
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 334.06279612888238
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {45089CB1-029E-43B4-86E0-BA7011627CFB}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {16B1FF79-83F9-4F8F-A27A-0ABD61EAD491}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {16B1FF79-83F9-4F8F-A27A-0ABD61EAD491}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 290.46269030684601
+      SNAPOFFS 0
+      LENGTH 2.87140864618124
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BD131E41-423C-4525-AE2D-8FB01449C405}
+      IID 81
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 337.03273350311889
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {024B6C54-70F2-4290-B10A-2CF190FD944C}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+  <TRACK {02E88EA8-273E-4406-99F2-36DEF033EFFB}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {02E88EA8-273E-4406-99F2-36DEF033EFFB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 290.40638817652871
+      SNAPOFFS 0
+      LENGTH 3.54703420998834
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AD4A3D9C-CC8A-4390-86AE-FE56FDAC42D9}
+      IID 82
+      NAME zeburo_VO_FX.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 339.90414214930013
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D61812D3-7954-46C1-85B1-37DA54BEBE7A}
+      <SOURCE MP3
+        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+      >
+    >
+  >
+>

@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 5867019373411989656}
+  selectedFlowchart: {fileID: 6592271142710502260}
 --- !u!4 &80242225
 Transform:
   m_ObjectHideFlags: 1
@@ -4245,9 +4245,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 5867019373411989745}
+  - {fileID: 6749416828950200614}
   selectedCommands:
-  - {fileID: 6749416828950200618}
+  - {fileID: 6749416828950200623}
   variables:
   - {fileID: 6749416828950200615}
   description: 
@@ -4471,7 +4471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 95.203575, y: -176.44771}
+  scrollPos: {x: 76.05465, y: -256.23495}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 411
@@ -4482,10 +4482,8 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 6592271142710502271}
-  selectedCommands:
-  - {fileID: 6592271142710502272}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 6592271142710502268}
   - {fileID: 1767174007}
@@ -4546,7 +4544,6 @@ GameObject:
   - component: {fileID: 6592271142710502269}
   - component: {fileID: 6592271142710502267}
   - component: {fileID: 6592271142710502266}
-  - component: {fileID: 6592271142710502272}
   m_Layer: 0
   m_Name: music_mainroom
   m_TagString: Untagged
@@ -4774,26 +4771,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 6592271142710502272}
   - {fileID: 6592271142710502270}
   - {fileID: 6592271142710502269}
   - {fileID: 6592271142710502267}
   - {fileID: 6592271142710502266}
   suppressAllAutoSelections: 0
---- !u!114 &6592271142710502272
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6592271142710502265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a710b946c5304d45959fbd56514582a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 160
-  indentLevel: 0
 --- !u!1001 &6592271143101938009
 PrefabInstance:
   m_ObjectHideFlags: 0

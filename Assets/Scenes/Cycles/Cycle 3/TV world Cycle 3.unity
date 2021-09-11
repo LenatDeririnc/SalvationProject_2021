@@ -1329,7 +1329,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: cc6cda2bccf49474793041208b8c9a94, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: f9f632362f7601149846fc2f6e816560, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1912,7 +1912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  volume: 0.698
+  volume: 0.3
   fadeDuration: 4
   waitUntilFinished: 0
 --- !u!114 &753746703
@@ -2003,7 +2003,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 753746686}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 753746676}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}

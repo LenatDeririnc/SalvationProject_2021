@@ -1615,7 +1615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  volume: 0.679
+  volume: 0.3
   fadeDuration: 4
   waitUntilFinished: 0
 --- !u!114 &753746697
@@ -1740,9 +1740,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 753746684}
+  - {fileID: 753746689}
   selectedCommands:
-  - {fileID: 753746676}
+  - {fileID: 753746696}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}

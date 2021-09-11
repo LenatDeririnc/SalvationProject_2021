@@ -631,7 +631,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: f30289e46e5d67e4e8ca5602451b746e, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 4176d0860baafb9479560fc4659e1dae, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1520,7 +1520,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 753746715}
   selectedCommands:
-  - {fileID: 753746708}
+  - {fileID: 753746673}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}

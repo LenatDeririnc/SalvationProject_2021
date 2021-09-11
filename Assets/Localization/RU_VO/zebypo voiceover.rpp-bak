@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.32/win64" 1631378872
+<REAPER_PROJECT 0.1 "6.32/win64" 1631378956
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,9 +14,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 444.72134985869207
-  ZOOM 50.47430263272141 21698 0
-  VZOOMEX 6 0
+  CURSOR 400.04170131884388
+  ZOOM 2.32748451506297 0 0
+  VZOOMEX 1 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -77,7 +77,7 @@
   >
   <TEMPOENVEX
     EGUID {73F5497B-4D36-4EB2-9F7A-2069078825BE}
-    ACT 1 -1
+    ACT 0 -1
     VIS 1 0 1
     LANEHEIGHT 0 0
     ARM 0
@@ -128,7 +128,7 @@
       CHANMODE 0
       GUID {2CD04416-F24C-46B1-ACC0-0433EB5DED98}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -150,7 +150,7 @@
       CHANMODE 0
       GUID {D5D45253-F8BD-4669-8D59-EF6DDC9B5D8A}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -172,7 +172,7 @@
       CHANMODE 0
       GUID {3638DCB6-B386-402A-BC7C-3A1870BF8BD4}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -194,7 +194,7 @@
       CHANMODE 0
       GUID {97709F17-F91F-4D7C-9A44-5A9CEE995D4D}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -216,7 +216,7 @@
       CHANMODE 0
       GUID {F75FD937-1AC1-4923-878D-A937A55A3947}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -238,7 +238,7 @@
       CHANMODE 0
       GUID {DB2B82EA-59DE-4D9A-ADF9-89B7B27BB686}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -260,7 +260,7 @@
       CHANMODE 0
       GUID {93C11682-A67A-4C02-A8A1-7B75C4724498}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -282,7 +282,7 @@
       CHANMODE 0
       GUID {F01F4991-E7DA-4AC9-971B-642803840040}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -304,7 +304,7 @@
       CHANMODE 0
       GUID {5516F74E-15D8-4527-B58E-455320DA482B}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -326,7 +326,7 @@
       CHANMODE 0
       GUID {982731C0-7625-4EC1-82F0-DC67EF91F7D7}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -348,7 +348,7 @@
       CHANMODE 0
       GUID {E63B0472-B3B3-493F-BF44-7B892823064C}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -370,7 +370,7 @@
       CHANMODE 0
       GUID {22A8212B-B1E3-49FC-A352-00A0B98EA100}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -392,7 +392,7 @@
       CHANMODE 0
       GUID {BD54765F-CCB6-44D4-99F7-0F5471C3145A}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -414,7 +414,7 @@
       CHANMODE 0
       GUID {D337819B-9AFE-4DAA-BE1D-57900529785B}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -436,7 +436,7 @@
       CHANMODE 0
       GUID {14DEEAA1-3585-403B-8F3B-12DF26ADDC4B}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -458,7 +458,7 @@
       CHANMODE 0
       GUID {0026445E-ED9B-492F-9C8F-850AC1B6A14A}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -480,7 +480,7 @@
       CHANMODE 0
       GUID {861B0C1F-991F-4EA5-845E-B4A7A556237C}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -502,7 +502,7 @@
       CHANMODE 0
       GUID {12CE1EBE-7014-48D8-BB2A-A0C72906E56F}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -524,7 +524,7 @@
       CHANMODE 0
       GUID {12D58E03-F49E-4E46-94D0-C51AB229B718}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -546,7 +546,7 @@
       CHANMODE 0
       GUID {EDE0E60F-BF12-4B45-AE43-C3E78D888475}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -568,7 +568,7 @@
       CHANMODE 0
       GUID {62B5A38C-3261-4707-A9EA-2F588A4A487A}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -590,7 +590,7 @@
       CHANMODE 0
       GUID {53E793F6-5E1B-4C5C-9973-A48E2FCC72FD}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -612,7 +612,7 @@
       CHANMODE 0
       GUID {1DC064F1-C54A-47FF-AB04-F0879F4F35D9}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -634,7 +634,7 @@
       CHANMODE 0
       GUID {57EC5A36-D8E1-42B8-89F4-723727516186}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -656,7 +656,7 @@
       CHANMODE 0
       GUID {4A4BB2D3-F151-4590-9057-2E64D4D58538}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -678,7 +678,7 @@
       CHANMODE 0
       GUID {CD7604E3-C6C7-4975-B1A4-1B214E58784C}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -700,7 +700,7 @@
       CHANMODE 0
       GUID {F5CD4AC6-319A-406D-B9DF-94B685D7676E}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -722,7 +722,7 @@
       CHANMODE 0
       GUID {527412D1-3142-4DD2-963D-3B6F47B35233}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -744,7 +744,7 @@
       CHANMODE 0
       GUID {F680BC1C-0F13-4540-9EED-F38397EE8232}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -766,7 +766,7 @@
       CHANMODE 0
       GUID {DF187C81-F9A3-4471-BCB7-63F8AF54B2E2}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -788,7 +788,7 @@
       CHANMODE 0
       GUID {D0A5C12E-4D00-42A0-BF2B-7A939EAC9BCA}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -810,7 +810,7 @@
       CHANMODE 0
       GUID {7A59D88A-5BF3-4AC2-86D3-955A10493DB3}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -833,7 +833,7 @@
       CHANMODE 0
       GUID {60D238E4-7763-4629-8C82-3F1F58BD0472}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -856,7 +856,7 @@
       CHANMODE 0
       GUID {EBC105D1-0186-4FB3-8831-CF4253AB4664}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -878,7 +878,7 @@
       CHANMODE 0
       GUID {78C32346-901B-4DE4-ABBB-4F7D2F4480EF}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -900,7 +900,7 @@
       CHANMODE 0
       GUID {2098EBF2-DD17-42C8-815B-8B517D80FCED}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -922,7 +922,7 @@
       CHANMODE 0
       GUID {ACF34F65-FF2D-403B-A0F2-1C4E8ACDCD95}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -944,7 +944,7 @@
       CHANMODE 0
       GUID {6A05298B-2A43-46BB-A3BA-1BFB94398A30}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -966,7 +966,7 @@
       CHANMODE 0
       GUID {775CD02D-0B1B-40E3-BE92-837473CBC9F2}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -988,7 +988,7 @@
       CHANMODE 0
       GUID {882D0ADC-D712-48A3-9F46-F0DD81F667FA}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1010,7 +1010,7 @@
       CHANMODE 0
       GUID {178E6BA8-AD08-4A8D-B28F-67E40C676131}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1032,7 +1032,7 @@
       CHANMODE 0
       GUID {3B281363-2A75-4030-80F4-3D14D97547D1}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1054,7 +1054,7 @@
       CHANMODE 0
       GUID {5EDB3E4E-E50A-40BA-BE1F-EDDF33E9B820}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1076,7 +1076,7 @@
       CHANMODE 0
       GUID {97EC6B57-124A-43BD-9FC5-2CFE480320AC}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1098,7 +1098,7 @@
       CHANMODE 0
       GUID {6069F64E-09DC-4E0D-BD26-5AD89064824F}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1120,7 +1120,7 @@
       CHANMODE 0
       GUID {7B0E2024-2334-4708-8A99-EEAF657ED121}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1142,7 +1142,7 @@
       CHANMODE 0
       GUID {BBC39602-B8F8-4D98-BDEB-776BAE9B0376}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1165,7 +1165,7 @@
       CHANMODE 0
       GUID {A04F2405-2A0B-411C-8D01-B930F441BD05}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1188,7 +1188,7 @@
       CHANMODE 0
       GUID {C3854C40-5EF2-4D40-A1DF-FE5209C1C381}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1210,7 +1210,7 @@
       CHANMODE 0
       GUID {D4EE4C68-F71B-49AF-99E7-E80E0FB94D0A}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1232,7 +1232,7 @@
       CHANMODE 0
       GUID {7849A444-A230-4662-80C4-34236DE51622}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1254,7 +1254,7 @@
       CHANMODE 0
       GUID {3E24D887-7F44-468F-A4CD-C60DE12928C4}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1276,7 +1276,7 @@
       CHANMODE 0
       GUID {CB169123-2DBC-4177-8F0F-2C1A8A6336D5}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1298,7 +1298,7 @@
       CHANMODE 0
       GUID {72D99E46-D224-4D5B-B518-597D77DF8E3C}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1320,7 +1320,7 @@
       CHANMODE 0
       GUID {6715D165-009D-4CB2-B7AB-256503CF3E11}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1342,7 +1342,7 @@
       CHANMODE 0
       GUID {802C1329-51FE-473D-8B78-6747FCBB267F}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1364,7 +1364,7 @@
       CHANMODE 0
       GUID {64E4C1B2-7074-44FD-ABB3-A087502467A1}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1386,7 +1386,7 @@
       CHANMODE 0
       GUID {AD477F63-FC5A-427C-9E7E-B7347886C63E}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1408,7 +1408,7 @@
       CHANMODE 0
       GUID {D45C7B72-CD94-4EB5-B863-DC7DEF3F107D}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1430,7 +1430,7 @@
       CHANMODE 0
       GUID {F0159B10-5B23-4F75-B78E-027E4B0884AE}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1452,7 +1452,7 @@
       CHANMODE 0
       GUID {D3137A5C-2BC4-4DD9-B809-C0A6BC38BE64}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1474,7 +1474,7 @@
       CHANMODE 0
       GUID {7E3BDA1A-6714-4EED-8BAB-13F9CB1D64FE}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1496,7 +1496,7 @@
       CHANMODE 0
       GUID {F34D6E4A-A680-4C2D-9120-5828B7B5520D}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1518,7 +1518,7 @@
       CHANMODE 0
       GUID {EFC12BBE-3DC7-43D2-AB7C-DF9D4D336F3B}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1540,7 +1540,7 @@
       CHANMODE 0
       GUID {8B69F45B-C0E6-4666-B039-2B97271F3F24}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1562,7 +1562,7 @@
       CHANMODE 0
       GUID {9FF0BEFF-4A01-46E7-AD8F-497D00B7D996}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1584,7 +1584,7 @@
       CHANMODE 0
       GUID {45D7984F-C648-459E-9F23-A2E2A6036C40}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1606,7 +1606,7 @@
       CHANMODE 0
       GUID {CE6FE817-46D3-40B0-A330-795149636D7C}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1628,7 +1628,7 @@
       CHANMODE 0
       GUID {591ECC12-CAAA-4305-A9AB-703DF9FA3FE9}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1650,7 +1650,7 @@
       CHANMODE 0
       GUID {EE3B3EB8-9902-41EB-A60F-59D26AB88552}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1672,7 +1672,7 @@
       CHANMODE 0
       GUID {C48636E3-CD22-4D83-A1DD-EEE39B77768C}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1694,7 +1694,7 @@
       CHANMODE 0
       GUID {3A01A239-9857-4F51-9581-A1A755344B73}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1716,7 +1716,7 @@
       CHANMODE 0
       GUID {757FB0F9-CE66-47F3-BCDD-260F04635E54}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1738,7 +1738,7 @@
       CHANMODE 0
       GUID {F8C141E4-1DA0-409B-902B-E84ED6DCF4FD}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1760,7 +1760,7 @@
       CHANMODE 0
       GUID {14029DAD-3240-48B3-8C03-6E5C7B108D83}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1782,7 +1782,7 @@
       CHANMODE 0
       GUID {674D2581-3CF4-4CDA-A44D-9168CE91B32B}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1804,7 +1804,7 @@
       CHANMODE 0
       GUID {592AB7C2-6E08-4929-8F08-8D643A6F92D8}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1826,7 +1826,7 @@
       CHANMODE 0
       GUID {E6FBE964-6520-4CDB-B0B2-4362FB11EFFA}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1848,7 +1848,7 @@
       CHANMODE 0
       GUID {78380FFF-DB04-41B1-9AAB-3DB571FE6353}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1870,7 +1870,7 @@
       CHANMODE 0
       GUID {ADE9E97F-81D0-4C85-8400-31BF46EAFD05}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1892,7 +1892,7 @@
       CHANMODE 0
       GUID {3B4CFA08-F97E-4A7D-830D-AA61165A97B1}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1914,7 +1914,7 @@
       CHANMODE 0
       GUID {B5B1C886-5AC3-4080-9CD0-CCC076C4ED04}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1936,7 +1936,7 @@
       CHANMODE 0
       GUID {DF05DDD2-51BD-468E-A102-6E55C7CE3C04}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -1958,7 +1958,7 @@
       CHANMODE 0
       GUID {F302DA88-BDB9-4EB4-9230-688AB4294ABE}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -1975,7 +1975,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -2005,7 +2005,7 @@
       CHANMODE 0
       GUID {9ECE5DFC-32F4-4B63-BAF3-00FEEAAE8041}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -2027,7 +2027,7 @@
       CHANMODE 0
       GUID {62CF2660-0B6A-49EB-BF0D-EFE73C5A911C}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -2049,7 +2049,7 @@
       CHANMODE 0
       GUID {005CA2AF-5D5D-4E99-AE56-84E407A4A800}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -2072,7 +2072,7 @@
       CHANMODE 0
       GUID {117948EB-C0BE-481F-A13D-8072151EEA05}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -2095,7 +2095,7 @@
       CHANMODE 0
       GUID {D5DD81AE-66B6-4913-A8E1-5EECC0D8BC12}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -2117,7 +2117,7 @@
       CHANMODE 0
       GUID {69A35523-A887-42CC-A3D9-97D88366B914}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -2139,7 +2139,7 @@
       CHANMODE 0
       GUID {35140FA3-9507-4D72-B0F8-ADBD85706472}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2186,7 +2186,7 @@
       CHANMODE 0
       GUID {2372E360-B754-4C40-B61B-70B8772FDC1B}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
     <ITEM
@@ -2208,7 +2208,7 @@
       CHANMODE 0
       GUID {6D28158B-2F7E-4166-920A-2D82619C1F12}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2255,7 +2255,7 @@
       CHANMODE 0
       GUID {9197B432-8BF6-4F3B-B40E-729438A917F0}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2272,7 +2272,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -2302,7 +2302,7 @@
       CHANMODE 0
       GUID {EF17C48F-5134-4393-AB64-A53927253F23}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2349,7 +2349,7 @@
       CHANMODE 0
       GUID {7EBD17FB-8AA1-4B7F-A9BC-A7F33420A24E}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2396,7 +2396,7 @@
       CHANMODE 0
       GUID {0A1D4558-D66B-4D5A-A31E-E12C925FC651}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2443,7 +2443,7 @@
       CHANMODE 0
       GUID {71C4F50C-66D0-4772-A6AA-50A7E3F0345B}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2490,7 +2490,7 @@
       CHANMODE 0
       GUID {72076E10-1B8B-41C9-98F3-429EA1453A62}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2537,7 +2537,7 @@
       CHANMODE 0
       GUID {45089CB1-029E-43B4-86E0-BA7011627CFB}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2584,7 +2584,7 @@
       CHANMODE 0
       GUID {024B6C54-70F2-4290-B10A-2CF190FD944C}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >
@@ -2631,7 +2631,7 @@
       CHANMODE 0
       GUID {D61812D3-7954-46C1-85B1-37DA54BEBE7A}
       <SOURCE MP3
-        FILE "G:\UnityGames\ZomboTV\Assets\Localization\zeburo_VO_FX.mp3" 1
+        FILE "zeburo_VO_FX.mp3" 1
       >
     >
   >

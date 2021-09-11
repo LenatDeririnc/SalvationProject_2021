@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1455795290}
+  selectedFlowchart: {fileID: 1135621509}
 --- !u!4 &80242225
 Transform:
   m_ObjectHideFlags: 1
@@ -3784,7 +3784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 233.84424, y: 79.47262}
+  scrollPos: {x: 186.59166, y: 84.96712}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 373
@@ -3795,10 +3795,9 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1135621511}
+  selectedBlocks: []
   selectedCommands:
-  - {fileID: 1135621514}
+  - {fileID: 1135621512}
   variables: []
   description: 
   stepPause: 0
@@ -3892,7 +3891,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: adea3dd61400acc40ab954b968570d16, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: faf90e5cac5ef234ca09ab4ad382094c, type: 3}
   showAlways: 1
   showCount: 0
   extendPrevious: 0
@@ -3919,7 +3918,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 1b576317677003d4295f26238d41e75d, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 2b4b9b8f8af2b3745befe1cc07176387, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3946,7 +3945,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 2d2915177d34dab4d8a304c64836399c, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 91e197accbad4bf43a9998fe749efbe5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0

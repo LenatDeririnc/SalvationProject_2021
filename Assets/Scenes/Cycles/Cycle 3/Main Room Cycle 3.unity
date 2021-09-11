@@ -3516,7 +3516,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 7c072ad80c25f04419a4030c2e4ae639, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: c7baeeff94269e448953be2d5c870dd0, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3570,7 +3570,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 83be266c32b308d4f92fddebecfd375b, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: ee2a2c5c5aa3a4d41be6d97fa62a3bc2, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3597,7 +3597,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 78b8b132faf7787458920d1c27d4a079, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 09517624895b6e74486ac2dc19306cbb, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3625,7 +3625,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 592af2eae5be7f04b916b1ca17aab32f, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: c71f53773a7824241914eab87a3c5bea, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3652,7 +3652,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 98f3e139f91d4e545b935d16b8d360e2, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: ad497ca6aed97904cbc1865e478bbefb, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3675,7 +3675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: 'Karen: I was attacked! How can you be so insensitive?'
+  storyText: 'Karen: I was attacked, twice! How can you be so insensitive?'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3706,7 +3706,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 76a6099ee4993db41a9d39669be54b70, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: cb36875df0a02644d846eb4e3f417094, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3731,7 +3731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1105.6742
     y: 487.11453
-    width: 94.7761
+    width: 92.85714
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3773,7 +3773,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 79915799939ce6941a3b263c8075a2a1, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 81d396bf1f31c234ba25630c94a81dc5, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3801,7 +3801,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: f10880d86287fa24190d9413f5f4a8f9, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 978a6068bc277d7498e6585edde4c77a, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3829,7 +3829,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: f1ce13f4ecd90e645807d064ac5a85ee, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: e900d705f1f212f40b23bdbea7b8887c, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3857,7 +3857,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 0fb7eb2865ebd1a49a04863b54ec0b1a, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 34d83a0a1c79e204b8ea025e15c3fc85, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3884,7 +3884,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 579ea794da2932b46876fadc055e4434, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 8c8a057616883514d90475ed8a382a33, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3909,7 +3909,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 611.7421
     y: 557.8342
-    width: 102.238785
+    width: 98.35164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3941,7 +3941,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 613.42426
     y: 501.2432
-    width: 100.74625
+    width: 97.25275
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6128,7 +6128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 270.65344, y: 53.00979}
+  scrollPos: {x: 257.25113, y: 111.77268}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 462
@@ -6140,9 +6140,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1565742381}
-  selectedCommands:
-  - {fileID: 1565742390}
+  - {fileID: 1565742368}
+  selectedCommands: []
   variables:
   - {fileID: 1565742383}
   - {fileID: 1565742382}
@@ -16217,7 +16216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 758.2032
     y: 495.0483
-    width: 144.02982
+    width: 137.91208
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16243,11 +16242,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -77.1102, y: -283.32495}
+  scrollPos: {x: -367.8904, y: -330.49954}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 431
-  zoom: 0.6700003
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -16257,7 +16256,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 764119343}
   selectedCommands:
-  - {fileID: 764119341}
+  - {fileID: 764119334}
   variables:
   - {fileID: 6749416830021477864}
   - {fileID: 6749416830021477863}
@@ -16680,7 +16679,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.06516
     y: 502.1324
-    width: 114.17908
+    width: 111.53845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17471,7 +17470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: crossCount
-  value: 2
+  value: 0
 --- !u!114 &6749416830021477864
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17486,7 +17485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: windowCount
-  value: 7
+  value: 0
 --- !u!114 &6749416830021477865
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17503,7 +17502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1097.6527
     y: 404.91913
-    width: 111.194
+    width: 104.94505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17814,7 +17813,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 614.1078
     y: 657.98315
-    width: 151.4925
+    width: 146.70328
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

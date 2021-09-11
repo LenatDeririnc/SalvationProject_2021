@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuStringData_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0003abe9b95880c49ac20363d499e51e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 617638572032
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 636080926720
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 656146477056
+    m_Localized: 'Exit
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 763281584128
+    m_Localized: Audio Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 811201507328
+    m_Localized: Unlock FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2241853435904
+    m_Localized: 'WASD - Movement
+
+      Left Mouse - Interact'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2850929291264
+    m_Localized: Press Alt + F4 to exit the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3200415477760
+    m_Localized: The end.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3462056161280
+    m_Localized: 'Tihan: Team Lead, Game Design, Music and SFX
+
+      Lenat_1: Technical
+      Lead, programming, 3D modelling
+
+
+      Landy: voice of Seth
+
+      G_SHOLAR:
+      demon design
+
+
+      0wa: location design
+
+
+      Early concepts: 0wa, Konstantin
+      Kushko
+
+
+      Testers: 0wa, Spicy Crab, dRedder, Wildvlad
+
+
+      3D Artists:
+      North_Air, RaDick (Radomir), Megisk
+
+      Programming: Izanaki
+
+
+      Spicy
+      Crab: placement help
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7434879938560
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

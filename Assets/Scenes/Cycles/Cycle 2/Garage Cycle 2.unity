@@ -948,6 +948,7 @@ GameObject:
   - component: {fileID: 540204675}
   - component: {fileID: 540204674}
   - component: {fileID: 540204676}
+  - component: {fileID: 540204677}
   m_Layer: 0
   m_Name: Blackout Garage Cycle 2
   m_TagString: Untagged
@@ -1113,6 +1114,7 @@ MonoBehaviour:
   - {fileID: 540204673}
   - {fileID: 540204672}
   - {fileID: 540204671}
+  - {fileID: 540204677}
   - {fileID: 540204675}
   - {fileID: 540204643}
   - {fileID: 540204642}
@@ -1172,8 +1174,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 540204646}
-  selectedCommands: []
+  - {fileID: 540204645}
+  selectedCommands:
+  - {fileID: 540204677}
   variables:
   - {fileID: 540204657}
   - {fileID: 540204669}
@@ -2186,6 +2189,51 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 1
+--- !u!114 &540204677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540204639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 5761275177844168300}
+  targetComponentAssemblyName: Components.GameObjects.InteractableObject, Assembly-CSharp,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: InteractableObject
+  targetMethod: SetCanInteract
+  targetMethodText: 'SetCanInteract (Boolean): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 1
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!43 &605215423
 Mesh:
   m_ObjectHideFlags: 0

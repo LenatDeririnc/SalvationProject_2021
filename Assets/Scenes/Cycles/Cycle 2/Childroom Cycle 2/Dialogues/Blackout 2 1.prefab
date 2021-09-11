@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: 4618413770384032141}
   - component: {fileID: 4618413770384032140}
   - component: {fileID: 4618413770384032139}
-  - component: {fileID: 4618413770384032138}
   - component: {fileID: 4618413770384032137}
   - component: {fileID: 7438829299899029036}
   - component: {fileID: 7438829299899029039}
@@ -105,7 +104,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks: []
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 0}
   variables:
   - {fileID: 4618413770384032191}
   - {fileID: 4618413770384032176}
@@ -1572,51 +1572,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &4618413770384032138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4618413769188081857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 0
-  description: 
-  targetObject: {fileID: 0}
-  targetComponentAssemblyName: Components.GameObjects.InteractableObject, Assembly-CSharp,
-    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: InteractableObject
-  targetMethod: SetCanInteract
-  targetMethodText: 'SetCanInteract (Boolean): Void'
-  methodParameters:
-  - objValue:
-      typeAssemblyname: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      typeFullname: System.Boolean
-      intValue: 0
-      boolValue: 0
-      floatValue: 0
-      stringValue: 
-      colorValue: {r: 0, g: 0, b: 0, a: 0}
-      gameObjectValue: {fileID: 0}
-      materialValue: {fileID: 0}
-      objectValue: {fileID: 0}
-      spriteValue: {fileID: 0}
-      textureValue: {fileID: 0}
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
 --- !u!114 &4618413770384032137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1642,7 +1597,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 4618413770384032138}
+  - {fileID: 0}
   - {fileID: 4618413770384032139}
   suppressAllAutoSelections: 0
 --- !u!114 &7438829299899029036

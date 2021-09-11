@@ -127,7 +127,7 @@ PlayerSettings:
     16:10: 0
     16:9: 0
     Others: 0
-  bundleVersion: 0.5
+  bundleVersion: 1.56
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -146,7 +146,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.DefaultCompany.ZomboTV
+    Standalone: com.JoodGobGames.SalvationProject
   buildNumber:
     Standalone: 0
     iPhone: 0

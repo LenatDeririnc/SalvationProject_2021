@@ -658,7 +658,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 51a9250ed26b4a04da9c41895bfa4502, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: f30289e46e5d67e4e8ca5602451b746e, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -686,7 +686,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 74c7c0d9281e85a4f842e6b71cbcce96, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 51a9250ed26b4a04da9c41895bfa4502, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -714,7 +714,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: d5bff6c1d0cd69a48a0089e513a32163, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 74c7c0d9281e85a4f842e6b71cbcce96, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -742,7 +742,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: c5432f2e4cd28a748ae49b33a3a00b81, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: d5bff6c1d0cd69a48a0089e513a32163, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1389,7 +1389,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 658289e4c9998be4ca5ad04a958d4cb2, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: c5432f2e4cd28a748ae49b33a3a00b81, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1457,8 +1457,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 443.45593
-    y: 439.0064
+    x: 442.45593
+    y: 438.0064
     width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1520,7 +1520,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 753746715}
   selectedCommands:
-  - {fileID: 753746673}
+  - {fileID: 753746708}
   variables:
   - {fileID: 753746711}
   - {fileID: 753746712}

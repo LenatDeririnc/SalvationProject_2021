@@ -52,7 +52,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7434879938560
-    m_Key: Back
+    m_Key: Main Menu/Settings/Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595137954623488
+    m_Key: Main Menu/Settings/Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595241029644288
+    m_Key: Main Menu/Settings/Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595334625538048
+    m_Key: Main Menu/Settings/Monitor
     m_Metadata:
       m_Items: []
   m_Metadata:

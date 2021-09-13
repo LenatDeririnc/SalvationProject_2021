@@ -93,5 +93,17 @@ MonoBehaviour:
     m_Localized: Back
     m_Metadata:
       m_Items: []
+  - m_Id: 595137954623488
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595241029644288
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595334625538048
+    m_Localized: Monitor
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

@@ -1,3 +1,4 @@
+using Helpers;
 using UnityEngine;
 
 namespace Managers.Player
@@ -13,30 +14,23 @@ namespace Managers.Player
             return new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         }
 
-        private static Vector2 Vector2Pow(Vector2 vector2, int pow)
-        {
-            Vector2 resultVector = vector2;
-            
-            for (int i = 1; i < pow; ++i)
-            {
-                resultVector *= vector2;
-            }
-
-            return resultVector;
-        }
-
         public static Vector2 LookAxis()
         {
             var mouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
             var gamepadInput = new Vector2(Input.GetAxis("Gamepad X"), Input.GetAxis("Gamepad Y"));
 
             var mouseInputResult = mouseInput * m_mouseSensivity;
-            var gamepadInputResult = Vector2Pow(gamepadInput, 3) * m_gamepadSensivity * Time.deltaTime;
+            Vector2 gamepadInputResult = Vector2Helper.Vector2Pow(gamepadInput, 3) * m_gamepadSensivity * Time.deltaTime;
 
             if (gamepadInput.magnitude < m_gamepadDeadzone)
                 gamepadInputResult = Vector2.zero;
 
             return mouseInputResult + gamepadInputResult;
+        }
+
+        public static bool PauseButton()
+        {
+            return Input.GetButtonDown("ExitButton");
         }
     }
 }

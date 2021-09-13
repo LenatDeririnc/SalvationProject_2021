@@ -1,4 +1,5 @@
 using System.Collections;
+using Managers.Player;
 using UnityEngine;
 
 namespace Components.Player
@@ -7,7 +8,7 @@ namespace Components.Player
     {
         [SerializeField] private CanvasGroup group;
         
-        private bool ButtonDown() => Input.GetButtonDown("Cancel");
+        private bool ButtonDown() => InputManager.PauseButton();
 
         private Coroutine showCoroutine;
 

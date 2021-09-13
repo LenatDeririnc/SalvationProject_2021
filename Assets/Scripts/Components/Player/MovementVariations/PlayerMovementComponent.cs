@@ -142,7 +142,7 @@ namespace Components.Player.MovementVariations
             if (!m_enabled)
                 return;
             
-            var input = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            var input = InputManager.MovementAxis();
             if (input == Vector2.zero)
                 return;
             

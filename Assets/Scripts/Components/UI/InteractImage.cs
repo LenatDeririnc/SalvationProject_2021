@@ -1,6 +1,8 @@
 using System;
 using System.ComponentModel;
+using Components.Player;
 using Fungus;
+using Managers.Player;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.PlayerLoop;
@@ -75,9 +77,11 @@ namespace Components.UI
             var x = position.x;
             var y = position.y;
 
+            var input = InputManager.LookAxis();
+
             // Анимация рук при движении мыши
-            inputX = Mathf.Lerp(inputX, -Input.GetAxisRaw("Mouse X") * inputXSensitivity, inputXAlpha);
-            inputY = currentState ? Mathf.Lerp(inputY, -Input.GetAxisRaw("Mouse Y") * inputYSensitivity, inputYAlpha) : Mathf.Lerp(inputY, 0, inputYAlpha);
+            inputX = Mathf.Lerp(inputX, -input.x * inputXSensitivity, inputXAlpha);
+            inputY = currentState ? Mathf.Lerp(inputY, -input.y * inputYSensitivity, inputYAlpha) : Mathf.Lerp(inputY, 0, inputYAlpha);
 
             // Анимация интеракта
             x = Mathf.Lerp(x, currentX, animationXAlpha) + inputX;

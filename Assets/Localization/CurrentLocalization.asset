@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94ce0585b7645d5a5eed1b8dcc331ca, type: 3}
   m_Name: CurrentLocalization
   m_EditorClassIdentifier: 
-  startValue: Standard
+  startValue: ENG
   selectedType: 1

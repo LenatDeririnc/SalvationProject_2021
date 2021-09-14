@@ -14,6 +14,7 @@ public class LocalizationSetter : MonoBehaviour
     private static readonly Dictionary<string, int> LocalizationMap = new Dictionary<string, int>
     {
         {"Standard", 0},
+        {"ENG", 0},
         {"RU", 1}
     };
 
